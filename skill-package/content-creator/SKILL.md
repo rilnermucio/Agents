@@ -59,8 +59,7 @@ CONTENT CREATOR (Agente Principal)
 │   ├── Templates e layouts visuais
 │   ├── Paletas de cores e tipografia
 │   ├── Prompts otimizados para imagem IA
-│   ├── Briefing visual completo
-│   └── 🆕 Posts prontos (Nano Banana Pro) - imagem + texto
+│   └── Briefing visual completo
 │
 ├── 📊 ANALYTICS AGENT (Subagente de Análise)
 │   ├── Métricas por plataforma
@@ -86,7 +85,7 @@ CONTENT CREATOR (Agente Principal)
 | Social Agent | [subagents/social-agent.md](subagents/social-agent.md) | Posts sociais, adaptação, hashtags |
 | **Video Agent** ⭐ | [subagents/video-agent.md](subagents/video-agent.md) | YouTube, Reels, TikTok, VSL, roteiros de vídeo |
 | **AI Tools Agent** | [subagents/ai-tools-agent.md](subagents/ai-tools-agent.md) | Geração de imagens e vídeos com IA |
-| **Design Agent** 🆕 | [subagents/design-agent.md](subagents/design-agent.md) | Direção criativa, specs técnicos, paletas, layouts, prompts de imagem, **posts prontos com texto** |
+| **Design Agent** 🆕 | [subagents/design-agent.md](subagents/design-agent.md) | Direção criativa, specs técnicos, paletas, layouts, prompts de imagem |
 | **Analytics Agent** | [subagents/analytics-agent.md](subagents/analytics-agent.md) | Métricas, relatórios, análise de performance |
 | **Audio Agent** ⭐ | [subagents/audio-agent.md](subagents/audio-agent.md) | Podcasts, roteiros de áudio, spots |
 | **Email Agent** 🆕 | [subagents/email-agent.md](subagents/email-agent.md) | Sequências de email, newsletters, automações |
@@ -142,8 +141,7 @@ CONTENT CREATOR (Agente Principal)
 | Recurso | Referência | Uso |
 |---------|------------|-----|
 | Biblioteca de Prompts | [assets/prompts/prompt-biblioteca.md](assets/prompts/prompt-biblioteca.md) | Prompts para diversas ferramentas de IA |
-| **Prompts Imagem IA** 🆕 | [assets/prompts/prompts-imagem-ia.md](assets/prompts/prompts-imagem-ia.md) | Prompts otimizados para Midjourney, DALL-E, Flux 2 Pro, GPT Image 1.5, Seedream 4.5, Nano Banana Pro |
-| **Posts Prontos** 🆕 | [assets/prompts/prompts-post-pronto.md](assets/prompts/prompts-post-pronto.md) | Prompts Nano Banana Pro para gerar imagens finais com texto integrado (sem Canva) |
+| **Prompts Imagem IA** 🆕 | [assets/prompts/prompts-imagem-ia.md](assets/prompts/prompts-imagem-ia.md) | Prompts otimizados para Midjourney, DALL-E, geração de imagens |
 
 ### Personas
 | Recurso | Referência | Uso |
