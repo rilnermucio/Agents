@@ -587,10 +587,10 @@ RETENÇÃO
 - `trend_tracker.py` - Monitoramento de tendências
 
 ### Templates
-- [Instagram Stories](instagram-stories.md)
-- [Instagram Feed Post](instagram-feed-post.md)
-- [Reels/TikTok Script](reels-tiktok-script.md)
-- [Post Carrossel](post-instagram-carrossel.md)
+- [Instagram Stories](../templates/instagram-stories.md)
+- [Instagram Feed Post](../templates/instagram-feed-post.md)
+- [Reels/TikTok Script](../templates/reels-tiktok-script.md)
+- [Post Carrossel](../templates/post-instagram-carrossel.md)
 
 ### Swipe Files
 - [Hooks para Reels](../swipe-files/hooks-reels.md)

@@ -72,7 +72,7 @@ Agente Criador de Conteudo/
 |   +-- content_idea_generator.py
 |
 +-- assets/
-|   +-- templates/                    # 16 templates de conteudo
+|   +-- templates/                    # 26 templates de conteudo
 |   |   +-- artigo-seo.md
 |   |   +-- email-newsletter.md
 |   |   +-- post-linkedin.md
