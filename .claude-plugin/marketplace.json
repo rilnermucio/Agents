@@ -1,0 +1,37 @@
+{
+  "name": "content-creator-marketplace",
+  "owner": {
+    "name": "rilnermucio"
+  },
+  "metadata": {
+    "description": "Agentes avancados de criacao de conteudo para multiplas plataformas",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "content-creator",
+      "source": "./content-creator",
+      "description": "Agente de criacao de conteudo com 11 subagentes especializados: Copy, SEO, Social, Video, Audio, Design, AI Tools, Analytics, Email, Ads e Research. Para posts Instagram/LinkedIn/TikTok, artigos SEO, email marketing, videos YouTube/Reels, podcasts e geracao de imagens com IA.",
+      "version": "2.0.0",
+      "author": {
+        "name": "rilnermucio"
+      },
+      "category": "marketing",
+      "keywords": [
+        "content",
+        "marketing",
+        "copywriting",
+        "social-media",
+        "seo",
+        "instagram",
+        "linkedin",
+        "tiktok",
+        "youtube",
+        "video",
+        "podcast",
+        "ai-tools",
+        "design"
+      ]
+    }
+  ]
+}

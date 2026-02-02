@@ -1,0 +1,5 @@
+{
+  "name": "content-creator",
+  "description": "Agente de criacao de conteudo com 11 subagentes especializados para posts, artigos, videos, podcasts e imagens IA",
+  "version": "2.0.0"
+}
