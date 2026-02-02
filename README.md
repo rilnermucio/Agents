@@ -163,19 +163,51 @@ Agente Criador de Conteudo/
 | Lead Magnet | `assets/templates/lead-magnet.md` | Templates de iscas digitais |
 | UGC Brief | `assets/templates/ugc-brief.md` | Briefing para criadores UGC |
 
-## :wrench: Scripts de Automacao
+## :wrench: Scripts de Automacao (19 scripts)
+
+### Analise e Otimizacao
 
 | Script | Descricao | Comando |
 |--------|-----------|---------|
 | `seo_analyzer.py` | Analisa e otimiza conteudo para SEO com score 0-100 | `python scripts/seo_analyzer.py arquivo.md "keyword"` |
-| `hashtag_generator.py` | Gera hashtags relevantes por nicho e plataforma | `python scripts/hashtag_generator.py nicho plataforma` |
-| `content_calendar.py` | Cria calendario editorial para multiplas plataformas | `python scripts/content_calendar.py 2026-02-01 4 instagram linkedin` |
-| `ab_generator.py` | Gera variacoes de copy para testes A/B | `python scripts/ab_generator.py headline "texto original"` |
-| `headline_scorer.py` | Pontua headlines por poder emocional e clareza (0-100) | `python scripts/headline_scorer.py "Sua headline aqui"` |
 | `readability_checker.py` | Analisa legibilidade com Flesch adaptado para portugues | `python scripts/readability_checker.py --file artigo.txt` |
-| `content_repurposer.py` | Adapta conteudo entre plataformas automaticamente | `python scripts/content_repurposer.py --file artigo.txt --output todos` |
+| `headline_scorer.py` | Pontua headlines por poder emocional e clareza (0-100) | `python scripts/headline_scorer.py "Sua headline aqui"` |
+| `content_audit.py` | Audita conteudo existente e sugere melhorias | `python scripts/content_audit.py arquivo.md --tipo blog` |
+| `competitor_analyzer.py` | Analisa perfis de concorrentes e extrai insights | `python scripts/competitor_analyzer.py "@perfil1" "@perfil2"` |
+
+### Geracao de Conteudo
+
+| Script | Descricao | Comando |
+|--------|-----------|---------|
 | `hook_generator.py` | Gera hooks virais para videos e posts | `python scripts/hook_generator.py "tema" reels 10` |
+| `hook_variant_generator.py` | Gera multiplas variacoes de hooks por formato | `python scripts/hook_variant_generator.py "tema" --formato reels` |
 | `content_idea_generator.py` | Gera ideias de conteudo por nicho e pilares | `python scripts/content_idea_generator.py tecnologia 20` |
+| `ab_generator.py` | Gera variacoes de copy para testes A/B | `python scripts/ab_generator.py headline "texto original"` |
+| `caption_generator.py` | Gera legendas otimizadas para Instagram por objetivo | `python scripts/caption_generator.py "tema" engajamento` |
+
+### Instagram e Redes Sociais
+
+| Script | Descricao | Comando |
+|--------|-----------|---------|
+| `hashtag_generator.py` | Gera hashtags relevantes por nicho e plataforma | `python scripts/hashtag_generator.py nicho plataforma` |
+| `instagram_hashtag_research.py` | Pesquisa avancada de hashtags com estrategias | `python scripts/instagram_hashtag_research.py "nicho" --gerar-set` |
+| `carousel_structure_generator.py` | Gera estruturas completas de carrossel | `python scripts/carousel_structure_generator.py "tema" educativo 10` |
+| `reels_script_generator.py` | Gera roteiros para Reels com timestamps | `python scripts/reels_script_generator.py "tema" 30 tutorial` |
+
+### Planejamento e Calendario
+
+| Script | Descricao | Comando |
+|--------|-----------|---------|
+| `content_calendar.py` | Cria calendario editorial para multiplas plataformas | `python scripts/content_calendar.py 2026-02-01 4 instagram linkedin` |
+| `content_repurposer.py` | Adapta conteudo entre plataformas automaticamente | `python scripts/content_repurposer.py --file artigo.txt --output todos` |
+
+### Tendencias e Trends
+
+| Script | Descricao | Comando |
+|--------|-----------|---------|
+| `trend_tracker.py` | Monitora tendencias via Google Trends, Reddit, YouTube | `python scripts/trend_tracker.py "termo" google,reddit --periodo 7` |
+| `trend_adapter.py` | Adapta trends virais para diferentes nichos | `python scripts/trend_adapter.py "get ready with me" marketing` |
+| `tiktok_trends_scraper.py` | Busca videos virais do TikTok por hashtag | `python scripts/tiktok_trends_scraper.py --hashtag "marketing" --min-views 1000000` |
 
 ## :iphone: Plataformas Suportadas
 

@@ -12,3 +12,13 @@ outputs/
 __pycache__/
 *.pyc
 .env
+
+# AIOS-FullStack Framework Files (auto-managed - do not edit)
+.aios-core/
+node_modules/
+outputs/minds/
+.aios-installation-config.yaml
+.aios-pm-config.yaml
+package.json
+package-lock.json
+# End AIOS-FullStack auto-managed section

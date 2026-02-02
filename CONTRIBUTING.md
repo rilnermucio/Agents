@@ -1,0 +1,197 @@
+# Guia de Contribuicao
+
+Obrigado por considerar contribuir com o **Agente Criador de Conteudo**! Este documento fornece diretrizes para contribuicoes.
+
+---
+
+## Como Contribuir
+
+### 1. Reportar Bugs
+
+Se encontrar um bug:
+
+1. Verifique se ja nao foi reportado nas [Issues](https://github.com/rilnermucio/Agents/issues)
+2. Se nao, crie uma nova issue com:
+   - Descricao clara do problema
+   - Passos para reproduzir
+   - Comportamento esperado vs atual
+   - Screenshots (se aplicavel)
+   - Ambiente (OS, Python version, etc.)
+
+### 2. Sugerir Funcionalidades
+
+Para sugerir novas funcionalidades:
+
+1. Abra uma issue com a tag `enhancement`
+2. Descreva:
+   - O problema que a funcionalidade resolve
+   - Como voce imagina a solucao
+   - Exemplos de uso
+
+### 3. Contribuir com Codigo
+
+#### Setup do Ambiente
+
+```bash
+# Clone o repositorio
+git clone https://github.com/rilnermucio/Agents.git
+cd "Agente Criador de Conteudo"
+
+# (Opcional) Crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# ou
+venv\Scripts\activate     # Windows
+
+# Os scripts usam apenas biblioteca padrao do Python 3.8+
+# Nenhuma dependencia externa necessaria
+```
+
+#### Workflow de Desenvolvimento
+
+1. **Fork** o repositorio
+2. **Crie uma branch** para sua feature:
+   ```bash
+   git checkout -b feature/nome-da-feature
+   ```
+3. **Faca suas mudancas** seguindo os padroes do projeto
+4. **Teste** suas mudancas
+5. **Commit** com mensagens descritivas:
+   ```bash
+   git commit -m "feat: adiciona novo template de webinar"
+   ```
+6. **Push** para sua branch:
+   ```bash
+   git push origin feature/nome-da-feature
+   ```
+7. **Abra um Pull Request**
+
+---
+
+## Padroes de Codigo
+
+### Python
+
+- **Python 3.8+** compativel
+- Apenas **biblioteca padrao** (sem dependencias externas)
+- Docstrings em todas as funcoes publicas
+- Type hints quando possivel
+- Nomes de variaveis em ingles ou portugues (consistente no arquivo)
+
+```python
+def analyze_content(content: str, keyword: str = None) -> dict:
+    """
+    Analisa conteudo para SEO.
+
+    Args:
+        content: Texto a ser analisado
+        keyword: Keyword principal (opcional)
+
+    Returns:
+        dict: Metricas de analise
+    """
+    pass
+```
+
+### Markdown
+
+- Usar acentuacao quando possivel em documentacao
+- Headers com hierarquia correta (H1 > H2 > H3)
+- Tabelas formatadas consistentemente
+- Links relativos para arquivos internos
+
+### Commits
+
+Seguir [Conventional Commits](https://www.conventionalcommits.org/):
+
+| Tipo | Descricao |
+|------|-----------|
+| `feat:` | Nova funcionalidade |
+| `fix:` | Correcao de bug |
+| `docs:` | Documentacao |
+| `style:` | Formatacao (sem mudanca de codigo) |
+| `refactor:` | Refatoracao |
+| `test:` | Testes |
+| `chore:` | Manutencao |
+
+Exemplos:
+```
+feat: adiciona template de YouTube Shorts
+fix: corrige calculo de densidade de keyword no seo_analyzer
+docs: atualiza README com novos scripts
+```
+
+---
+
+## Areas para Contribuicao
+
+### Alta Prioridade
+
+- [ ] Testes unitarios para scripts Python
+- [ ] Documentacao de API dos scripts
+- [ ] Type hints em todos os scripts
+
+### Media Prioridade
+
+- [ ] Novos templates de conteudo
+- [ ] Novos nichos e personas
+- [ ] Melhorias nos scripts existentes
+- [ ] Traducoes
+
+### Baixa Prioridade
+
+- [ ] GitHub Actions para CI
+- [ ] Scripts de automacao de instalacao
+- [ ] Dashboard de metricas
+
+---
+
+## Estrutura do Projeto
+
+```
+Agente Criador de Conteudo/
+|
++-- Skill.md                    # Arquivo principal da skill
++-- README.md                   # Documentacao
++-- CHANGELOG.md                # Historico de versoes
++-- CONTRIBUTING.md             # Este arquivo
+|
++-- subagents/                  # 11 subagentes especializados
++-- scripts/                    # 19 scripts Python
++-- assets/
+|   +-- templates/              # 27 templates de conteudo
+|   +-- swipe-files/            # Exemplos e referencias
+|   +-- personas/               # Personas por nicho
+|   +-- prompts/                # Prompts para IA
+|   +-- frameworks/             # Frameworks de crescimento
+|
++-- references/                 # Guias de referencia
++-- workflows/                  # 7 workflows de campanha
++-- docs/
+    +-- stories/                # Stories de desenvolvimento
+        +-- active/             # Em andamento
+        +-- backlog/            # Pendentes
+        +-- completed/          # Concluidas
+```
+
+---
+
+## Code Review
+
+Todos os PRs passam por review. Checklist:
+
+- [ ] Codigo segue os padroes do projeto
+- [ ] Documentacao atualizada (se aplicavel)
+- [ ] Sem quebra de funcionalidade existente
+- [ ] Commits com mensagens claras
+
+---
+
+## Duvidas?
+
+- Abra uma issue com a tag `question`
+- Ou entre em contato com [@rilnermucio](https://github.com/rilnermucio)
+
+---
+
+Obrigado por contribuir!
