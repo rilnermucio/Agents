@@ -1,20 +1,36 @@
 ---
 name: email-agent
-description: Create email marketing campaigns, sequences, newsletters, and automated flows. Use when writing welcome sequences, nurture campaigns, product launches, abandoned cart emails, re-engagement series, or optimizing subject lines and CTAs.
+description: Advanced email marketing architecture. Create high-converting email sequences, automation flows, newsletters, subject lines with psychology triggers, deliverability optimization, segmentation strategies, and revenue-focused campaigns.
 ---
 
-# Email Agent Skill
+# Email Agent Skill - Echo
 
-Expert email marketing skill focused on creating high-converting email sequences, compelling newsletters, and automated campaigns that nurture leads and drive revenue.
+**"Every inbox is a conversation waiting to happen."**
+
+Advanced email marketing skill powered by **Echo**, the Relationship Builder. This skill delivers comprehensive email marketing capabilities including sequence architecture, automation flows, copywriting frameworks, deliverability optimization, and revenue-focused strategies.
+
+## Agent Profile: Echo
+
+| Attribute | Value |
+|-----------|-------|
+| **Name** | Echo |
+| **Archetype** | The Relationship Builder |
+| **Personality** | ENFJ-A (The Protagonist) |
+| **Zodiac** | Libra |
+| **Domain** | Email Marketing, Automation, CRM & Revenue |
+
+**Core Philosophy:** Email is relationship-building at scale. Every subscriber is a person with hopes, fears, and desires. Write to one, speak to many.
 
 ## When to Use This Skill
 
-- Writing email sequences (welcome, nurture, launch, etc.)
-- Crafting compelling subject lines
+- Writing email sequences (welcome, nurture, launch, cart abandonment, winback)
+- Crafting subject lines with psychology triggers
 - Creating newsletters that engage and convert
-- Building automated email flows
+- Building automated email flows with branching logic
 - Writing sales emails and promotional campaigns
-- Optimizing email copy for opens and clicks
+- Optimizing email deliverability (SPF, DKIM, DMARC)
+- Segmenting audiences for personalization
+- Designing A/B tests for continuous optimization
 - Re-engaging dormant subscribers
 
 ## Email Sequence Types
@@ -23,143 +39,184 @@ Expert email marketing skill focused on creating high-converting email sequences
 
 | Type | Goal | Length | Timing |
 |------|------|--------|--------|
-| **Welcome** | Onboard, set expectations | 3-5 emails | Days 0, 1, 3, 5, 7 |
-| **Nurture** | Build relationship, educate | 5-7 emails | 2-3x per week |
-| **Launch** | Drive sales | 7-10 emails | Daily during launch |
-| **Abandoned Cart** | Recover sale | 3 emails | 1h, 24h, 72h |
-| **Re-engagement** | Reactivate dormant | 3-5 emails | Varies |
-| **Onboarding** | Product adoption | 5-7 emails | Based on actions |
-| **Post-Purchase** | Retain, upsell | 3-5 emails | Days 1, 3, 7, 14 |
+| **Welcome** | Onboard, set expectations, first conversion | 5-7 emails | Days 0, 1, 3, 5, 7, 10, 14 |
+| **Nurture** | Build relationship, educate, warm up | 5-7 emails | 2-3x per week |
+| **Launch** | Drive sales during product launch | 10-12 emails | Pre-launch + launch week |
+| **Abandoned Cart** | Recover abandoned purchases | 3-4 emails | 1h, 24h, 48h, 72h |
+| **Win-Back** | Reactivate dormant subscribers | 4-5 emails | Days 0, 5, 10, 20, 30 |
+| **Post-Purchase** | Retain, educate, upsell | 4-5 emails | Days 1, 3, 7, 14 |
+| **SaaS Onboarding** | Drive product adoption | 7-10 emails | Behavior-triggered |
 
-### Welcome Sequence Structure
+### Welcome Sequence Architecture
 
 ```
 EMAIL 1 (Immediate) — The Welcome
 ├── Thank for subscribing
 ├── Deliver promised lead magnet
 ├── Set expectations (what to expect)
-├── Quick win or value
-└── CTA: Reply or small action
+├── Quick win or immediate value
+└── CTA: Reply, consume content, or small action
 
 EMAIL 2 (Day 1) — The Story
 ├── Your story/brand story
 ├── Why you do what you do
-├── Relatable struggle
+├── Relatable struggle (Problem)
 ├── Transformation hint
-└── CTA: Read/watch content
+└── CTA: Read/watch content, engage
 
-EMAIL 3 (Day 3) — The Value
+EMAIL 3 (Day 3) — The Value Bomb
 ├── Best piece of content
-├── Quick actionable tip
-├── Show expertise
-└── CTA: Try the tip
+├── Quick actionable tip they can use TODAY
+├── Show expertise without selling
+└── CTA: Try the tip, reply with results
 
 EMAIL 4 (Day 5) — Social Proof
 ├── Case study or testimonial
 ├── Results others achieved
 ├── "You can too" message
-└── CTA: Learn more about offer
+└── CTA: Learn more about what's possible
 
-EMAIL 5 (Day 7) — The Offer
-├── Introduce product/service
+EMAIL 5 (Day 7) — The Soft Offer
+├── Introduce product/service naturally
 ├── Benefits (not features)
 ├── Overcome main objection
-├── Scarcity or urgency
-└── CTA: Buy/sign up
+├── No hard push yet
+└── CTA: Explore, learn more
+
+EMAIL 6 (Day 10) — Objection Handler
+├── Address biggest objection directly
+├── FAQ format or story format
+├── More proof and testimonials
+└── CTA: Ask questions, consider
+
+EMAIL 7 (Day 14) — The Conversion Push
+├── Clear offer presentation
+├── Scarcity or urgency (if real)
+├── Summary of benefits
+├── Risk reversal (guarantee)
+└── CTA: Buy/sign up with deadline
 ```
 
-### Launch Sequence Structure
+### Launch Sequence Architecture
 
 ```
-PRE-LAUNCH (3-5 emails)
-├── Email 1: Tease coming announcement
-├── Email 2: Behind-the-scenes / story
-├── Email 3: Waitlist or early access
-└── Email 4: Final countdown
+PRE-LAUNCH (Days -7 to -1)
+├── D-7: Tease coming announcement (curiosity)
+├── D-5: Problem education (why this matters)
+├── D-3: Story + behind-the-scenes
+├── D-1: Final countdown + anticipation
 
-LAUNCH WEEK (7-10 emails)
-├── Day 1: Doors open + main benefits
-├── Day 2: Full details + FAQ
-├── Day 3: Case study / testimonial
-├── Day 4: Overcome objection #1
-├── Day 5: Overcome objection #2
-├── Day 6: Bonus announcement
-├── Day 7: 24-hour warning
-├── Day 8: 12-hour warning
-├── Day 9: Final hours
-└── Day 10: Last chance + doors close
+LAUNCH WEEK (Days 0 to 7)
+├── D0 AM: Doors open + main benefits
+├── D0 PM: Full details + FAQ
+├── D+1: Case study / testimonial #1
+├── D+2: Overcome objection #1
+├── D+3: Testimonial #2 + stack value
+├── D+4: Overcome objection #2
+├── D+5: Bonus announcement
+├── D+6: 48-hour warning
+├── D+7 AM: 24-hour warning
+├── D+7 PM: 12-hour warning
+├── D+7 Night: Final hours + doors closing
 
-POST-LAUNCH (2-3 emails)
+POST-LAUNCH (Days 8-10)
 ├── Doors closed + waitlist
-├── Thank you to buyers
-└── Next steps for buyers
+├── Thank you to buyers + next steps
+└── Non-buyers: Value content, stay engaged
 ```
 
-### Abandoned Cart Sequence
+### Cart Abandonment Sequence
 
 ```
-EMAIL 1 (1 hour after) — Gentle Reminder
-├── Subject: "Did you forget something?"
+EMAIL 1 (1 hour) — Gentle Reminder
+├── Subject: "You left something behind..."
 ├── Show cart items with images
-├── Benefit reminder
+├── Benefit reminder (why they wanted it)
 ├── Simple return CTA
-└── No discount yet
+└── NO discount yet
 
 EMAIL 2 (24 hours) — Address Objections
 ├── Subject: "Still thinking about it?"
 ├── Social proof (reviews, testimonials)
 ├── Answer common questions
-├── Urgency hint (limited stock)
+├── Urgency hint (limited stock, if true)
 └── CTA: Complete purchase
 
-EMAIL 3 (72 hours) — Last Chance + Incentive
-├── Subject: "Your cart is expiring"
-├── Discount or free shipping offer
-├── Final urgency
+EMAIL 3 (48 hours) — Urgency + Value
+├── Subject: "Your cart is almost gone"
 ├── Scarcity (items selling out)
+├── Benefits stack
+├── Small incentive hint
+└── CTA: Save your cart
+
+EMAIL 4 (72 hours) — Last Chance + Incentive
+├── Subject: "Final: Your cart expires today"
+├── Best offer (discount or free shipping)
+├── Final urgency
+├── Easy 1-click return
 └── Strong CTA with incentive
 ```
 
 ## Subject Line Mastery
 
+### Psychology Triggers
+
+| Trigger | Formula | Example |
+|---------|---------|---------|
+| **Curiosity** | Mystery + incomplete info | "This changed everything for me..." |
+| **Urgency** | Time limitation | "24 hours left: Your spot expires" |
+| **Benefit** | Clear outcome | "Double your leads in 30 days" |
+| **Numbers** | Specific data | "7 mistakes killing your conversions" |
+| **Personalization** | Name + context | "{First_name}, quick question" |
+| **Story** | Narrative hook | "The day I almost gave up..." |
+| **Social Proof** | Others' success | "How Sarah made $50K in her first launch" |
+| **Questions** | Engagement | "Are you making this mistake?" |
+| **Contrarian** | Challenge beliefs | "Stop writing daily emails (here's why)" |
+| **Announcement** | News value | "Introducing: The new way to..." |
+
 ### Subject Line Formulas
 
-| Formula | Example | Best For |
-|---------|---------|----------|
-| **Curiosity** | "This changed everything for me..." | Newsletters, content |
-| **Benefit** | "Double your leads in 30 days" | Sales, launches |
-| **Question** | "Are you making this mistake?" | Engagement, opens |
-| **Urgency** | "Last chance: 24 hours left" | Sales, deadlines |
-| **Personal** | "[Name], quick question" | 1:1 feel, high-value |
-| **Number** | "5 ways to [achieve result]" | Educational, lists |
-| **How-to** | "How to [achieve result] without [pain]" | Tutorials |
-| **Social Proof** | "How [Person] achieved [Result]" | Testimonials |
-| **Contrarian** | "Why [common advice] is wrong" | Thought leadership |
-| **FOMO** | "Everyone's talking about this..." | Trends, news |
+```
+CURIOSITY
+• "This changed everything for me"
+• "I shouldn't be telling you this..."
+• "What nobody tells you about [topic]"
+• "The real reason you're not [achieving X]"
+• "{First_name}, can I tell you a secret?"
+
+URGENCY
+• "Last chance: [Offer] ends tonight"
+• "Only [X] spots left"
+• "[Time] left to claim [benefit]"
+• "Going, going..."
+• "If you're still thinking about it..."
+
+BENEFIT
+• "How to [achieve result] in [time]"
+• "The shortcut to [desired outcome]"
+• "Double your [metric] without [pain]"
+• "Stop [pain], start [pleasure]"
+• "What if you could [benefit]?"
+
+NUMBERS
+• "[Number] ways to [achieve result]"
+• "The [X]-step process for [outcome]"
+• "[Number] mistakes killing your [goal]"
+• "From $[X] to $[Y] in [time]"
+• "The $[X] mistake you're making"
+```
 
 ### Subject Line Best Practices
 
 | Element | Best Practice | Example |
 |---------|---------------|---------|
 | **Length** | 30-50 characters (mobile-friendly) | "Your cart is waiting..." |
-| **Personalization** | Use name or data | "[Name], you left this behind" |
-| **Emojis** | 1 max, relevant | "🔥 Flash sale: 50% off today" |
+| **Personalization** | Use name or behavioral data | "[Name], you left this behind" |
+| **Emojis** | 1 max, relevant only | "🔥 Flash sale: 50% off today" |
 | **Numbers** | Specific > vague | "7 tips" vs. "tips" |
 | **Power words** | Create emotion | Free, new, secret, exclusive |
 | **Lowercase** | Can feel personal | "hey, got a minute?" |
 | **Questions** | Spark curiosity | "Did you see this?" |
-
-### Subject Line A/B Tests
-
-| Test | Variation A | Variation B |
-|------|-------------|-------------|
-| Length | Short (4 words) | Long (8+ words) |
-| Personalization | With [Name] | Without name |
-| Emoji | With emoji | Without emoji |
-| Case | Title Case | lowercase |
-| Tone | Formal | Casual |
-| Specificity | Numbers | No numbers |
-| Format | Question | Statement |
 
 ## Preview Text Strategy
 
@@ -175,42 +232,42 @@ Subject: "Quick question about your goals"
 Preview: "I noticed something and wanted to reach out personally"
 
 Subject: "Your cart is waiting"
-Preview: "Complete your order and get free shipping"
+Preview: "Complete your order and get free shipping today"
 ```
 
-### Preview Text Best Practices
+### Best Practices
 
 | Do | Don't |
 |----|-------|
 | Complement the subject | Repeat the subject |
-| Add curiosity | Be vague |
-| Include benefit | Leave empty (shows "View in browser") |
-| Keep under 90 chars | Write an essay |
+| Add curiosity or benefit | Be vague |
+| Include specific value | Leave empty (shows "View in browser") |
+| Keep under 90 characters | Write an essay |
 | Test different approaches | Ignore preview text |
 
-## Email Body Framework
+## Email Copywriting Frameworks
 
-### Email Structure (PAS Formula)
+### PAS (Problem-Agitate-Solution)
 
 ```
 PROBLEM
-Open with the pain point or challenge the reader faces.
-Make them feel understood.
+Open with the pain point the reader faces.
+Make them feel understood and seen.
 
 AGITATE
-Expand on the consequences of not solving the problem.
-Build emotional urgency.
+Expand on the consequences of not solving it.
+Build emotional urgency. What happens if they don't act?
 
 SOLUTION
 Present your content/offer as the answer.
-Show the transformation possible.
+Show the transformation that's possible.
 
 CTA
 Clear, single call to action.
 Make it obvious what to do next.
 ```
 
-### Email Structure (AIDA Formula)
+### AIDA (Attention-Interest-Desire-Action)
 
 ```
 ATTENTION
@@ -230,15 +287,42 @@ Clear CTA with urgency or reason to act now.
 Single focus, make it easy.
 ```
 
+### BAB (Before-After-Bridge)
+
+```
+BEFORE
+Describe current painful situation.
+"You're probably struggling with..."
+
+AFTER
+Paint the picture of life after solution.
+"Imagine waking up to..."
+
+BRIDGE
+Show how to get from before to after.
+"Here's how to make that happen..."
+```
+
+### PASTOR Framework
+
+```
+P - Problem: Identify the pain
+A - Amplify: Make the problem feel urgent
+S - Story: Share a relatable narrative
+T - Transformation: Show what's possible
+O - Offer: Present your solution
+R - Response: Clear call to action
+```
+
 ### Opening Line Examples
 
 | Type | Example |
 |------|---------|
 | **Question** | "What would you do with an extra 10 hours per week?" |
 | **Bold statement** | "Everything you've been told about [topic] is wrong." |
-| **Personal** | "I've been thinking about you and wanted to share something..." |
+| **Personal** | "I've been thinking about you and wanted to share..." |
 | **Story** | "Last Tuesday, something unexpected happened..." |
-| **Data** | "73% of [audience] struggle with [problem]. Are you one of them?" |
+| **Data** | "73% of [audience] struggle with [problem]. Are you one?" |
 | **Direct** | "I'm going to show you exactly how to [achieve result]." |
 | **Empathy** | "I know how frustrating it is when [pain point]..." |
 
@@ -266,104 +350,20 @@ Single focus, make it easy.
 | Download | Send Me the Checklist |
 | Register | Save My Spot |
 
-## Newsletter Framework
-
-### Newsletter Structure
-
-```
-HEADER
-├── Logo/branding
-├── View in browser link
-└── Date/issue number (optional)
-
-INTRO (Personal touch)
-├── Greeting
-├── Quick personal update or observation
-└── Transition to content
-
-MAIN CONTENT
-├── Section 1: Primary value (article, insight, tutorial)
-├── Section 2: Secondary content (tips, resources)
-└── Section 3: Curated links or recommendations
-
-CTA
-├── Primary action you want readers to take
-└── Secondary options (share, reply, etc.)
-
-FOOTER
-├── About/why they're receiving this
-├── Social links
-├── Unsubscribe link
-└── Contact info
-```
-
-### Newsletter Content Ideas
-
-| Category | Examples |
-|----------|----------|
-| **Educational** | How-to guides, tutorials, tips |
-| **Curated** | Best articles, tools, resources |
-| **Behind-scenes** | Process, journey, lessons learned |
-| **News/Trends** | Industry updates, analysis |
-| **Q&A** | Reader questions answered |
-| **Case Studies** | Success stories, examples |
-| **Interviews** | Expert conversations |
-| **Challenges** | Weekly/monthly activities |
-
-## Email Copywriting Techniques
-
-### Psychological Triggers
-
-| Trigger | How to Use |
-|---------|------------|
-| **Scarcity** | Limited spots, ending soon, few left |
-| **Social proof** | Testimonials, numbers, logos |
-| **Authority** | Credentials, featured in, years of experience |
-| **Reciprocity** | Give value first, then ask |
-| **Commitment** | Small ask → bigger ask |
-| **Liking** | Personal stories, relatability, warmth |
-| **FOMO** | Others are doing it, don't miss out |
-
-### Formatting for Readability
-
-| Technique | Why It Works |
-|-----------|--------------|
-| Short paragraphs | 1-3 sentences max, easy to scan |
-| White space | Gives eyes rest, less overwhelming |
-| Bold key phrases | Highlights important points |
-| Bullet points | Easy to digest lists |
-| Conversational tone | Feels personal, not corporate |
-| Questions | Creates engagement, breaks pattern |
-| PS section | High-read area, second CTA opportunity |
-
-### The PS Strategy
-
-```
-Use PS for:
-- Repeat CTA differently
-- Add urgency/scarcity
-- Include bonus or incentive
-- Personal note
-- Answer common objection
-
-Example:
-"P.S. — If you're wondering if this will work for [objection],
-here's what [Customer Name] said: [testimonial]"
-```
-
 ## Email Automation Flows
 
-### Key Automated Flows
+### Essential Flows
 
 | Flow | Trigger | Purpose |
 |------|---------|---------|
-| Welcome Series | New subscriber | Onboard, introduce brand |
+| Welcome Series | New subscriber | Onboard, introduce, first conversion |
 | Abandoned Cart | Cart abandoned | Recover sale |
 | Browse Abandonment | Viewed but didn't add | Re-engage interest |
-| Post-Purchase | After purchase | Confirm, upsell, retain |
-| Win-Back | Inactive 30-90 days | Re-engage dormant |
+| Post-Purchase | After purchase | Confirm, educate, upsell |
+| Win-Back | Inactive 60-90 days | Re-engage dormant |
 | Birthday/Anniversary | Date-based | Relationship building |
 | Re-engagement | No open in 60 days | Clean list or win back |
+| Replenishment | Time since last purchase | Remind to reorder |
 
 ### Flow Design Principles
 
@@ -384,18 +384,95 @@ BRANCHING
 └── Different paths based on behavior
 ```
 
+### Branching Logic Examples
+
+| Decision Point | Condition | Path A | Path B |
+|----------------|-----------|--------|--------|
+| After Email 1 | Opened? | Skip to higher-intent | Send reminder |
+| After 3 emails | Clicked? | Sales path | More nurture |
+| Any point | Purchased? | Exit → Post-purchase | Continue flow |
+| Mid-sequence | VIP customer? | Premium treatment | Standard path |
+
+## Deliverability Optimization
+
+### Authentication Checklist
+
+| Protocol | Purpose | Status Check |
+|----------|---------|--------------|
+| **SPF** | Authorize sending IPs | DNS record published |
+| **DKIM** | Sign emails cryptographically | Key configured |
+| **DMARC** | Policy enforcement | Policy set (none→quarantine→reject) |
+| **Custom tracking domain** | Brand links | Configured in ESP |
+
+### Spam Triggers to Avoid
+
+```
+HIGH RISK (Avoid)
+❌ FREE (in caps)
+❌ CLICK HERE
+❌ ACT NOW
+❌ LIMITED TIME OFFER
+❌ Congratulations!
+❌ $$$$
+❌ 100% guaranteed
+
+CONTEXT-DEPENDENT (Use carefully)
+⚠️ Discount
+⚠️ Sale
+⚠️ Offer
+⚠️ Exclusive
+
+SAFE ALTERNATIVES
+✅ "Complimentary" instead of "Free"
+✅ "Get your guide" instead of "Click here"
+✅ "Don't wait" instead of "Act now"
+```
+
+### Deliverability Benchmarks
+
+| Metric | Healthy | Warning | Critical |
+|--------|---------|---------|----------|
+| Delivery Rate | >98% | 95-98% | <95% |
+| Bounce Rate | <2% | 2-5% | >5% |
+| Spam Complaint | <0.1% | 0.1-0.3% | >0.3% |
+| Open Rate | >20% | 10-20% | <10% |
+| Inbox Placement | >90% | 80-90% | <80% |
+
+## Segmentation Strategies
+
+### Engagement-Based Segments
+
+| Segment | Definition | Strategy |
+|---------|------------|----------|
+| **Highly Engaged** | Opened last 3 emails | VIP treatment, early access |
+| **Engaged** | Opened in last 30 days | Standard frequency |
+| **Disengaged** | No open 30-60 days | Re-engagement campaign |
+| **At Risk** | No open 60-90 days | Win-back sequence |
+| **Dormant** | No open 90+ days | Sunset or remove |
+
+### RFM Segmentation
+
+| RFM Score | Segment Name | Treatment |
+|-----------|--------------|-----------|
+| High R, High F, High M | Champions | Reward, upsell premium |
+| High R, High F, Low M | Loyal Customers | Increase AOV |
+| High R, Low F, High M | Big Spenders | Nurture frequency |
+| Low R, High F, High M | At Risk Champions | Win-back urgently |
+| Low R, Low F, Low M | Hibernating | Re-engage or sunset |
+
 ## Output Format
 
 ### Standard Email Deliverables
 
-For every email request, provide:
+For every email request, Echo provides:
 
-1. **Subject line** — Primary + 2 variations
+1. **Subject lines** — Primary + 2-3 variations (different triggers)
 2. **Preview text** — Complementary hook
-3. **Full email body** — Formatted and ready to use
-4. **CTA** — Clear call to action
+3. **Full email body** — Formatted with framework
+4. **CTA** — Clear call to action with button text
 5. **Timing recommendation** — When to send
-6. **Sequence context** — Where this fits (if applicable)
+6. **A/B test suggestion** — What to test
+7. **Sequence context** — Where this fits (if applicable)
 
 ### Example Output Structure
 
@@ -405,25 +482,26 @@ For every email request, provide:
 📧 TYPE: [Welcome / Nurture / Launch / Newsletter / etc.]
 📍 SEQUENCE POSITION: [Email X of Y] (if applicable)
 ⏰ SEND TIMING: [Day/time recommendation]
+🎯 FRAMEWORK: [PAS / AIDA / BAB / Story]
 
 ---
 
 ### SUBJECT LINE OPTIONS
 
-**Primary:**
+**Primary (Curiosity):**
 "[Subject line]"
 
-**Variation A (Curiosity):**
+**Variation A (Benefit):**
 "[Subject line]"
 
-**Variation B (Benefit):**
+**Variation B (Urgency):**
 "[Subject line]"
 
 ---
 
 ### PREVIEW TEXT
 
-"[Preview text that complements subject line]"
+"[Preview text that complements subject line - max 90 chars]"
 
 ---
 
@@ -431,36 +509,35 @@ For every email request, provide:
 
 **Opening:**
 
-[Hook/opening line]
+[Hook/opening line - 1-2 sentences max]
 
 **Body:**
 
-[Main content following PAS/AIDA structure]
+[Main content following framework structure]
 
-[Value, story, or information]
+[Value, story, or information - short paragraphs]
 
 [Transition to CTA]
 
 **CTA:**
 
-[Call to action with button text]
-
-[Link: URL]
+[Button text: Action verb + benefit]
+[Link: URL with UTMs]
 
 **Closing:**
 
 [Sign-off]
 [Name]
 
-**P.S.** [Secondary hook, urgency, or social proof]
+**P.S.** [Secondary hook, urgency, social proof, or objection handler]
 
 ---
 
-### NOTES
+### TECHNICAL
 
-- **Goal of this email:** [What we want reader to do/feel]
-- **Key objection addressed:** [If applicable]
-- **Next email preview:** [If part of sequence]
+- **Personalization tokens:** {first_name}, {product_name}, etc.
+- **UTM parameters:** source=email, medium=[type], campaign=[name]
+- **Segment:** [Who should receive this]
 
 ---
 
@@ -471,13 +548,38 @@ For every email request, provide:
 **Variants:** A) [Control] | B) [Test version]
 ```
 
+## Commands Available
+
+| Command | Description |
+|---------|-------------|
+| `*write-email {type} {context}` | Write single email with full deliverables |
+| `*create-sequence {type} {goal}` | Create complete email sequence |
+| `*design-flow {trigger} {goal}` | Design automation flow with branching |
+| `*optimize-subject {current}` | Generate subject line variations |
+| `*audit-email {content}` | Audit email for deliverability and conversion |
+| `*segment-strategy {audience}` | Create segmentation strategy |
+
 ## Resources
 
+### Core Agent & Tasks
+- `.aios-core/development/agents/email.md` — Full Echo agent specification
+- `.aios-core/development/tasks/create-email-sequence.md` — Sequence creation task
+- `.aios-core/development/tasks/write-email-copy.md` — Email copywriting task
+- `.aios-core/development/tasks/design-automation-flow.md` — Flow design task
+
+### Checklists
+- `.aios-core/development/checklists/email-pre-send-checklist.md` — Pre-send verification
+- `.aios-core/development/checklists/email-deliverability-checklist.md` — Deliverability audit
+
+### Templates
+- `.aios-core/development/templates/email-sequence-tmpl.yaml` — Sequence YAML template
+
+### Data & References
+- `.aios-core/development/data/subject-line-library.md` — 50+ subject line formulas
 - `references/email-marketing.md` — Email best practices
-- `assets/templates/email-newsletter.md` — Newsletter template
-- `assets/templates/email-welcome-sequence.md` — Welcome series
-- `assets/templates/email-launch-sequence.md` — Launch emails
 - `assets/swipe-files/emails-conversao.md` — High-converting examples
-- `assets/swipe-files/subject-lines.md` — Subject line swipe file
-- `scripts/email_sequence_generator.py` — Sequence builder
-- `subagents/email-agent.md` — Full documentation
+
+---
+
+*Email Agent Skill v3.0 | Powered by Echo*
+*"Build relationships that convert."*

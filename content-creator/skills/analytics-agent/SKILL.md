@@ -1,11 +1,19 @@
 ---
 name: analytics-agent
-description: Analyze content performance, track KPIs, create reports, and optimize based on data. Use when analyzing metrics, building dashboards, setting up A/B tests, interpreting analytics data, or creating performance reports.
+description: Advanced data intelligence and analytics. Analyze marketing performance across all platforms, create comprehensive reports, run cohort and funnel analysis, design dashboards, perform RFM segmentation, calculate LTV/CAC, and optimize based on data-driven insights.
 ---
 
-# Analytics Agent Skill
+# Analytics Agent Skill - Nova
 
-Expert analytics skill focused on measuring content performance, interpreting data, and providing actionable optimization recommendations based on metrics across all platforms.
+**"Numbers reveal truth, patterns predict success."**
+
+Advanced data intelligence skill powered by Nova, the Oracle. Comprehensive marketing analytics focused on multi-platform performance analysis, cohort tracking, RFM segmentation, statistical testing, and actionable business intelligence.
+
+## Agent Reference
+
+**Primary Agent:** `.aios-core/development/agents/analytics.md`
+**Persona:** Nova, the Oracle (INTJ-A, Capricorn)
+**Archetype:** The Data Whisperer
 
 ## When to Use This Skill
 
@@ -459,9 +467,74 @@ For every analytics request, provide:
 
 ## Resources
 
-- `references/analytics-benchmarks.md` — Industry benchmarks
-- `assets/templates/weekly-report.md` — Report template
-- `assets/templates/monthly-report.md` — Report template
-- `scripts/analytics_dashboard.py` — Dashboard generator
-- `scripts/ab_test_calculator.py` — Sample size calculator
-- `subagents/analytics-agent.md` — Full documentation
+### Agent & Tasks
+- `.aios-core/development/agents/analytics.md` — **Full Analytics Agent (Nova)**
+- `.aios-core/development/tasks/analytics-performance-report.md` — Performance analysis task
+- `.aios-core/development/tasks/analytics-create-report.md` — Report generation task
+- `.aios-core/development/tasks/analytics-cohort-analysis.md` — Cohort & RFM analysis task
+- `.aios-core/development/tasks/analytics-dashboard-design.md` — Dashboard design task
+
+### Checklists
+- `.aios-core/development/checklists/analytics-daily-checklist.md` — Daily monitoring
+- `.aios-core/development/checklists/analytics-weekly-checklist.md` — Weekly review
+- `.aios-core/development/checklists/analytics-monthly-checklist.md` — Monthly deep-dive
+
+### Templates
+- `.aios-core/development/templates/analytics-weekly-report-tmpl.yaml` — Weekly report
+- `.aios-core/development/templates/analytics-monthly-report-tmpl.yaml` — Monthly report
+
+### Data & Benchmarks
+- `.aios-core/development/data/analytics-benchmarks.md` — Comprehensive benchmarks library
+
+### Legacy References
+- `references/analytics-benchmarks.md` — Platform benchmarks
+- `subagents/analytics-agent.md` — Original documentation
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `*analytics-report {platform} {period}` | Generate performance analysis |
+| `*create-analytics-report {type} {audience}` | Create formal report |
+| `*cohort-analysis {type} {period}` | Run cohort/RFM analysis |
+| `*design-dashboard {type} {audience}` | Design analytics dashboard |
+| `*calculate-ltv {segment}` | Calculate customer lifetime value |
+| `*forecast {metric} {period}` | Generate performance forecast |
+| `*attribution-analysis` | Analyze attribution models |
+
+## Advanced Capabilities
+
+### Marketing Analytics
+- Multi-platform performance tracking (Meta, Google, TikTok, LinkedIn, YouTube)
+- Campaign-level deep dive analysis
+- Creative performance and fatigue detection
+- Audience segmentation and insights
+- Budget optimization recommendations
+
+### Customer Analytics
+- Cohort analysis (acquisition, behavioral, source)
+- RFM segmentation (Recency, Frequency, Monetary)
+- Customer lifetime value (LTV) calculation
+- Customer acquisition cost (CAC) tracking
+- LTV:CAC ratio analysis
+
+### Statistical Analysis
+- A/B test design and significance calculation
+- Sample size estimation
+- Confidence intervals
+- Statistical significance testing
+- Incrementality measurement
+
+### Financial Analytics
+- ROAS and MER calculation
+- Unit economics modeling
+- Contribution margin analysis
+- Break-even analysis
+- ROI and profitability tracking
+
+### Reporting & Visualization
+- Executive dashboards
+- Weekly/monthly performance reports
+- Funnel visualization
+- Trend analysis
+- Benchmark comparisons
