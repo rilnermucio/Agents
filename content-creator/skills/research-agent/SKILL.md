@@ -509,6 +509,68 @@ For every research request, provide:
 [Any caveats or limitations to note]
 ```
 
+## ⚠️ REGRA CRÍTICA: Verificação de Fatos
+
+**OBRIGATÓRIO ao citar pessoas famosas, estatísticas ou dados:**
+
+### Processo de Verificação
+
+```
+ANTES DE CITAR QUALQUER FATO:
+
+1. BUSCAR FONTE PRIMÁRIA
+   ├── Entrevistas oficiais
+   ├── Biografias autorizadas
+   ├── Documentários
+   └── Declarações públicas verificáveis
+
+2. VERIFICAR CREDIBILIDADE
+   ├── A fonte é confiável? (veículos reconhecidos)
+   ├── A informação foi confirmada por múltiplas fontes?
+   ├── Existem desmentidos dessa informação?
+   └── A história parece fabricada/viral demais?
+
+3. CLASSIFICAR CONFIABILIDADE
+   ├── ✅ CONFIRMADO: Múltiplas fontes confiáveis → USAR
+   ├── ⚠️ PROVÁVEL: Uma fonte confiável → Usar com ressalva
+   ├── ❌ NÃO CONFIRMADO: Sem fonte primária → NÃO USAR
+   └── 🚫 DESMENTIDO: Informação falsa → NUNCA USAR
+
+4. SEMPRE usar WebSearch para verificar ANTES de incluir
+```
+
+### Red Flags (Desconfie quando)
+
+- 🚩 História parece boa demais para ser verdade
+- 🚩 Só aparece em sites de autoajuda/produtividade
+- 🚩 Nenhuma fonte primária é citada
+- 🚩 Detalhes muito específicos sem documentação
+- 🚩 "Dizem que...", "Segundo relatos..."
+- 🚩 Pessoa famosa + conselho perfeito + história inspiradora
+
+### Checklist de Verificação
+
+- [ ] Cada fato sobre pessoa famosa foi verificado via WebSearch
+- [ ] Fontes primárias foram identificadas
+- [ ] Informações não confirmadas foram removidas ou substituídas
+- [ ] Citações diretas têm fonte documentada
+- [ ] Estatísticas incluem fonte e ano
+- [ ] Nenhuma "história viral não verificada" foi incluída
+
+### Exemplo de Verificação
+
+**CASO: Warren Buffett "Regra 25/5"**
+```
+Afirmação: "Buffett ensinou a regra 25/5 para seu piloto"
+Verificação: Inc.com reportou que história foi FABRICADA
+Ação: ❌ NÃO USAR
+Alternativa verificada: "Buffett disse: 'A diferença entre pessoas
+bem-sucedidas e muito bem-sucedidas é que as muito bem-sucedidas
+dizem não pra quase tudo.'" ✅
+```
+
+---
+
 ## Resources
 
 - `references/niches.md` — Niche research and analysis

@@ -186,6 +186,54 @@ Use a balanced mix for optimal reach:
 - Mix broad (#fyp) with niche (#marketingtips)
 - Include challenge hashtags when relevant
 
+## 🚫 Palavras, Símbolos e Padrões Proibidos
+
+**NUNCA usar em nenhum conteúdo gerado:**
+
+| Proibido | Motivo | Alternativas |
+|----------|--------|--------------|
+| `—` (travessão longo) | Parece artificial | Use `.` `,` `:` ou quebre em frases |
+| `brutal` | Parece artificial | intenso, forte, pesado, impactante, poderoso |
+| PALAVRAS EM MAIÚSCULA | Parece artificial/gritado | Escreva normalmente em minúscula |
+| Aspas para delimitar falas em roteiros | Parece gerado por IA | Escreva o texto direto, sem aspas |
+| Aspas para dar ênfase | Parece gerado por IA | Use a estrutura da frase para enfatizar |
+| Emojis e emoticons em excesso | Parece gerado por IA | Máximo 1-2 por conteúdo, apenas se necessário |
+| Texto sem acentos | Parece descuidado/amador | SEMPRE usar acentuação correta em português |
+
+### Regras de Formatação Natural
+
+1. **Evitar CAPS para ênfase**: Em vez de TODO DIA, escreva todo dia ou todos os dias
+2. **Sem aspas em roteiros**: Não use aspas para delimitar o que a pessoa vai falar. Escreva direto.
+3. **Aspas apenas para citações reais**: Use aspas SOMENTE quando estiver citando palavra por palavra o que alguém disse
+4. **Tom conversacional**: Escreva como uma pessoa real falaria
+5. **Ênfase natural**: Se precisar destacar, use a estrutura da frase
+6. **Emojis com moderação**: Máximo 1-2 por conteúdo, apenas quando realmente necessário. Preferir texto puro.
+7. **Acentuação correta**: SEMPRE usar acentos em português (é, á, ã, ç, etc.). Revisar antes de entregar.
+
+### Exemplos
+
+❌ Errado (roteiro com aspas):
+```
+GANCHO (0-3s)
+"Você não faz ideia do que está perdendo."
+```
+
+✅ Correto (texto direto):
+```
+GANCHO (0-3s)
+Você não faz ideia do que está perdendo.
+```
+
+❌ Errado: `Isso é o que chamam de "produtividade real"`
+✅ Correto: `Isso é produtividade real`
+
+❌ Errado (sem acentos): `Voce nao faz ideia do que esta perdendo`
+✅ Correto (com acentos): `Você não faz ideia do que está perdendo`
+
+**Verificar SEMPRE antes de entregar qualquer conteúdo: acentuação, aspas, caps, emojis.**
+
+---
+
 ## Quality Checklist
 
 Before delivering any content, verify:
@@ -202,6 +250,8 @@ Before delivering any content, verify:
 - [ ] Strong hook in first 3 seconds/lines
 - [ ] Retention structure applied (for video)
 - [ ] Visual direction included (when applicable)
+- [ ] **NO BANNED WORDS/SYMBOLS** - Check prohibited list
+- [ ] **ACENTUAÇÃO CORRETA** - Revisar todos os acentos em português
 
 ## Standard Deliverables
 
@@ -214,6 +264,40 @@ For every content request, provide:
 5. **Next steps** — actionable follow-up items
 6. **Hashtags/Keywords** — when applicable
 7. **AI prompts** — for image/video generation when needed
+8. **Enquete para engajamento** — para conteudos de redes sociais (Reels, posts, carrosseis, stories)
+
+## Enquetes para Engajamento
+
+**OBRIGATORIO para conteudos de redes sociais.**
+
+Sempre incluir sugestao de enquete relacionada ao conteudo para aumentar engajamento.
+
+### Tipos de Enquete
+
+| Tipo | Quando Usar | Exemplo |
+|------|-------------|---------|
+| **Escolha binaria** | Opiniao simples | Voce prefere acordar cedo ou tarde? |
+| **Qual voce faz** | Identificacao | Qual desses habitos voce ja pratica? |
+| **Escala** | Medir nivel | De 1 a 10, quao produtivo voce se considera? |
+| **Desafio** | Gerar compromisso | Qual habito voce vai comecar essa semana? |
+| **Curiosidade** | Gerar dados | Quantas horas voce dorme por noite? |
+
+### Estrutura da Enquete
+
+```
+ENQUETE SUGERIDA
+
+Pergunta: [pergunta relacionada ao conteudo]
+
+Opcoes:
+- [opcao 1]
+- [opcao 2]
+- [opcao 3 - opcional]
+- [opcao 4 - opcional]
+
+Objetivo: [engajamento/dados/compromisso]
+Onde usar: [stories/post/reels]
+```
 
 ## Resources
 

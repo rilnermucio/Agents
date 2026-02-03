@@ -97,7 +97,7 @@ content-creator/
 │   ├── tiktok_trends_scraper.py
 │   └── ... (14 mais)
 ├── assets/
-│   ├── templates/        # 24 templates de conteudo
+│   ├── templates/        # 26 templates de conteudo
 │   ├── swipe-files/      # 8 swipe files com exemplos
 │   ├── personas/         # Templates de persona
 │   ├── frameworks/       # Frameworks de crescimento

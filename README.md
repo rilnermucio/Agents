@@ -70,7 +70,7 @@ Agente Criador de Conteudo/
 |   +-- ads-agent.md
 |   +-- design-agent.md               # NOVO: Design visual e identidade
 |
-+-- scripts/                          # 20 scripts Python de automacao
++-- scripts/                          # 19 scripts Python de automacao
 |   +-- seo_analyzer.py
 |   +-- hashtag_generator.py
 |   +-- content_calendar.py
@@ -92,7 +92,7 @@ Agente Criador de Conteudo/
 |   +-- tiktok_trends_scraper.py
 |
 +-- assets/
-|   +-- templates/                    # 27 templates de conteudo
+|   +-- templates/                    # 26 templates de conteudo
 |   |   +-- artigo-seo.md
 |   |   +-- email-newsletter.md
 |   |   +-- post-linkedin.md
@@ -185,7 +185,7 @@ Agente Criador de Conteudo/
 | Ads Agent | `subagents/ads-agent.md` | Copy de anuncios Meta/Google/TikTok/LinkedIn, estrategia de ads |
 | Design Agent | `subagents/design-agent.md` | Design visual, paletas de cores, identidade de marca, layouts |
 
-## :page_facing_up: Templates Disponiveis (27 templates)
+## :page_facing_up: Templates Disponiveis (26 templates)
 
 ### Redes Sociais
 
@@ -243,7 +243,7 @@ Agente Criador de Conteudo/
 |----------|---------|-----------|
 | Meus Templates | `assets/templates/meus-templates.md` | Templates personalizados do usuario |
 
-## :wrench: Scripts de Automacao (20 scripts)
+## :wrench: Scripts de Automacao (19 scripts)
 
 ### Analise e Otimizacao
 

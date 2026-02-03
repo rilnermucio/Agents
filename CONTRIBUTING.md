@@ -159,7 +159,7 @@ Agente Criador de Conteudo/
 +-- subagents/                  # 11 subagentes especializados
 +-- scripts/                    # 19 scripts Python
 +-- assets/
-|   +-- templates/              # 27 templates de conteudo
+|   +-- templates/              # 26 templates de conteudo
 |   +-- swipe-files/            # Exemplos e referencias
 |   +-- personas/               # Personas por nicho
 |   +-- prompts/                # Prompts para IA

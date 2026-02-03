@@ -371,6 +371,139 @@ FASE 4: DOCUMENTAÇÃO
 | Statista | Dados e estatísticas |
 | SimilarWeb | Análise de tráfego |
 
+## Verificação de Fatos e Citações
+
+### REGRA OBRIGATÓRIA: Fatos Verificáveis
+
+**Ao citar informações sobre pessoas famosas, empresas, estatísticas ou dados:**
+
+1. **SEMPRE verificar a fonte** antes de incluir no conteúdo
+2. **NUNCA inventar citações** ou atribuir hábitos/falas sem confirmação
+3. **Usar WebSearch** para validar cada afirmação
+4. **Documentar a fonte** com link quando possível
+
+### Processo de Verificação
+
+```
+ANTES DE CITAR QUALQUER FATO:
+
+1. BUSCAR FONTE PRIMÁRIA
+   ├── Entrevistas oficiais
+   ├── Biografias autorizadas
+   ├── Documentários
+   └── Declarações públicas verificáveis
+
+2. VERIFICAR CREDIBILIDADE
+   ├── A fonte é confiável? (veículos reconhecidos)
+   ├── A informação foi confirmada por múltiplas fontes?
+   ├── Existem desmentidos dessa informação?
+   └── A história parece fabricada/viral demais?
+
+3. CLASSIFICAR CONFIABILIDADE
+   ├── ✅ CONFIRMADO: Múltiplas fontes confiáveis
+   ├── ⚠️ PROVÁVEL: Uma fonte confiável
+   ├── ❌ NÃO CONFIRMADO: Sem fonte primária
+   └── 🚫 DESMENTIDO: Informação falsa/fabricada
+
+4. AÇÃO POR CLASSIFICAÇÃO
+   ├── ✅ CONFIRMADO → Usar com citação da fonte
+   ├── ⚠️ PROVÁVEL → Usar com ressalva ("segundo...")
+   ├── ❌ NÃO CONFIRMADO → NÃO USAR ou substituir
+   └── 🚫 DESMENTIDO → NUNCA USAR
+```
+
+### Exemplos de Verificação
+
+**CASO 1: Warren Buffett "Regra 25/5"**
+```
+Afirmação: "Buffett ensinou a regra 25/5 para seu piloto"
+Verificação: Busca revela que história foi FABRICADA
+Fonte: Inc.com reportou que nunca aconteceu
+Ação: ❌ NÃO USAR - substituir por citação real de Buffett
+Alternativa: "Buffett disse: 'A diferença entre pessoas bem-sucedidas
+             e muito bem-sucedidas é que as muito bem-sucedidas
+             dizem não pra quase tudo.'" ✅ CONFIRMADO
+```
+
+**CASO 2: Tim Cook acorda às 4h**
+```
+Afirmação: "Tim Cook acorda às 4h da manhã"
+Verificação: Confirmado em múltiplas entrevistas (CNBC, 9to5Mac)
+Fonte primária: Declaração do próprio Tim Cook
+Ação: ✅ USAR com confiança
+```
+
+**CASO 3: Bill Gates não checa email antes das 7h**
+```
+Afirmação: "Bill Gates não checa email antes das 7h"
+Verificação: Não encontrada fonte primária específica
+Fonte: Apenas artigos derivados sem citação direta
+Ação: ⚠️ NÃO USAR como fato - buscar alternativa verificável
+```
+
+### Template de Verificação
+
+Ao criar conteúdo com citações, documentar:
+
+```
+VERIFICAÇÃO DE FATOS: [Título do Conteúdo]
+Data: [DD/MM/YYYY]
+
+| # | Afirmação | Status | Fonte | Ação |
+|---|-----------|--------|-------|------|
+| 1 | [afirmação] | ✅/⚠️/❌/🚫 | [link] | [usar/substituir/remover] |
+| 2 | [afirmação] | ✅/⚠️/❌/🚫 | [link] | [usar/substituir/remover] |
+
+SUBSTITUIÇÕES FEITAS:
+- Original: [afirmação incorreta]
+- Substituído por: [afirmação verificada]
+- Motivo: [por que foi trocado]
+```
+
+### Fontes Confiáveis por Categoria
+
+**Empresários/CEOs:**
+- Bloomberg, CNBC, Fortune, Forbes (entrevistas)
+- Biografias autorizadas (Walter Isaacson, Ashlee Vance)
+- TED Talks e palestras oficiais
+- Podcasts onde a pessoa foi entrevistada diretamente
+
+**Estatísticas:**
+- Statista, Pew Research, McKinsey
+- Pesquisas acadêmicas peer-reviewed
+- Relatórios oficiais de empresas
+- Dados governamentais
+
+**Citações:**
+- Goodreads (com verificação cruzada)
+- Wikiquote (verificar fonte original)
+- Transcrições de entrevistas
+- Livros e autobiografias
+
+### Red Flags (Sinais de Alerta)
+
+Desconfie quando:
+- 🚩 História parece boa demais para ser verdade
+- 🚩 Só aparece em sites de autoajuda/produtividade
+- 🚩 Nenhuma fonte primária é citada
+- 🚩 Detalhes muito específicos sem documentação
+- 🚩 "Dizem que...", "Segundo relatos...", "É famoso por..."
+- 🚩 Pessoa famosa + conselho perfeito + história inspiradora
+
+### Checklist de Verificação
+
+Antes de finalizar conteúdo com citações:
+
+- [ ] Cada fato sobre pessoa famosa foi verificado via WebSearch
+- [ ] Fontes primárias foram identificadas
+- [ ] Informações não confirmadas foram removidas ou substituídas
+- [ ] Citações diretas têm fonte documentada
+- [ ] Estatísticas incluem fonte e ano
+- [ ] Nenhuma "história viral não verificada" foi incluída
+- [ ] Alternativas verificáveis foram usadas quando necessário
+
+---
+
 ## Integração com Content Creator
 
 O Research Agent alimenta o agente principal com:

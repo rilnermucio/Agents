@@ -363,6 +363,78 @@ Adaptar o tom conforme o briefing e nicho:
 | **`trend_adapter.py`** 🆕 | Adaptar trends virais para nichos específicos | `python scripts/trend_adapter.py "GRWM" marketing` |
 | **`tiktok_trends_scraper.py`** 🆕 | Buscar vídeos virais do TikTok por nicho/hashtag/views | `python scripts/tiktok_trends_scraper.py --hashtag "marketing" --min-views 1000000` |
 
+## 🚫 Palavras, Símbolos e Padrões Proibidos
+
+**NUNCA usar em nenhum conteúdo gerado:**
+
+| Proibido | Motivo | Alternativas |
+|----------|--------|--------------|
+| `—` (travessão longo) | Parece artificial | Use `.` `,` `:` ou quebre em frases |
+| `brutal` | Parece artificial | intenso, forte, pesado, impactante, poderoso |
+| PALAVRAS EM MAIÚSCULA | Parece artificial/gritado | Escreva normalmente em minúscula |
+| Aspas para delimitar falas em roteiros | Parece gerado por IA | Escreva o texto direto, sem aspas |
+| Aspas para dar ênfase | Parece gerado por IA | Use a estrutura da frase para enfatizar |
+| Emojis e emoticons em excesso | Parece gerado por IA | Usar no máximo 1-2 por conteúdo, apenas se fizer sentido |
+| Texto sem acentos | Parece descuidado/amador | SEMPRE usar acentuação correta em português |
+
+### Regras de Formatação Natural
+
+1. **Evitar CAPS para ênfase**: Em vez de TODO DIA, escreva todo dia ou todos os dias
+2. **Sem aspas em roteiros**: Não use aspas para delimitar o que a pessoa vai falar. Escreva direto.
+3. **Aspas apenas para citações reais**: Use aspas SOMENTE quando estiver citando palavra por palavra o que alguém disse em entrevista/livro
+4. **Tom conversacional**: Escreva como uma pessoa real falaria
+5. **Ênfase natural**: Se precisar destacar, use a estrutura da frase
+6. **Emojis com moderação**: Usar no máximo 1-2 emojis por conteúdo, e apenas quando realmente fizer sentido. Preferir texto puro.
+7. **Acentuação correta**: SEMPRE usar acentos em português (é, á, ã, ç, etc.). Revisar antes de entregar.
+
+### Exemplos
+
+❌ Errado (parece IA):
+```
+"7 hábitos que bilionários usam TODO DIA — e você provavelmente não faz nenhum."
+```
+
+✅ Correto (parece humano):
+```
+7 hábitos que bilionários usam todos os dias. E você provavelmente não faz nenhum.
+```
+
+❌ Errado (aspas delimitando fala em roteiro):
+```
+GANCHO (0-3s)
+"Você não faz ideia do que está perdendo."
+```
+
+✅ Correto (texto direto):
+```
+GANCHO (0-3s)
+Você não faz ideia do que está perdendo.
+```
+
+❌ Errado (aspas para ênfase):
+```
+Isso é o que chamam de "produtividade real"
+```
+
+✅ Correto:
+```
+Isso é produtividade real
+```
+
+❌ Errado (sem acentos):
+```
+Voce nao faz ideia do que esta perdendo
+```
+
+✅ Correto (com acentos):
+```
+Você não faz ideia do que está perdendo
+```
+
+**Antes de entregar qualquer conteúdo, verificar: acentuação, aspas, caps, emojis, palavras proibidas.**
+
+---
+
 ## Checklist de Qualidade
 
 Antes de entregar qualquer conteúdo, verificar:
@@ -378,6 +450,28 @@ Antes de entregar qualquer conteúdo, verificar:
 - [ ] Hashtags relevantes para o nicho
 - [ ] Hook forte nos primeiros segundos/linhas ⭐
 - [ ] Estrutura de retenção aplicada (vídeos) ⭐
+- [ ] **FATOS VERIFICADOS** - Citações e dados confirmados via WebSearch 🆕
+- [ ] **SEM PALAVRAS PROIBIDAS** - Verificar lista de palavras/símbolos banidos 🆕
+- [ ] **ACENTUAÇÃO CORRETA** - Revisar todos os acentos em português 🆕
+
+## ⚠️ REGRA CRÍTICA: Verificação de Fatos
+
+**OBRIGATÓRIO ao citar pessoas famosas, estatísticas ou dados:**
+
+1. **SEMPRE usar WebSearch** para verificar ANTES de incluir
+2. **NUNCA inventar** citações, hábitos ou histórias
+3. **Documentar fontes** quando possível
+4. **Substituir informações não confirmadas** por alternativas verificáveis
+
+Ver [subagents/research-agent.md](subagents/research-agent.md) para processo completo de verificação.
+
+### Classificação de Confiabilidade:
+| Status | Significado | Ação |
+|--------|-------------|------|
+| ✅ CONFIRMADO | Múltiplas fontes confiáveis | Usar com citação |
+| ⚠️ PROVÁVEL | Uma fonte confiável | Usar com ressalva |
+| ❌ NÃO CONFIRMADO | Sem fonte primária | NÃO usar ou substituir |
+| 🚫 DESMENTIDO | Informação falsa | NUNCA usar |
 
 ## Entregáveis
 
@@ -390,6 +484,48 @@ Ao criar conteúdo, sempre entregar:
 5. **Próximos passos** acionáveis
 6. **Hashtags/Keywords** relevantes
 7. **Prompts de IA** quando aplicável (imagens/vídeos) ⭐
+8. **Enquete para engajamento** para conteúdos de redes sociais 🆕
+
+## Enquetes para Engajamento 🆕
+
+**OBRIGATÓRIO para conteúdos de redes sociais (Reels, posts, carrosséis, stories).**
+
+Sempre incluir sugestão de enquete relacionada ao conteúdo para aumentar engajamento.
+
+### Tipos de Enquete
+
+| Tipo | Quando Usar | Exemplo |
+|------|-------------|---------|
+| **Escolha binária** | Opinião simples | Você prefere acordar cedo ou tarde? |
+| **Qual você faz** | Identificação | Qual desses hábitos você já pratica? |
+| **Escala** | Medir nível | De 1 a 10, quão produtivo você se considera? |
+| **Desafio** | Gerar compromisso | Qual hábito você vai começar essa semana? |
+| **Curiosidade** | Gerar dados | Quantas horas você dorme por noite? |
+
+### Estrutura da Enquete
+
+```
+ENQUETE SUGERIDA
+
+Pergunta: [pergunta relacionada ao conteúdo]
+
+Opções:
+- [opção 1]
+- [opção 2]
+- [opção 3 - opcional]
+- [opção 4 - opcional]
+
+Objetivo: [engajamento/dados/compromisso]
+Onde usar: [stories/post/reels]
+```
+
+### Boas Práticas
+
+- Enquete deve estar diretamente relacionada ao conteúdo
+- Opções claras e fáceis de entender
+- Máximo 4 opções
+- Usar para stories após publicar o Reels/post
+- Pode usar como gancho para próximo conteúdo
 
 ## Ferramentas de IA Disponíveis ⭐ NOVO
 
