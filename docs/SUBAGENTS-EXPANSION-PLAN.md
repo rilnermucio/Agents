@@ -1,41 +1,50 @@
 # Plano de Expansão: Subagentes Avançados do Content Creator
 
-> **Objetivo:** Criar os 14 novos subagentes mais avançados do planeta, elevando o Content Creator para o sistema de criação de conteúdo mais completo existente.
+> **Objetivo:** Criar o sistema de criação de conteúdo mais completo do planeta com 35 subagentes especializados cobrindo 100% das necessidades de marketing digital.
 
 ---
 
 ## Visão Geral
 
-### Estado Atual (11 Subagentes)
+### Estado Atual (15 Subagentes)
 
 | Agente | Linhas | Status |
 |--------|--------|--------|
+| Ads Agent | 3.670 | ✅ v3.0 |
 | SEO Agent | 3.529 | ✅ v3.0 |
-| AI Tools Agent | 2.993 | ✅ Avançado |
-| Research Agent | 2.963 | ✅ Avançado |
+| Email Agent | 3.437 | ✅ v3.0 |
+| Copy Agent | 3.396 | ✅ v3.0 |
+| Analytics Agent | 3.084 | ✅ v3.0 |
+| AI Tools Agent | 2.993 | ✅ v3.0 |
+| Research Agent | 2.963 | ✅ v3.0 |
 | Audio Agent | 2.596 | ✅ v3.0 |
-| Design Agent | 2.285 | ✅ Avançado |
-| Social Agent | 2.108 | ✅ Avançado |
-| Video Agent | 1.951 | ✅ Avançado |
-| Copy Agent | 1.226 | ⚠️ Expandir |
-| Analytics Agent | 827 | ⚠️ Expandir |
-| Ads Agent | 788 | ⚠️ Expandir |
-| Email Agent | 403 | ⚠️ Expandir |
+| Design Agent | 2.285 | ✅ v3.0 |
+| Funnel Agent | 2.228 | ⚠️ Expandir para 4.000+ |
+| Brand Agent | 2.114 | ⚠️ Expandir para 3.500+ |
+| Social Agent | 2.108 | ✅ v3.0 |
+| Storytelling Agent | 2.071 | ⚠️ Expandir para 3.000+ |
+| Growth Agent | 2.036 | ⚠️ Expandir para 3.500+ |
+| Video Agent | 1.951 | ✅ v3.0 |
 
-**Total atual:** 21.669 linhas em 11 agentes
+**Total atual:** 40.461 linhas em 15 agentes
+**Média atual:** 2.697 linhas/agente
 
-### Estado Futuro (25 Subagentes)
+### Estado Futuro (35 Subagentes)
 
-**Novos agentes a criar:** 14
+**Agentes para expandir:** 4
+**Agentes para criar (plano original):** 10
+**Agentes NOVOS adicionados:** 10
+**Total de trabalho:** 24 agentes (4 expansões + 20 criações)
+
 **Meta por agente:** 2.500 - 4.000 linhas
-**Meta total novo:** ~45.000 linhas adicionais
-**Total projetado:** ~70.000 linhas em 25 agentes
+**Meta total:** ~98.000 linhas em 35 agentes
+**Cobertura de marketing:** 100%
 
 ---
 
 ## Arquitetura dos Novos Subagentes
 
-### Estrutura Padrão (Template)
+### Estrutura Padrão v3.0 (Template)
 
 Cada subagente seguirá esta estrutura científica:
 
@@ -82,515 +91,1353 @@ Cada subagente seguirá esta estrutura científica:
 - Workflows
 - SOPs
 
-## PARTE VIII: CASOS DE ESTUDO
-- Exemplos reais
-- Análises detalhadas
-- Lições aprendidas
+## PARTE VIII - XIII: CONTEÚDO ESPECÍFICO
+- Seções especializadas por agente
 
 ## APÊNDICE
-- Glossário
+- Glossário completo
 - Recursos adicionais
 - Referências
+- Troubleshooting
 ```
 
 ---
 
 ## Fases de Implementação
 
-### FASE 1: Fundação Estratégica
-**Prazo sugerido:** Semana 1-2
-**Foco:** Agentes que definem a base para todos os outros
+### FASE 1: Fundação Estratégica ✅ CRIADOS (expandir)
+**Status:** Agentes criados, precisam expansão
 
-| # | Agente | Descrição | Linhas Est. | Prioridade |
-|---|--------|-----------|-------------|------------|
-| 1 | **Brand Agent** | Posicionamento, voz, arquétipos, guidelines | 3.500+ | CRÍTICO |
-| 2 | **Storytelling Agent** | Narrativas, jornada do herói, frameworks | 3.000+ | CRÍTICO |
-
-**Por que primeiro?**
-- Brand Agent define a voz e personalidade que todos os outros agentes usam
-- Storytelling Agent fornece frameworks narrativos para Copy, Video, Social, etc.
+| # | Agente | Atual | Meta | Status |
+|---|--------|-------|------|--------|
+| 1 | **Brand Agent** | 2.114 | 3.500+ | ⚠️ Expandir |
+| 2 | **Storytelling Agent** | 2.071 | 3.000+ | ⚠️ Expandir |
 
 ---
 
-### FASE 2: Conversão e Monetização
-**Prazo sugerido:** Semana 3-4
-**Foco:** Agentes que geram receita direta
+### FASE 2: Conversão e Monetização 🔄 PARCIAL
+**Status:** Funnel criado (expandir), 2 faltam criar
 
-| # | Agente | Descrição | Linhas Est. | Prioridade |
-|---|--------|-----------|-------------|------------|
-| 3 | **Funnel Agent** | Funis de vendas, landing pages, conversão | 4.000+ | CRÍTICO |
-| 4 | **E-commerce Agent** | Produtos, marketplaces, catálogos | 3.500+ | ALTO |
-| 5 | **Affiliate Agent** | Marketing de afiliados, reviews, comparativos | 2.500+ | ALTO |
-
-**Por que segundo?**
-- Funnel Agent conecta todos os canais em jornadas de conversão
-- E-commerce e Affiliate são monetização direta de conteúdo
+| # | Agente | Descrição | Linhas | Status |
+|---|--------|-----------|--------|--------|
+| 3 | **Funnel Agent** | Funis de vendas, landing pages, conversão | 4.000+ | ⚠️ Expandir (atual: 2.228) |
+| 4 | **E-commerce Agent** | Produtos, marketplaces, catálogos | 3.500+ | ❌ Criar |
+| 5 | **Affiliate Agent** | Marketing de afiliados, reviews, comparativos | 2.500+ | ❌ Criar |
 
 ---
 
-### FASE 3: Comunidade e Relacionamento
-**Prazo sugerido:** Semana 5-6
-**Foco:** Agentes que constroem audiência e retenção
+### FASE 3: Comunidade e Relacionamento ❌ PENDENTE
+**Status:** Nenhum criado
 
-| # | Agente | Descrição | Linhas Est. | Prioridade |
-|---|--------|-----------|-------------|------------|
-| 6 | **Community Agent** | Discord, Telegram, grupos, engajamento | 3.500+ | ALTO |
-| 7 | **Influencer Agent** | Parcerias, UGC, creators, collabs | 3.000+ | ALTO |
-| 8 | **CRM Agent** | Segmentação, lifecycle, retenção | 2.500+ | MÉDIO |
-
-**Por que terceiro?**
-- Comunidade é o ativo mais valioso de longo prazo
-- Influencer amplifica alcance exponencialmente
-- CRM personaliza a experiência
+| # | Agente | Descrição | Linhas | Status |
+|---|--------|-----------|--------|--------|
+| 6 | **Community Agent** | Discord, Telegram, grupos, engajamento | 3.500+ | ❌ Criar |
+| 7 | **Influencer Agent** | Parcerias, creators, collabs | 3.000+ | ❌ Criar |
+| 8 | **CRM Agent** | Segmentação, lifecycle, retenção | 2.500+ | ❌ Criar |
 
 ---
 
-### FASE 4: Crescimento e Escala
-**Prazo sugerido:** Semana 7-8
-**Foco:** Agentes que multiplicam resultados
+### FASE 4: Crescimento e Escala 🔄 PARCIAL
+**Status:** Growth criado (expandir), 2 faltam criar
 
-| # | Agente | Descrição | Linhas Est. | Prioridade |
-|---|--------|-----------|-------------|------------|
-| 9 | **Growth Agent** | Growth hacking, viral loops, experimentos | 3.500+ | ALTO |
-| 10 | **Automation Agent** | Workflows, sequências, triggers | 3.000+ | ALTO |
-| 11 | **Localization Agent** | Multi-idioma, adaptação cultural | 2.500+ | MÉDIO |
-
-**Por que quarto?**
-- Growth Agent otimiza todo o sistema
-- Automation escala sem aumentar trabalho manual
-- Localization expande para novos mercados
+| # | Agente | Descrição | Linhas | Status |
+|---|--------|-----------|--------|--------|
+| 9 | **Growth Agent** | Growth hacking, viral loops, experimentos | 3.500+ | ⚠️ Expandir (atual: 2.036) |
+| 10 | **Automation Agent** | Workflows, sequências, triggers | 3.000+ | ❌ Criar |
+| 11 | **Localization Agent** | Multi-idioma, adaptação cultural | 2.500+ | ❌ Criar |
 
 ---
 
-### FASE 5: Eventos e Experiências
-**Prazo sugerido:** Semana 9-10
-**Foco:** Agentes para momentos de alto impacto
+### FASE 5: Eventos e Experiências ❌ PENDENTE
+**Status:** Nenhum criado
 
-| # | Agente | Descrição | Linhas Est. | Prioridade |
-|---|--------|-----------|-------------|------------|
-| 12 | **Event Agent** | Webinars, lives, workshops, lançamentos | 3.500+ | ALTO |
-| 13 | **Webinar Agent** | Scripts, apresentações, follow-up | 3.000+ | MÉDIO |
-| 14 | **Launch Agent** | Lançamentos de produtos, campanhas, hype | 3.000+ | MÉDIO |
-
-**Por que quinto?**
-- Eventos são momentos de pico de conversão
-- Webinars são máquinas de vendas
-- Launches concentram esforço para máximo impacto
+| # | Agente | Descrição | Linhas | Status |
+|---|--------|-----------|--------|--------|
+| 12 | **Event Agent** | Lives, workshops, lançamentos | 3.500+ | ❌ Criar |
+| 13 | **Webinar Agent** | Scripts, apresentações, follow-up | 3.000+ | ❌ Criar |
+| 14 | **Launch Agent** | Lançamentos de produtos, campanhas, hype | 3.000+ | ❌ Criar |
 
 ---
 
-### FASE 6: Expansão dos Existentes
-**Prazo sugerido:** Semana 11-12
-**Foco:** Elevar agentes básicos ao padrão v3.0
+### FASE 6: Expansão dos Existentes ✅ COMPLETA
+**Status:** Todos expandidos para v3.0
 
-| # | Agente | De | Para | Ação |
-|---|--------|----|----|------|
-| 15 | **Copy Agent** | 1.226 | 3.500+ | Expandir |
-| 16 | **Analytics Agent** | 827 | 3.000+ | Expandir |
-| 17 | **Ads Agent** | 788 | 3.500+ | Expandir |
-| 18 | **Email Agent** | 403 | 3.000+ | Expandir |
+| # | Agente | De | Para | Status |
+|---|--------|----|----|--------|
+| 15 | **Copy Agent** | 1.226 | 3.396 | ✅ Completo |
+| 16 | **Analytics Agent** | 827 | 3.084 | ✅ Completo |
+| 17 | **Ads Agent** | 788 | 3.670 | ✅ Completo |
+| 18 | **Email Agent** | 403 | 3.437 | ✅ Completo |
 
 ---
 
-## Especificações Detalhadas por Agente
+### FASE 7: Multiplicação e Distribuição 🆕 NOVA
+**Foco:** Agentes que multiplicam alcance e conteúdo
 
-### 1. Brand Agent v3.0
+| # | Agente | Descrição | Linhas | Prioridade |
+|---|--------|-----------|--------|------------|
+| 19 | **Repurposing Agent** | Transformar 1 conteúdo em 10+ formatos | 3.500+ | CRÍTICO |
+| 20 | **WhatsApp Agent** | WhatsApp Business, broadcasts, automações, vendas | 3.500+ | CRÍTICO |
+| 21 | **PR Agent** | Assessoria, press release, media kit, HARO, jornalistas | 3.000+ | ALTO |
+
+**Por que críticos?**
+- Repurposing multiplica TODO o trabalho dos outros 34 agentes
+- WhatsApp é canal #1 no Brasil com 99% de penetração
+- PR gera credibilidade e mídia espontânea gratuita
+
+---
+
+### FASE 8: Construção de Infoprodutos 🆕 NOVA
+**Foco:** Criação completa de produtos digitais educacionais
+
+| # | Agente | Descrição | Linhas | Prioridade |
+|---|--------|-----------|--------|------------|
+| 22 | **Infoproduct Builder Agent** | Ebooks, cursos, mentorias, consultorias, workshops, challenges, memberships - construção completa do conteúdo e estrutura | 4.500+ | CRÍTICO |
+
+**Por que crítico?**
+- Mercado de infoprodutos no Brasil: R$ 10+ bilhões/ano
+- Cobre CONSTRUÇÃO do produto (não apenas negócio)
+- Design instrucional + conteúdo + materiais complementares
+- Único agente para criar qualquer tipo de produto digital educacional
+
+---
+
+### FASE 9: Reputação e Confiança 🆕 NOVA
+**Foco:** Construir confiança e gerenciar percepção
+
+| # | Agente | Descrição | Linhas | Prioridade |
+|---|--------|-----------|--------|------------|
+| 23 | **Reputation Agent** | Reviews, Google Meu Negócio, gestão de crise, NPS | 3.000+ | ALTO |
+| 24 | **UGC Agent** | User-generated content, depoimentos em escala, social proof | 2.500+ | ALTO |
+
+**Por que importantes?**
+- 93% dos consumidores leem reviews antes de comprar
+- UGC tem 4x mais conversão que conteúdo de marca
+
+---
+
+### FASE 10: Autoridade e Inteligência 🆕 NOVA
+**Foco:** Posicionamento como expert e inteligência de mercado
+
+| # | Agente | Descrição | Linhas | Prioridade |
+|---|--------|-----------|--------|------------|
+| 25 | **Thought Leadership Agent** | Autoridade, artigos opinativos, LinkedIn, palestras | 2.500+ | MÉDIO |
+| 26 | **Competitive Intelligence Agent** | Análise de concorrência, benchmarks, oportunidades | 2.500+ | MÉDIO |
+| 27 | **Trend Agent** | Newsjacking, tendências, timing, viral | 2.000+ | MÉDIO |
+
+**Por que importantes?**
+- Diferenciação no mercado saturado
+- Decisões baseadas em dados, não intuição
+- Surfar ondas virais multiplica alcance
+
+---
+
+### FASE 11: Compliance e Proteção 🆕 NOVA
+**Foco:** Proteção jurídica e conformidade
+
+| # | Agente | Descrição | Linhas | Prioridade |
+|---|--------|-----------|--------|------------|
+| 28 | **Legal/Compliance Agent** | LGPD, disclaimers, termos, contratos, direitos autorais | 2.000+ | MÉDIO |
+
+**Por que importante?**
+- LGPD pode gerar multas de até 2% do faturamento
+- Proteção contra processos e problemas legais
+
+---
+
+## Resumo: O Que Falta Fazer
+
+### Agentes para EXPANDIR (4)
+
+| Agente | Atual | Meta | Faltam |
+|--------|-------|------|--------|
+| Funnel Agent | 2.228 | 4.000+ | ~1.800 linhas |
+| Brand Agent | 2.114 | 3.500+ | ~1.400 linhas |
+| Growth Agent | 2.036 | 3.500+ | ~1.500 linhas |
+| Storytelling Agent | 2.071 | 3.000+ | ~930 linhas |
+
+### Agentes para CRIAR - Plano Original (10)
+
+| # | Agente | Linhas | Fase |
+|---|--------|--------|------|
+| 1 | E-commerce Agent | 3.500+ | 2 |
+| 2 | Affiliate Agent | 2.500+ | 2 |
+| 3 | Community Agent | 3.500+ | 3 |
+| 4 | Influencer Agent | 3.000+ | 3 |
+| 5 | CRM Agent | 2.500+ | 3 |
+| 6 | Automation Agent | 3.000+ | 4 |
+| 7 | Localization Agent | 2.500+ | 4 |
+| 8 | Event Agent | 3.500+ | 5 |
+| 9 | Webinar Agent | 3.000+ | 5 |
+| 10 | Launch Agent | 3.000+ | 5 |
+
+### Agentes para CRIAR - Novos (10)
+
+| # | Agente | Linhas | Fase | Prioridade |
+|---|--------|--------|------|------------|
+| 1 | **Repurposing Agent** | 3.500+ | 7 | CRÍTICO |
+| 2 | **WhatsApp Agent** | 3.500+ | 7 | CRÍTICO |
+| 3 | **PR Agent** | 3.000+ | 7 | ALTO |
+| 4 | **Infoproduct Builder Agent** | 4.500+ | 8 | CRÍTICO |
+| 5 | **Reputation Agent** | 3.000+ | 9 | ALTO |
+| 6 | **UGC Agent** | 2.500+ | 9 | ALTO |
+| 7 | **Thought Leadership Agent** | 2.500+ | 10 | MÉDIO |
+| 8 | **Competitive Intelligence Agent** | 2.500+ | 10 | MÉDIO |
+| 9 | **Trend Agent** | 2.000+ | 10 | MÉDIO |
+| 10 | **Legal/Compliance Agent** | 2.000+ | 11 | MÉDIO |
+
+---
+
+## Especificações Detalhadas - Novos Agentes
+
+### 19. Repurposing Agent v3.0
 
 ```
 ESTRUTURA:
 
-PARTE I: A CIÊNCIA DO BRANDING
-├── Neurociência da percepção de marca
-├── Psicologia dos arquétipos (Jung aplicado)
-├── Teoria do posicionamento (Ries & Trout)
-└── Brand equity e valor percebido
+PARTE I: A CIÊNCIA DO REPURPOSING
+├── Por que repurposing funciona (repetição = memorização)
+├── Alcance vs Profundidade
+├── O mito do conteúdo original
+└── ROI de repurposing vs criação nova
 
-PARTE II: ARQUÉTIPOS DE MARCA
-├── Os 12 arquétipos de Jung
-│   ├── Inocente, Explorador, Sábio
-│   ├── Herói, Fora-da-Lei, Mago
-│   ├── Cara Comum, Amante, Bobo
-│   └── Cuidador, Criador, Governante
-├── Como identificar seu arquétipo
-├── Combinações de arquétipos
-└── Exemplos de marcas por arquétipo
+PARTE II: FRAMEWORKS DE MULTIPLICAÇÃO
+├── Content Pyramid (Gary Vee)
+├── Pillar Content Strategy
+├── Atomic Content Method
+├── 1 → 10 → 100 Framework
+└── Content Waterfall
 
-PARTE III: POSICIONAMENTO ESTRATÉGICO
-├── Framework de posicionamento
-├── Análise competitiva
-├── Unique Value Proposition (UVP)
-├── Brand positioning statement
-└── Mapas de posicionamento
+PARTE III: MATRIZ DE TRANSFORMAÇÃO
+├── Video → [Reels, Shorts, TikTok, Clips, Audiogram, Blog, Carrossel]
+├── Podcast → [Clips, Quotes, Blog, Newsletter, Threads]
+├── Blog → [Carrossel, Video, Infográfico, Email, Threads]
+├── Live → [Highlights, Clips, Blog, FAQ, Course]
+└── Webinar → [Mini-curso, Blog series, Email sequence, Ads]
 
-PARTE IV: VOZ E TOM DA MARCA
-├── Definindo voz da marca
-├── Espectros de tom (formal-casual, etc.)
-├── Vocabulário da marca
-├── Do's and Don'ts
-└── Exemplos por contexto
+PARTE IV: REPURPOSING POR PLATAFORMA
+├── YouTube → Instagram/TikTok
+├── Podcast → YouTube/Social
+├── Blog → LinkedIn/Twitter
+├── Newsletter → Social/Blog
+└── Course → Lead magnets
 
-PARTE V: IDENTIDADE VERBAL
-├── Naming (nome da marca)
-├── Taglines e slogans
-├── Messaging framework
-├── Elevator pitches
-└── Boilerplates
+PARTE V: FERRAMENTAS DE REPURPOSING
+├── Descript (video/audio editing)
+├── Opus Clip (AI clips)
+├── Headliner (audiograms)
+├── Canva (visual adaptation)
+├── Repurpose.io (automation)
+└── Claude/GPT (text transformation)
 
-PARTE VI: BRAND GUIDELINES
-├── Estrutura de brand book
-├── Aplicações da marca
-├── Consistência cross-channel
-└── Templates de guidelines
+PARTE VI: WORKFLOWS AUTOMATIZADOS
+├── Workflow: Podcast semanal
+├── Workflow: YouTube video
+├── Workflow: Blog post
+├── Workflow: Live/Webinar
+└── Workflow: Newsletter
 
-PARTE VII: BRAND STORYTELLING
-├── História de origem
-├── Missão, visão, valores
-├── Manifesto da marca
-└── Brand narratives
+PARTE VII: CALENDÁRIO DE DISTRIBUIÇÃO
+├── Timing por plataforma
+├── Frequência ideal
+├── Sequência de publicação
+└── Evergreen rotation
 
-PARTE VIII: MÉTRICAS DE MARCA
-├── Brand awareness
-├── Brand recall
-├── Net Promoter Score
-├── Brand sentiment
-└── Share of voice
+PARTE VIII: MÉTRICAS DE REPURPOSING
+├── Content multiplication ratio
+├── Reach per original piece
+├── Engagement por formato
+├── Time saved
+└── Cost per content piece
 
 TEMPLATES:
-├── Brand positioning canvas
-├── Arquétipo worksheet
-├── Voice and tone guide
-├── Brand book template
-└── Messaging matrix
+├── Content transformation matrix
+├── Repurposing checklist por formato
+├── Distribution calendar template
+├── ROI calculator
+└── Workflow automation setup
 ```
 
-### 2. Storytelling Agent v3.0
-
-```
-ESTRUTURA:
-
-PARTE I: A CIÊNCIA DO STORYTELLING
-├── Neurociência das histórias
-├── Por que histórias persuadem (oxitocina)
-├── Memória e narrativa
-└── Transporte narrativo
-
-PARTE II: FRAMEWORKS NARRATIVOS CLÁSSICOS
-├── Jornada do Herói (Campbell)
-├── Estrutura em 3 Atos
-├── Story Spine (Pixar)
-├── SCQA (McKinsey)
-├── STAR Method
-└── ABT (And, But, Therefore)
-
-PARTE III: STORYTELLING DOS MESTRES
-├── Pixar: Regras de storytelling
-├── Steve Jobs: Apresentações memoráveis
-├── TED Talks: Estruturas que viralizam
-├── Stand-up Comedy: Timing e payoff
-└── Jornalismo narrativo: Longform
-
-PARTE IV: TIPOS DE HISTÓRIAS DE MARCA
-├── História de origem
-├── História de cliente (case study)
-├── História de produto
-├── História de time/fundador
-├── História de transformação
-└── História de visão/futuro
-
-PARTE V: STORYTELLING POR FORMATO
-├── Storytelling em vídeo
-├── Storytelling em copy
-├── Storytelling em apresentações
-├── Storytelling em podcasts
-├── Storytelling em social media
-└── Storytelling em email
-
-PARTE VI: ELEMENTOS DE HISTÓRIA
-├── Personagens memoráveis
-├── Conflito e tensão
-├── Stakes (o que está em jogo)
-├── Transformação
-├── Detalhes sensoriais
-└── Diálogo
-
-PARTE VII: STORY BANK
-├── Como criar banco de histórias
-├── Categorização de histórias
-├── Atualização e rotação
-└── Histórias por etapa do funil
-
-TEMPLATES:
-├── Story canvas
-├── Hero's journey worksheet
-├── Case study template
-├── Origin story framework
-└── Pitch deck narrative
-```
-
-### 3. Funnel Agent v3.0
+### 20. WhatsApp Agent v3.0
 
 ```
 ESTRUTURA:
 
-PARTE I: A CIÊNCIA DOS FUNIS
-├── Psicologia da decisão de compra
-├── Teoria do funil (AIDA, AARRR)
-├── Behavioral economics aplicada
-└── Micro-conversões e momentum
+PARTE I: O PODER DO WHATSAPP NO BRASIL
+├── 99% de penetração no Brasil
+├── Taxa de abertura: 98% (vs 20% email)
+├── Psicologia da comunicação direta
+└── WhatsApp como canal de vendas
 
-PARTE II: ARQUITETURAS DE FUNIL
-├── Funil de webinar
-├── Funil de VSL
-├── Funil de tripwire
-├── Funil de lançamento
-├── Funil de aplicação
-├── Funil de challenge
-├── Funil de quiz
-└── Funil de book/lead magnet
+PARTE II: WHATSAPP BUSINESS COMPLETO
+├── Perfil comercial otimizado
+├── Catálogo de produtos
+├── Respostas rápidas
+├── Etiquetas e organização
+├── Horário de funcionamento
+└── Mensagem de ausência
 
-PARTE III: FUNIS DOS MESTRES
-├── Russell Brunson (ClickFunnels)
-├── Ryan Deiss (Digital Marketer)
-├── Frank Kern
-├── Amy Porterfield
-└── Jeff Walker (Product Launch Formula)
+PARTE III: WHATSAPP BUSINESS API
+├── Quando usar API vs App
+├── Provedores (Twilio, Take, Zenvia)
+├── Templates aprovados
+├── Limites e regras
+└── Custos e ROI
 
-PARTE IV: LANDING PAGES
-├── Anatomia da landing page perfeita
-├── Above the fold
-├── Copywriting de landing page
-├── Social proof e testimonials
-├── CTAs que convertem
-├── Formulários otimizados
-└── Thank you pages
+PARTE IV: BROADCASTS E LISTAS
+├── Regras de broadcast (opt-in obrigatório)
+├── Segmentação de listas
+├── Frequência ideal
+├── Conteúdo que engaja
+└── Evitando bloqueios
 
-PARTE V: LEAD MAGNETS
-├── Tipos de lead magnet
-├── Lead magnets por nicho
-├── Criação rápida de lead magnets
-├── Delivery e nurturing
-└── Lead scoring
+PARTE V: AUTOMAÇÕES E CHATBOTS
+├── Fluxos de atendimento
+├── Qualificação de leads
+├── FAQ automatizado
+├── Agendamento
+├── Integração com CRM
+└── Handoff humano
 
-PARTE VI: UPSELLS E ORDER BUMPS
-├── Psicologia do upsell
-├── One-time offers (OTO)
-├── Order bumps
-├── Downsells
-└── Cross-sells
+PARTE VI: WHATSAPP PARA VENDAS
+├── Abordagem consultiva
+├── Scripts de vendas
+├── Objeções comuns
+├── Follow-up sequences
+├── Fechamento por WhatsApp
+└── Pós-venda
 
-PARTE VII: OTIMIZAÇÃO DE CONVERSÃO
-├── CRO fundamentals
-├── A/B testing
-├── Heatmaps e recordings
-├── Análise de funil
-└── Identificação de leaks
-
-PARTE VIII: AUTOMAÇÃO DE FUNIL
-├── Sequências de email
-├── Retargeting
-├── Triggers comportamentais
-├── Segmentação dinâmica
-└── Integrations
-
-MÉTRICAS:
-├── Conversion rate por etapa
-├── Cost per lead
-├── Cost per acquisition
-├── Average order value
-├── Lifetime value
-└── Funnel velocity
-
-TEMPLATES:
-├── Funnel map template
-├── Landing page wireframes
-├── Email sequence templates
-├── A/B test documentation
-└── Funnel audit checklist
-```
-
-### 4. Community Agent v3.0
-
-```
-ESTRUTURA:
-
-PARTE I: A CIÊNCIA DA COMUNIDADE
-├── Psicologia de grupos
-├── Senso de pertencimento
-├── Teoria de identidade social
-└── Community-led growth
-
-PARTE II: TIPOS DE COMUNIDADE
-├── Comunidade de produto
-├── Comunidade de prática
-├── Comunidade de interesse
-├── Comunidade de marca
-└── Comunidade de criadores
-
-PARTE III: PLATAFORMAS DE COMUNIDADE
-├── Discord (setup completo)
-├── Slack
-├── Circle
-├── Facebook Groups
-├── Telegram
-├── Skool
-├── Mighty Networks
-└── Reddit
-
-PARTE IV: ARQUITETURA DE COMUNIDADE
-├── Estrutura de canais
-├── Roles e permissões
-├── Onboarding de membros
-├── Gamification
-├── Eventos de comunidade
-└── Rituais e tradições
-
-PARTE V: COMMUNITY MANAGEMENT
+PARTE VII: GRUPOS E COMUNIDADES
+├── Grupos de clientes
+├── Comunidades WhatsApp
 ├── Moderação
-├── Engajamento diário
-├── Resolução de conflitos
-├── Member spotlights
-├── Conteúdo exclusivo
-└── AMAs e eventos
+├── Engajamento
+└── Monetização de grupos
 
-PARTE VI: CRESCIMENTO DE COMUNIDADE
-├── Launch de comunidade
-├── Aquisição de membros
-├── Retenção e churn
-├── Embaixadores
-└── Referral programs
+PARTE VIII: WHATSAPP + TRÁFEGO PAGO
+├── Click-to-WhatsApp ads
+├── Conversão de lead
+├── Métricas de campanha
+├── Otimização de custo
+└── Remarketing
 
-PARTE VII: MÉTRICAS DE COMUNIDADE
-├── Active members
-├── Engagement rate
-├── Retention rate
-├── NPS de comunidade
-├── Time to first value
-└── Member lifetime value
+PARTE IX: COMPLIANCE E BOAS PRÁTICAS
+├── LGPD no WhatsApp
+├── Opt-in e opt-out
+├── Evitando banimento
+├── Política do WhatsApp
+└── Backup de conversas
 
-PARTE VIII: MONETIZAÇÃO
-├── Comunidades pagas
-├── Tiers de membership
-├── Upsells de comunidade
-└── Community-led sales
+PARTE X: MÉTRICAS E ANÁLISE
+├── Taxa de resposta
+├── Tempo de resposta
+├── Taxa de conversão
+├── Custo por conversa
+├── NPS via WhatsApp
+└── Lifetime value
 
 TEMPLATES:
-├── Community launch checklist
-├── Channel structure template
-├── Onboarding sequence
-├── Event playbook
-└── Moderation guidelines
+├── Scripts de abordagem
+├── Templates de broadcast
+├── Fluxos de chatbot
+├── Mensagens de follow-up
+├── Catálogo otimizado
+└── Relatório de métricas
 ```
 
-### 5. Growth Agent v3.0
+### 21. PR Agent v3.0
 
 ```
 ESTRUTURA:
 
-PARTE I: A CIÊNCIA DO CRESCIMENTO
-├── Growth mindset
-├── Modelo de growth (loops vs funis)
-├── North Star Metric
-└── Growth accounting
+PARTE I: A CIÊNCIA DAS RELAÇÕES PÚBLICAS
+├── Credibilidade de terceiros (earned media)
+├── Psicologia da prova social
+├── PR vs Publicidade paga
+└── ROI de assessoria de imprensa
 
-PARTE II: GROWTH FRAMEWORKS
-├── AARRR (Pirate Metrics)
-├── ICE Scoring
-├── RICE Framework
-├── Growth loops
-├── Flywheels
-└── Bullseye Framework
+PARTE II: ESTRATÉGIA DE PR
+├── Objetivos de PR
+├── Público-alvo (jornalistas, veículos)
+├── Mensagens-chave
+├── Posicionamento para imprensa
+└── Calendário editorial da mídia
 
-PARTE III: GROWTH DOS MESTRES
-├── Airbnb: Growth story
-├── Dropbox: Viral referral
-├── Slack: Product-led growth
-├── HubSpot: Inbound marketing
-└── Notion: Community-led growth
+PARTE III: PRESS RELEASES
+├── Estrutura do press release
+├── Pirâmide invertida
+├── Títulos que geram interesse
+├── Quotes efetivos
+├── Dados e estatísticas
+├── Call to action para jornalistas
+└── Distribuição
 
-PARTE IV: AQUISIÇÃO
-├── Canais de aquisição
-├── Channel-market fit
-├── Paid vs Organic
-├── Viral coefficient
-└── CAC optimization
+PARTE IV: MEDIA KIT
+├── Estrutura do media kit
+├── Sobre a empresa/pessoa
+├── Dados e números
+├── Fotos profissionais
+├── Logos e assets
+├── Contatos de imprensa
+└── Clipping anterior
 
-PARTE V: ATIVAÇÃO
-├── Time to value
-├── Aha moment
-├── Onboarding optimization
-├── Activation metrics
-└── Experimentation
+PARTE V: RELACIONAMENTO COM JORNALISTAS
+├── Identificando jornalistas relevantes
+├── Construindo relacionamento
+├── Pitch personalizado
+├── Follow-up sem ser chato
+├── Sendo fonte confiável
+└── Exclusividade e embargo
 
-PARTE VI: RETENÇÃO
-├── Cohort analysis
-├── Retention curves
-├── Engagement loops
-├── Reactivation campaigns
-└── Churn prevention
+PARTE VI: HARO E OPORTUNIDADES
+├── Como funciona o HARO
+├── Respondendo queries
+├── Profnet e alternativas
+├── LinkedIn para PR
+├── Twitter para jornalistas
+└── Podcasts e entrevistas
 
-PARTE VII: RECEITA
-├── Monetization models
-├── Pricing experiments
-├── Upsell/cross-sell
-├── Expansion revenue
-└── LTV optimization
+PARTE VII: GESTÃO DE CRISE
+├── Preparação para crise
+├── Monitoramento de menções
+├── Protocolo de resposta
+├── Comunicação durante crise
+├── Recuperação de imagem
+└── Aprendizados pós-crise
 
-PARTE VIII: REFERRAL
-├── Viral loops
-├── Referral programs
-├── Word of mouth
-├── Network effects
-└── K-factor
+PARTE VIII: PR DIGITAL
+├── SEO e PR
+├── Backlinks de autoridade
+├── Newsjacking
+├── Trending topics
+├── Influenciadores como PR
+└── Podcast PR
 
-PARTE IX: EXPERIMENTAÇÃO
-├── Cultura de experimentos
-├── Hypothesis design
-├── A/B testing at scale
-├── Statistical significance
-└── Learning documentation
+PARTE IX: MÉTRICAS DE PR
+├── Share of voice
+├── Reach/Impressões
+├── Sentimento das menções
+├── Domain authority ganho
+├── Equivalência publicitária
+└── Leads atribuídos
 
 TEMPLATES:
-├── Growth model canvas
-├── Experiment tracker
-├── ICE scoring sheet
-├── Retention analysis
-└── Growth meeting agenda
+├── Press release template
+├── Media kit template
+├── Pitch email template
+├── Crise communication plan
+├── HARO response template
+└── Clipping report template
+```
+
+### 22. Infoproduct Builder Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: FUNDAMENTOS DE DESIGN INSTRUCIONAL
+├── Taxonomia de Bloom (níveis de aprendizado)
+├── Teoria da carga cognitiva
+├── Andragogia (aprendizado adulto)
+├── Microlearning vs Deep learning
+├── Transformação vs Informação
+├── Curva de aprendizado ideal
+├── Estilos de aprendizagem (visual, auditivo, cinestésico)
+└── Retenção de conhecimento (curva do esquecimento)
+
+PARTE II: TIPOS DE INFOPRODUTOS
+├── Ebooks e guias digitais
+├── Mini-cursos (R$ 47-197)
+├── Cursos completos (R$ 297-997)
+├── Formações e certificações (R$ 997-4.997)
+├── Mentorias em grupo (R$ 1.997-9.997)
+├── Mentorias 1:1 (R$ 5.000-50.000)
+├── Consultorias e assessorias
+├── Workshops e masterclasses
+├── Challenges e bootcamps
+├── Memberships e assinaturas
+├── Templates e ferramentas digitais
+├── Comunidades pagas
+└── Cohort-based courses
+
+PARTE III: CRIAÇÃO DE EBOOKS
+├── Pesquisa e validação do tema
+├── Definição do leitor ideal
+├── Estrutura de capítulos (frameworks)
+├── Outline detalhado passo a passo
+├── Técnicas de escrita persuasiva
+├── Elementos visuais (gráficos, tabelas, infográficos)
+├── Design e diagramação profissional
+├── Formatos de entrega (PDF, EPUB, MOBI)
+├── Call to actions estratégicos
+├── Revisão e edição
+├── Templates de ebook por nicho
+│   ├── Ebook tutorial/how-to
+│   ├── Ebook framework/metodologia
+│   ├── Ebook guia completo
+│   ├── Ebook checklist/workbook
+│   └── Ebook case studies
+└── Exemplos anotados
+
+PARTE IV: DESIGN DE CURSOS
+├── Análise de resultado desejado (outcome)
+├── Mapeamento de competências
+├── Backward design (do fim para o início)
+├── Estruturação de módulos
+│   ├── Módulo de boas-vindas/fundação
+│   ├── Módulos de conteúdo core
+│   ├── Módulos de aplicação prática
+│   └── Módulo de conclusão/próximos passos
+├── Sequenciamento lógico de conteúdo
+├── Duração ideal por formato
+│   ├── Mini-curso: 1-3 horas
+│   ├── Curso completo: 5-15 horas
+│   └── Formação: 20-50+ horas
+├── Milestone checkpoints
+├── Avaliações e certificação
+├── Templates de currículo por nicho
+│   ├── Curso técnico/skill
+│   ├── Curso de transformação
+│   ├── Curso de metodologia
+│   └── Curso de implementação
+└── Exemplos de estrutura comentados
+
+PARTE V: CRIAÇÃO DE AULAS
+├── Estrutura de aula efetiva
+│   ├── Hook (gancho de abertura)
+│   ├── Contexto (por que isso importa)
+│   ├── Conteúdo core (o que aprender)
+│   ├── Demonstração (como fazer)
+│   ├── Exercício prático
+│   └── Resumo e próximos passos
+├── Roteiros completos de aula
+├── Storytelling educacional
+├── Demonstrações e exemplos práticos
+├── Slides efetivos (design instrucional)
+│   ├── Regra do 6x6
+│   ├── Hierarquia visual
+│   ├── Uso de imagens e diagramas
+│   └── Templates de slides
+├── Timing e ritmo de aula
+├── Técnicas de engajamento
+├── Gravação e produção
+│   ├── Setup de gravação
+│   ├── Iluminação e áudio
+│   ├── Edição básica
+│   └── Pós-produção
+├── Scripts prontos por tipo de aula
+│   ├── Aula conceitual
+│   ├── Aula prática/tutorial
+│   ├── Aula de estudo de caso
+│   ├── Aula de Q&A
+│   └── Aula de revisão
+└── Checklist de qualidade de aula
+
+PARTE VI: MATERIAIS COMPLEMENTARES
+├── Workbooks e apostilas
+│   ├── Estrutura de workbook
+│   ├── Exercícios de reflexão
+│   ├── Exercícios de aplicação
+│   └── Templates prontos
+├── Worksheets e planilhas
+│   ├── Planilhas de planejamento
+│   ├── Trackers de progresso
+│   ├── Calculadoras
+│   └── Frameworks visuais
+├── Checklists de implementação
+├── Templates e frameworks
+│   ├── Templates Notion
+│   ├── Templates Google Docs/Sheets
+│   ├── Templates Canva
+│   └── Scripts e swipe files
+├── Estudos de caso detalhados
+├── Quizzes e avaliações
+│   ├── Quiz de conhecimento
+│   ├── Quiz de auto-avaliação
+│   └── Avaliação final/certificação
+├── Recursos adicionais (links, livros, ferramentas)
+├── FAQs e troubleshooting
+└── Templates prontos para cada tipo
+
+PARTE VII: DESIGN DE MENTORIAS
+├── Mentoria 1:1 vs Grupo
+├── Definindo o formato ideal
+│   ├── Duração do programa (3, 6, 12 meses)
+│   ├── Frequência de encontros
+│   ├── Canais de comunicação
+│   └── Nível de acesso
+├── Estrutura de sessões
+│   ├── Sessão de diagnóstico inicial
+│   ├── Sessões de acompanhamento
+│   ├── Sessões de implementação
+│   └── Sessão de encerramento
+├── Frameworks de diagnóstico
+│   ├── Mapeamento de situação atual
+│   ├── Definição de metas
+│   ├── Identificação de gaps
+│   └── Plano de ação
+├── Metodologia de acompanhamento
+│   ├── Check-ins regulares
+│   ├── Métricas de progresso
+│   ├── Feedback estruturado
+│   └── Ajustes de rota
+├── Ferramentas de mentoria
+│   ├── Notion/Asana para gestão
+│   ├── Loom para feedbacks
+│   ├── Calendly para agendamento
+│   └── Zoom/Meet para sessões
+├── Accountability systems
+├── Documentação e resultados
+├── Precificação de mentoria
+├── Contratos e termos
+└── Templates de mentoria
+
+PARTE VIII: FRAMEWORKS DE CONSULTORIA
+├── Metodologias de consultoria
+│   ├── Consultoria diagnóstica
+│   ├── Consultoria de implementação
+│   ├── Consultoria estratégica
+│   └── Consultoria done-for-you
+├── Processo de diagnóstico
+│   ├── Briefing inicial
+│   ├── Análise de dados
+│   ├── Entrevistas/Discovery
+│   └── Mapeamento de oportunidades
+├── Proposta de valor
+│   ├── Estrutura de proposta
+│   ├── Escopo de trabalho
+│   ├── Deliverables claros
+│   └── Timeline e milestones
+├── Deliverables e entregáveis
+│   ├── Relatórios
+│   ├── Planos de ação
+│   ├── Playbooks
+│   ├── SOPs
+│   └── Treinamentos
+├── Processos e workflows
+├── Apresentação de resultados
+├── Follow-up e retenção
+├── Precificação de consultoria
+│   ├── Por projeto
+│   ├── Por hora
+│   ├── Retainer mensal
+│   └── Value-based pricing
+└── Templates de consultoria
+
+PARTE IX: WORKSHOPS E MASTERCLASSES
+├── Tipos de workshops
+│   ├── Workshop online ao vivo
+│   ├── Workshop presencial
+│   ├── Masterclass gravada
+│   └── Imersão intensiva
+├── Design de workshop
+│   ├── Definição de objetivo único
+│   ├── Estrutura de 3h
+│   ├── Estrutura de 1 dia
+│   ├── Estrutura de 2+ dias
+│   └── Breaks e energizers
+├── Dinâmicas e exercícios
+│   ├── Exercícios individuais
+│   ├── Exercícios em grupo
+│   ├── Discussões guiadas
+│   └── Hands-on practice
+├── Materiais do participante
+│   ├── Workbook do workshop
+│   ├── Slides de acompanhamento
+│   └── Recursos pós-workshop
+├── Facilitação efetiva
+│   ├── Técnicas de facilitação
+│   ├── Gestão de tempo
+│   ├── Engajamento de participantes
+│   └── Lidando com desafios
+├── Follow-up pós-workshop
+├── Gravação e repurposing
+└── Templates de workshop
+
+PARTE X: CHALLENGES E BOOTCAMPS
+├── Estrutura de challenge
+│   ├── Challenge de 5 dias
+│   ├── Challenge de 7 dias
+│   ├── Challenge de 14 dias
+│   └── Challenge de 21 dias
+├── Design de conteúdo diário
+│   ├── Dia 1: Fundação
+│   ├── Dias 2-N: Implementação
+│   └── Dia final: Consolidação + oferta
+├── Engajamento e comunidade
+│   ├── Grupo de WhatsApp/Telegram
+│   ├── Lives diárias
+│   ├── Missões e tarefas
+│   └── Celebração de wins
+├── Gamification
+│   ├── Pontos e rankings
+│   ├── Badges e conquistas
+│   ├── Prêmios e reconhecimento
+│   └── Competição saudável
+├── Conversão para produto pago
+│   ├── Pitch durante o challenge
+│   ├── Oferta especial de encerramento
+│   ├── Bônus de ação rápida
+│   └── Sequência de follow-up
+├── Automações de challenge
+│   ├── Emails automáticos
+│   ├── Lembretes
+│   └── Entrega de conteúdo
+└── Templates de challenge
+
+PARTE XI: MEMBERSHIPS E ASSINATURAS
+├── Modelos de membership
+│   ├── Biblioteca de conteúdo
+│   ├── Comunidade + conteúdo
+│   ├── Mentoria em grupo contínua
+│   └── Software/ferramenta + educação
+├── Conteúdo recorrente
+│   ├── Frequência de publicação
+│   ├── Tipos de conteúdo
+│   ├── Calendário editorial
+│   └── Balanceando evergreen + novo
+├── Biblioteca de recursos
+├── Comunidade ativa
+│   ├── Plataforma (Circle, Discord, Skool)
+│   ├── Engajamento
+│   ├── Moderação
+│   └── Eventos exclusivos
+├── Eventos de membros
+│   ├── Lives mensais
+│   ├── Q&As
+│   ├── Workshops exclusivos
+│   └── Encontros presenciais
+├── Retenção e redução de churn
+│   ├── Onboarding de novos membros
+│   ├── Engajamento contínuo
+│   ├── Pesquisas de satisfação
+│   └── Win-back campaigns
+├── Precificação de assinatura
+├── Escada de valor (upsells)
+└── Métricas de membership
+
+PARTE XII: TEMPLATES E FERRAMENTAS DIGITAIS
+├── Tipos de templates
+│   ├── Templates Notion
+│   ├── Templates Google Workspace
+│   ├── Templates Canva
+│   ├── Templates Excel/Sheets
+│   ├── Templates Figma
+│   └── Prompts de IA
+├── Criação de ferramentas
+│   ├── Calculadoras
+│   ├── Geradores
+│   ├── Dashboards
+│   └── Automações
+├── Documentação e tutoriais
+│   ├── Guia de uso
+│   ├── Vídeos tutoriais
+│   └── FAQs
+├── Suporte e atualizações
+├── Licenciamento
+│   ├── Uso pessoal
+│   ├── Uso comercial
+│   └── Revenda
+└── Distribuição e entrega
+
+PARTE XIII: VALIDAÇÃO E LANÇAMENTO
+├── Validação antes de criar
+│   ├── Pesquisa de mercado
+│   ├── Pesquisa com audiência
+│   ├── Análise de concorrência
+│   └── Pré-venda
+├── MVP de infoproduto
+│   ├── Versão mínima viável
+│   ├── Beta testers
+│   └── Iteração baseada em feedback
+├── Precificação estratégica
+│   ├── Valor baseado em transformação
+│   ├── Âncoras de preço
+│   ├── Parcelamento
+│   ├── Bônus e stack
+│   └── Garantias
+├── Plataformas de hospedagem
+│   ├── Hotmart
+│   ├── Kiwify
+│   ├── Eduzz
+│   ├── Teachable
+│   ├── Kajabi
+│   └── Área própria
+├── Lançamento
+│   ├── Lançamento semente
+│   ├── Lançamento perpétuo
+│   ├── Lançamento meteórico
+│   └── Evergreen automation
+└── Métricas de sucesso
+
+APÊNDICE A: TEMPLATES DE EBOOK
+├── A.1 Estrutura: Ebook Tutorial (How-To)
+├── A.2 Estrutura: Ebook Framework/Metodologia
+├── A.3 Estrutura: Ebook Guia Completo
+├── A.4 Estrutura: Ebook Checklist/Workbook
+└── A.5 Estrutura: Ebook Case Studies
+
+APÊNDICE B: TEMPLATES DE CURRÍCULO
+├── B.1 Currículo: Curso Técnico/Skill
+├── B.2 Currículo: Curso de Transformação
+├── B.3 Currículo: Curso de Metodologia
+├── B.4 Currículo: Curso de Implementação
+└── B.5 Currículo: Mini-curso de Entrada
+
+APÊNDICE C: SCRIPTS DE AULA
+├── C.1 Script: Aula Conceitual
+├── C.2 Script: Aula Tutorial Prático
+├── C.3 Script: Aula de Estudo de Caso
+├── C.4 Script: Aula de Q&A
+├── C.5 Script: Aula de Boas-Vindas
+└── C.6 Script: Aula de Encerramento
+
+APÊNDICE D: TEMPLATES DE WORKBOOK
+├── D.1 Exercícios de Reflexão
+├── D.2 Exercícios de Planejamento
+├── D.3 Exercícios de Implementação
+├── D.4 Trackers de Progresso
+└── D.5 Checklists de Ação
+
+APÊNDICE E: FRAMEWORKS DE MENTORIA
+├── E.1 Framework: Sessão de Diagnóstico
+├── E.2 Framework: Sessão de Acompanhamento
+├── E.3 Framework: Plano de Ação
+├── E.4 Template: Contrato de Mentoria
+└── E.5 Template: Relatório de Progresso
+
+APÊNDICE F: TEMPLATES DE CONSULTORIA
+├── F.1 Template: Proposta Comercial
+├── F.2 Template: Relatório de Diagnóstico
+├── F.3 Template: Plano de Ação
+├── F.4 Template: Playbook de Implementação
+└── F.5 Template: Relatório Final
+
+APÊNDICE G: ESTRUTURAS DE WORKSHOP
+├── G.1 Estrutura: Workshop 3 Horas
+├── G.2 Estrutura: Workshop 1 Dia
+├── G.3 Estrutura: Imersão 2 Dias
+├── G.4 Template: Workbook do Participante
+└── G.5 Checklist: Facilitação
+
+APÊNDICE H: CALENDÁRIOS DE CHALLENGE
+├── H.1 Calendário: Challenge 5 Dias
+├── H.2 Calendário: Challenge 7 Dias
+├── H.3 Calendário: Challenge 21 Dias
+├── H.4 Sequência de Emails
+└── H.5 Scripts de Lives Diárias
+
+APÊNDICE I: CHECKLISTS DE PRODUÇÃO
+├── I.1 Checklist: Criação de Ebook
+├── I.2 Checklist: Criação de Curso
+├── I.3 Checklist: Criação de Mentoria
+├── I.4 Checklist: Criação de Workshop
+├── I.5 Checklist: Lançamento
+└── I.6 Checklist: Qualidade Final
+```
+
+### 23. Reputation Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: A CIÊNCIA DA REPUTAÇÃO
+├── Psicologia da confiança
+├── Social proof e decisão de compra
+├── 93% leem reviews antes de comprar
+└── Impacto de reviews negativas
+
+PARTE II: GESTÃO DE REVIEWS
+├── Google Meu Negócio
+├── Reclame Aqui
+├── TripAdvisor
+├── Trustpilot
+├── Reviews de produto (Amazon, ML)
+├── App Store / Play Store
+└── Reviews em redes sociais
+
+PARTE III: GERAÇÃO DE REVIEWS POSITIVAS
+├── Timing do pedido
+├── Canais para solicitar
+├── Incentivos (permitidos vs proibidos)
+├── Automação de solicitação
+├── Follow-up para reviews
+└── Programa de embaixadores
+
+PARTE IV: RESPOSTA A REVIEWS
+├── Respondendo reviews positivas
+├── Respondendo reviews negativas
+├── Tom e linguagem
+├── Transformando detrator em promotor
+├── Quando não responder
+└── Templates de resposta
+
+PARTE V: GESTÃO DE CRISE
+├── Monitoramento em tempo real
+├── Alertas e notificações
+├── Protocolo de resposta rápida
+├── Comunicação transparente
+├── Compensação e resolução
+└── Recuperação de imagem
+
+PARTE VI: NPS E PESQUISAS
+├── Implementando NPS
+├── Pesquisas de satisfação
+├── CSAT (Customer Satisfaction)
+├── CES (Customer Effort Score)
+├── Análise de feedback
+└── Ações baseadas em dados
+
+PARTE VII: MONITORAMENTO DE MARCA
+├── Google Alerts
+├── Mention
+├── Brand24
+├── Social listening
+├── Análise de sentimento
+└── Relatórios de reputação
+
+PARTE VIII: REPUTAÇÃO PESSOAL
+├── Personal branding
+├── LinkedIn reputation
+├── Google results pessoais
+├── Limpeza de resultados negativos
+└── Construção de autoridade
+
+TEMPLATES:
+├── Review request templates
+├── Response templates (positivo/negativo)
+├── Crisis communication plan
+├── NPS survey template
+├── Reputation report template
+└── Monitoring setup guide
+```
+
+### 24. UGC Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: A CIÊNCIA DO UGC
+├── Por que UGC converte 4x mais
+├── Autenticidade e confiança
+├── FOMO e social proof
+└── UGC vs Branded content
+
+PARTE II: TIPOS DE UGC
+├── Reviews e depoimentos
+├── Unboxing
+├── Before/After
+├── How I use it
+├── Testimonials em vídeo
+├── User photos
+└── Community content
+
+PARTE III: COLETA DE UGC
+├── Pedindo para clientes
+├── Hashtags de marca
+├── Concursos e desafios
+├── Incentivos para criação
+├── Programa de embaixadores
+└── Ferramentas de coleta
+
+PARTE IV: CURADORIA E DIREITOS
+├── Seleção de conteúdo
+├── Pedindo permissão
+├── Termos de uso
+├── Créditos e atribuição
+├── Direitos de imagem
+└── Compliance legal
+
+PARTE V: USO DE UGC
+├── UGC em ads (Meta, TikTok)
+├── UGC em landing pages
+├── UGC em email marketing
+├── UGC em social media
+├── UGC em produto
+└── UGC em testimonials
+
+PARTE VI: UGC CREATORS
+├── Diferença UGC Creator vs Influencer
+├── Encontrando UGC Creators
+├── Brief para UGC
+├── Precificação
+├── Contratos
+└── Feedback e iteração
+
+PARTE VII: PLATAFORMAS E FERRAMENTAS
+├── TINT
+├── Yotpo
+├── Bazaarvoice
+├── Billo
+├── Insense
+└── Showcase
+
+PARTE VIII: MÉTRICAS DE UGC
+├── Volume de UGC gerado
+├── Engagement rate do UGC
+├── Conversion rate com UGC
+├── Custo por UGC
+├── ROI de campanhas UGC
+└── Sentiment analysis
+
+TEMPLATES:
+├── UGC request email
+├── Creator brief template
+├── Rights request template
+├── Contest rules template
+├── UGC performance report
+└── Ambassador program guide
+```
+
+### 25. Thought Leadership Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: A CIÊNCIA DA AUTORIDADE
+├── Por que experts vendem mais
+├── Psicologia da expertise
+├── Halo effect
+└── Premium pricing para autoridades
+
+PARTE II: POSICIONAMENTO DE AUTORIDADE
+├── Nicho de expertise
+├── Ponto de vista único (POV)
+├── Metodologia proprietária
+├── Território de conteúdo
+└── Diferenciação de outros experts
+
+PARTE III: CONTEÚDO DE AUTORIDADE
+├── Artigos opinativos
+├── Pesquisas e dados próprios
+├── Frameworks originais
+├── Previsões e tendências
+├── Controvérsias e debates
+└── Manifestos
+
+PARTE IV: LINKEDIN PARA THOUGHT LEADERSHIP
+├── Perfil otimizado para autoridade
+├── Posts de opinião
+├── Artigos longos
+├── Newsletter LinkedIn
+├── Comentários estratégicos
+└── Engajamento com pares
+
+PARTE V: PALESTRAS E EVENTOS
+├── Como conseguir convites
+├── Estrutura de palestra
+├── Speaker kit
+├── Precificação
+├── TEDx e grandes palcos
+└── Podcasts como convidado
+
+PARTE VI: PUBLICAÇÕES E MÍDIA
+├── Artigos em veículos
+├── Colunas fixas
+├── Livro como autoridade
+├── Entrevistas para mídia
+├── Contribuição em pesquisas
+└── Citações e menções
+
+PARTE VII: CONSTRUÇÃO DE REDE
+├── Networking com pares
+├── Mastermind groups
+├── Associações e conselhos
+├── Mentoria de outros
+└── Colaborações estratégicas
+
+PARTE VIII: MÉTRICAS DE AUTORIDADE
+├── Share of voice no nicho
+├── Convites para palestras
+├── Citações em mídia
+├── Seguidores qualificados
+├── Leads inbound
+└── Premium pricing
+
+TEMPLATES:
+├── POV statement template
+├── LinkedIn post templates
+├── Speaker kit template
+├── Pitch para veículos
+├── Methodology framework
+└── Authority content calendar
+```
+
+### 26. Competitive Intelligence Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: FUNDAMENTOS DE INTELIGÊNCIA COMPETITIVA
+├── O que é CI (Competitive Intelligence)
+├── Inteligência vs Espionagem
+├── Ética em CI
+└── ROI de CI
+
+PARTE II: MAPEAMENTO DE CONCORRENTES
+├── Concorrentes diretos
+├── Concorrentes indiretos
+├── Substitutos
+├── Novos entrantes
+├── Priorização de monitoramento
+└── Competitor profiles
+
+PARTE III: COLETA DE DADOS
+├── Websites e landing pages
+├── Redes sociais
+├── Ads Library (Meta, Google)
+├── SEO e keywords
+├── Pricing e ofertas
+├── Conteúdo e messaging
+├── Reviews de clientes
+└── Job postings
+
+PARTE IV: FERRAMENTAS DE CI
+├── SEMrush
+├── SimilarWeb
+├── SpyFu
+├── Ahrefs
+├── Meta Ads Library
+├── BuiltWith
+└── Owler
+
+PARTE V: ANÁLISE COMPETITIVA
+├── SWOT analysis
+├── Positioning maps
+├── Feature comparison
+├── Pricing analysis
+├── Content gap analysis
+├── Channel analysis
+└── Customer perception
+
+PARTE VI: BATTLECARDS
+├── O que são battlecards
+├── Estrutura de battlecard
+├── Objeções e respostas
+├── Win/Loss analysis
+├── Atualização contínua
+└── Distribuição para equipe
+
+PARTE VII: OPORTUNIDADES E AMEAÇAS
+├── Gaps de mercado
+├── Fraquezas dos concorrentes
+├── Movimentos estratégicos
+├── Tendências do setor
+├── Early warning signals
+└── Scenario planning
+
+PARTE VIII: REPORTS E APRESENTAÇÕES
+├── Competitive landscape report
+├── Monthly competitor update
+├── Quarterly strategy review
+├── Ad hoc alerts
+└── Executive summaries
+
+TEMPLATES:
+├── Competitor profile template
+├── SWOT template
+├── Battlecard template
+├── Win/Loss analysis template
+├── Monthly CI report
+└── Competitive dashboard
+```
+
+### 27. Trend Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: A CIÊNCIA DAS TENDÊNCIAS
+├── Ciclo de adoção de tendências
+├── Viral mechanics
+├── Timing e relevância
+└── Risco de trend-jacking
+
+PARTE II: IDENTIFICAÇÃO DE TENDÊNCIAS
+├── Google Trends
+├── Twitter/X Trending
+├── TikTok Discover
+├── Reddit
+├── Exploding Topics
+├── Trend Hunter
+└── Newsletters de tendências
+
+PARTE III: TIPOS DE TENDÊNCIAS
+├── Macro trends (anos)
+├── Micro trends (meses)
+├── Viral moments (dias/horas)
+├── Seasonal trends
+├── Industry trends
+└── Cultural moments
+
+PARTE IV: NEWSJACKING
+├── O que é newsjacking
+├── Quando fazer (timing)
+├── Como conectar à marca
+├── Riscos e cuidados
+├── Exemplos de sucesso
+└── Exemplos de fracasso
+
+PARTE V: TREND ADAPTATION
+├── Adaptar para seu nicho
+├── Manter autenticidade
+├── Velocidade de execução
+├── Qualidade vs Rapidez
+└── When NOT to trend-jack
+
+PARTE VI: CALENDÁRIO DE TRENDS
+├── Datas comemorativas
+├── Eventos do setor
+├── Lançamentos previsíveis
+├── Sazonalidade
+├── Planejamento antecipado
+└── Conteúdo evergreen vs trendy
+
+PARTE VII: FERRAMENTAS E MONITORAMENTO
+├── Google Alerts
+├── TweetDeck
+├── Feedly
+├── Trend monitoring tools
+├── Social listening
+└── Competitor trend tracking
+
+PARTE VIII: MÉTRICAS DE TREND CONTENT
+├── Velocidade de publicação
+├── Engagement vs evergreen
+├── Reach amplification
+├── Brand mention increase
+├── Virality coefficient
+└── ROI de trends
+
+TEMPLATES:
+├── Trend monitoring dashboard
+├── Newsjacking checklist
+├── Seasonal calendar
+├── Trend evaluation framework
+├── Quick-response workflow
+└── Trend content templates
+```
+
+### 28. Legal/Compliance Agent v3.0
+
+```
+ESTRUTURA:
+
+PARTE I: FUNDAMENTOS LEGAIS DE MARKETING
+├── Marco Civil da Internet
+├── Código de Defesa do Consumidor
+├── LGPD (Lei Geral de Proteção de Dados)
+├── CONAR (Publicidade)
+└── Direito autoral
+
+PARTE II: LGPD PARA MARKETING
+├── O que é dado pessoal
+├── Bases legais (consentimento, legítimo interesse)
+├── Política de privacidade
+├── Cookies e rastreamento
+├── Email marketing e LGPD
+├── Ads e LGPD
+└── Penalidades e multas
+
+PARTE III: TERMOS E POLÍTICAS
+├── Termos de uso
+├── Política de privacidade
+├── Política de cookies
+├── Termos de compra
+├── Política de reembolso
+└── Disclaimer de resultados
+
+PARTE IV: PUBLICIDADE E CONAR
+├── Regras de publicidade
+├── Testemunhais
+├── Comparação com concorrentes
+├── Promoções e sorteios
+├── Publicidade infantil
+└── Claims e promessas
+
+PARTE V: CONTRATOS DIGITAIS
+├── Contrato de prestação de serviço
+├── Contrato com influenciadores
+├── Contrato de afiliados
+├── Licenciamento de conteúdo
+├── NDA (confidencialidade)
+└── Termos de parceria
+
+PARTE VI: PROPRIEDADE INTELECTUAL
+├── Direito autoral de conteúdo
+├── Uso de imagens (licenças)
+├── Música e áudio
+├── Marcas registradas
+├── Patentes
+└── Trade secrets
+
+PARTE VII: COMPLIANCE DE PLATAFORMAS
+├── Políticas do Meta (Facebook/Instagram)
+├── Políticas do Google
+├── Políticas do TikTok
+├── Políticas do LinkedIn
+├── Políticas de email (CAN-SPAM, etc)
+└── Políticas de pagamento
+
+PARTE VIII: GESTÃO DE RISCOS
+├── Auditoria de compliance
+├── Checklist de conformidade
+├── Documentação necessária
+├── Quando consultar advogado
+├── Seguros
+└── Resposta a notificações
+
+TEMPLATES:
+├── Política de privacidade template
+├── Termos de uso template
+├── Disclaimer templates
+├── Contrato de influenciador
+├── Checklist LGPD
+├── Audit compliance checklist
 ```
 
 ---
 
-## Dependências Entre Agentes
+## Dependências Entre Agentes (Atualizado)
 
 ```
-                            BRAND AGENT
-                                 │
-                    ┌────────────┼────────────┐
-                    ↓            ↓            ↓
-            STORYTELLING    COPY AGENT    SOCIAL AGENT
-                    │            │            │
-                    └─────┬──────┴─────┬──────┘
-                          ↓            ↓
-                    FUNNEL AGENT   COMMUNITY AGENT
-                          │            │
-              ┌───────────┼───────────┼───────────┐
-              ↓           ↓           ↓           ↓
-         E-COMMERCE   AFFILIATE   INFLUENCER    CRM
-              │           │           │           │
-              └───────────┴─────┬─────┴───────────┘
-                                ↓
-                          GROWTH AGENT
-                                │
-                    ┌───────────┼───────────┐
-                    ↓           ↓           ↓
-              AUTOMATION   ANALYTICS   LOCALIZATION
-                    │           │           │
-                    └─────┬─────┴─────┬─────┘
-                          ↓           ↓
-                    EVENT AGENT   LAUNCH AGENT
-                          │           │
-                          └─────┬─────┘
-                                ↓
-                         WEBINAR AGENT
+                                    BRAND AGENT
+                                         │
+                        ┌────────────────┼────────────────┐
+                        ↓                ↓                ↓
+              STORYTELLING AGENT    COPY AGENT     THOUGHT LEADERSHIP
+                        │                │                │
+                        └───────┬────────┴────────┬───────┘
+                                ↓                 ↓
+                          FUNNEL AGENT      SOCIAL AGENT
+                                │                 │
+                  ┌─────────────┼─────────────────┼─────────────┐
+                  ↓             ↓                 ↓             ↓
+            E-COMMERCE    AFFILIATE         COMMUNITY    WHATSAPP AGENT
+                  │             │                 │             │
+                  └──────┬──────┴────────┬────────┴──────┬──────┘
+                         ↓               ↓               ↓
+                    CRM AGENT      INFLUENCER      UGC AGENT
+                         │               │               │
+                         └───────┬───────┴───────┬───────┘
+                                 ↓               ↓
+                           EMAIL AGENT     ADS AGENT
+                                 │               │
+                  ┌──────────────┼───────────────┼──────────────┐
+                  ↓              ↓               ↓              ↓
+            AUTOMATION     GROWTH AGENT    ANALYTICS    REPURPOSING
+                  │              │               │              │
+                  └──────┬───────┴───────┬───────┴──────┬───────┘
+                         ↓               ↓              ↓
+                   COURSE AGENT    EVENT AGENT    PR AGENT
+                         │               │              │
+              ┌──────────┼───────────────┼──────────────┼──────────┐
+              ↓          ↓               ↓              ↓          ↓
+         WEBINAR    LAUNCH AGENT   REPUTATION    COMPETITIVE    TREND
+              │          │               │         INTEL           │
+              └────┬─────┴───────┬───────┴────────────┬────────────┘
+                   ↓             ↓                    ↓
+             LOCALIZATION   LEGAL/COMPLIANCE    AI TOOLS + RESEARCH
 ```
 
 ---
@@ -609,7 +1456,7 @@ TEMPLATES:
 
 ### Estrutura (Esqueleto)
 - [ ] Identidade do Agente definida
-- [ ] 8-10 partes principais mapeadas
+- [ ] 8-13 partes principais mapeadas
 - [ ] Subseções detalhadas em cada parte
 - [ ] Templates identificados
 - [ ] Checklists planejados
@@ -621,11 +1468,11 @@ TEMPLATES:
 - [ ] Parte IV: Formatos e Variações
 - [ ] Parte V: Ferramentas e Stack
 - [ ] Parte VI: Métricas e KPIs
-- [ ] Parte VII: Templates Executáveis
-- [ ] Parte VIII: Casos de Estudo
+- [ ] Parte VII+: Conteúdo específico
+- [ ] Apêndice: Glossário e recursos
 
 ### Qualidade (Revisão)
-- [ ] Mínimo 2.500 linhas
+- [ ] Mínimo 2.500 linhas (preferencialmente 3.000+)
 - [ ] Tabelas e diagramas ASCII incluídos
 - [ ] Exemplos práticos em cada seção
 - [ ] Checklists acionáveis
@@ -644,25 +1491,60 @@ TEMPLATES:
 
 ## Métricas de Sucesso do Projeto
 
-| Métrica | Atual | Meta |
-|---------|-------|------|
-| Total de Subagentes | 11 | 25 |
-| Linhas Totais | 21.669 | 70.000+ |
-| Média por Agente | 1.970 | 2.800+ |
-| Agentes v3.0 (3000+ linhas) | 4 | 20+ |
-| Cobertura de Marketing | 60% | 95%+ |
+| Métrica | Atual | Meta Original | Nova Meta |
+|---------|-------|---------------|-----------|
+| Total de Subagentes | 15 | 25 | **35** |
+| Linhas Totais | 40.461 | 70.000+ | **98.000+** |
+| Média por Agente | 2.697 | 2.800+ | **2.800+** |
+| Agentes v3.0 (3000+ linhas) | 11 | 20+ | **30+** |
+| Cobertura de Marketing | 75% | 95%+ | **100%** |
 
 ---
 
-## Ordem de Execução Sugerida
+## Ordem de Execução Recomendada
 
+### Prioridade 1: Críticos (fazer primeiro)
 ```
-SEMANA 1-2:   Brand Agent → Storytelling Agent
-SEMANA 3-4:   Funnel Agent → E-commerce Agent → Affiliate Agent
-SEMANA 5-6:   Community Agent → Influencer Agent → CRM Agent
-SEMANA 7-8:   Growth Agent → Automation Agent → Localization Agent
-SEMANA 9-10:  Event Agent → Webinar Agent → Launch Agent
-SEMANA 11-12: Expandir Copy, Analytics, Ads, Email Agents
+1. Repurposing Agent         → Multiplica TODO o trabalho
+2. WhatsApp Agent            → Canal #1 no Brasil
+3. Infoproduct Builder Agent → Construção completa de produtos digitais
+4. Expandir Funnel           → Base para vendas
+```
+
+### Prioridade 2: Importantes
+```
+5. PR Agent             → Credibilidade
+6. E-commerce Agent     → Monetização
+7. Reputation Agent     → Confiança
+8. Expandir Brand       → Fundação
+9. Expandir Growth      → Escala
+```
+
+### Prioridade 3: Completude
+```
+10. Community Agent
+11. UGC Agent
+12. Influencer Agent
+13. Affiliate Agent
+14. CRM Agent
+15. Automation Agent
+```
+
+### Prioridade 4: Diferenciais
+```
+16. Thought Leadership Agent
+17. Competitive Intelligence Agent
+18. Event Agent
+19. Webinar Agent
+20. Launch Agent
+```
+
+### Prioridade 5: Finalizações
+```
+21. Expandir Storytelling
+22. Localization Agent
+23. Trend Agent
+24. Legal/Compliance Agent
 ```
 
 ---
@@ -679,6 +1561,20 @@ O agente será criado seguindo este plano e sincronizado automaticamente.
 
 ---
 
-*Plano de Expansão v1.0*
+## Resumo Final
+
+| Categoria | Quantidade |
+|-----------|------------|
+| Agentes completos (v3.0) | 11 |
+| Agentes para expandir | 4 |
+| Agentes para criar (plano original) | 10 |
+| Agentes NOVOS adicionados | 10 |
+| **TOTAL FINAL** | **35 subagentes** |
+| **LINHAS PROJETADAS** | **~98.000** |
+
+---
+
+*Plano de Expansão v2.0*
 *Meta: O Sistema de Criação de Conteúdo Mais Completo do Planeta*
-*Total Projetado: 25 Subagentes | 70.000+ Linhas de Documentação*
+*Total Projetado: 35 Subagentes | ~98.000 Linhas de Documentação*
+*Cobertura: 100% das necessidades de marketing digital*
