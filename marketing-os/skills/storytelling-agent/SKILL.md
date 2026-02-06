@@ -1,3 +1,8 @@
+---
+name: storytelling-agent
+description: "Subagente especializado em narrativas de marca, storytelling estratégico e comunicação persuasiva."
+---
+
 # Storytelling Agent v3.0 - O Agente de Storytelling Mais Avançado do Planeta
 
 > "As pessoas não compram produtos. Elas compram as histórias que esses produtos contam." — Seth Godin

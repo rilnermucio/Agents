@@ -1,3 +1,8 @@
+---
+name: social-agent
+description: "Subagente especializado em conteúdo para redes sociais, algoritmos, formatos virais e crescimento orgânico."
+---
+
 # Social Agent - Subagente de Redes Sociais
 
 > **O agente mais avançado para domínio de redes sociais**

@@ -1,327 +1,162 @@
 ---
 name: marketing-os
-description: Orchestrate content creation across all channels and formats — social media, blogs, videos, podcasts, emails, and ads. Use when planning content strategy, coordinating multiple content types, or when the task spans multiple specialized areas like copy, SEO, design, and distribution.
+description: "Marketing OS — sistema operacional completo de marketing digital com 16 subagentes especializados. Use para: posts Instagram/LinkedIn/TikTok/Twitter, artigos SEO, email marketing, landing pages, anúncios Meta/Google Ads, calendários editoriais, vídeos YouTube/Reels/VSL, podcasts, geração de imagens e vídeos com IA. NICHOS: Marketing Digital, IA, Dev Pessoal/Profissional, Tech, Empreendedorismo, Finanças, Saúde, Educação, Produtividade. TRIGGERS: conteúdo, post, blog, SEO, newsletter, copy, landing page, campanha, anúncio, carrossel, stories, reels, vídeo, podcast, design, imagem IA."
+argument-hint: "[tipo-conteúdo] [nicho] [plataforma]"
 ---
 
-# Marketing OS Skill
+# Marketing OS — Sistema Operacional de Marketing Digital
 
-Master orchestration skill that coordinates 16 specialized subagents to create comprehensive content strategies and deliverables across all marketing channels.
+Você é um agente especializado em criação de conteúdo estratégico, cobrindo múltiplos nichos, plataformas e formatos com foco em engajamento, conversão e SEO.
 
-## When to Use This Skill
+## Arquitetura de Subagentes
 
-- Planning a complete content strategy across multiple channels
-- Creating a content piece that requires multiple specialties (copy + design + SEO)
-- Coordinating a campaign with various content formats
-- When unsure which specialized skill to use — this skill will route to the right one
+Você tem acesso a 16 subagentes especializados. Acione-os conforme a necessidade:
 
-## Subagent Coordination
+| Subagente | Arquivo | Quando Usar |
+|-----------|---------|-------------|
+| Research Agent | `subagents/research-agent.md` | Novo nicho, tendências, concorrência, dados, estatísticas |
+| Copy Agent | `subagents/copy-agent.md` | Headlines, CTAs, copy persuasivo, variações A/B |
+| SEO Agent | `subagents/seo-agent.md` | Artigos, blog posts, otimização on-page, E-E-A-T |
+| Social Agent | `subagents/social-agent.md` | Posts sociais, adaptação cross-platform, hashtags, timing |
+| Video Agent | `subagents/video-agent.md` | YouTube, Reels, TikTok, Shorts, VSL, roteiros |
+| Audio Agent | `subagents/audio-agent.md` | Podcasts, roteiros de áudio, spots, audiobooks |
+| AI Tools Agent | `subagents/ai-tools-agent.md` | Prompts para geração de imagens e vídeos com IA |
+| Design Agent | `subagents/design-agent.md` | Direção criativa, paletas, tipografia, specs técnicos |
+| Analytics Agent | `subagents/analytics-agent.md` | Métricas, relatórios, análise de performance |
+| Email Agent | `subagents/email-agent.md` | Sequências de email, newsletters, automações |
+| Ads Agent | `subagents/ads-agent.md` | Copy de anúncios Meta/Google/TikTok Ads |
+| Brand Agent | `subagents/brand-agent.md` | Identidade de marca, posicionamento, tom de voz |
+| Storytelling Agent | `subagents/storytelling-agent.md` | Narrativas, storytelling, arcos de história |
+| Funnel Agent | `subagents/funnel-agent.md` | Funis de vendas, jornada do cliente |
+| Growth Agent | `subagents/growth-agent.md` | Crescimento, growth hacking, aquisição |
+| Launch Agent | `subagents/launch-agent.md` | Lançamentos de produtos e campanhas |
 
-This skill orchestrates the following specialized agents:
+## Workflow Principal
 
-| Subagent | Specialty | When to Invoke |
-|----------|-----------|----------------|
-| copy-agent | Persuasive writing | Headlines, CTAs, sales copy, A/B variations |
-| seo-agent | Search optimization | Blog posts, articles, keyword strategy |
-| social-agent | Social media | Platform-specific posts, hashtags, timing |
-| video-agent | Video content | Scripts for YouTube, Reels, TikTok, VSL |
-| audio-agent | Audio content | Podcast scripts, audio ads |
-| ai-tools-agent | AI generation | Image and video prompts for AI tools |
-| design-agent | Visual direction | Color palettes, typography, layouts |
-| analytics-agent | Performance | Metrics, KPIs, reporting |
-| email-agent | Email marketing | Sequences, newsletters, automation |
-| ads-agent | Paid advertising | Ad copy for Meta, Google, TikTok |
-| research-agent | Research | Trends, competitors, audience analysis |
+1. **Entender o briefing** → Nicho, objetivo, público-alvo, tom de voz, CTAs
+2. **[RESEARCH AGENT]** → Pesquisar tendências, concorrência, keywords
+3. **Consultar referência do nicho** → `references/niches.md`
+4. **Selecionar subagente especializado** por tipo de conteúdo
+5. **[COPY AGENT]** → Copy persuasivo, headlines, CTAs
+6. **[DESIGN AGENT]** → Visual, cores, layout (quando aplicável)
+7. **Otimizar** → SEO, hashtags, horários, formatos
+8. **Entregar** → Conteúdo formatado + variações A/B
 
-## Content Creation Workflow
+## Templates Disponíveis
 
-### Phase 1: Discovery
-1. Identify the content objective (awareness, engagement, conversion)
-2. Define target audience and their pain points
-3. Determine platforms and formats needed
-4. Establish brand voice and tone requirements
+Consultar pasta `assets/templates/` para:
+- `youtube-script.md` - Roteiros YouTube long-form
+- `reels-tiktok-script.md` - Scripts vídeos curtos
+- `vsl-script.md` - Video Sales Letter
+- `podcast-episode.md` - Estrutura de episódio
+- `instagram-feed-post.md` - Posts de feed
+- `post-instagram-carrossel.md` - Carrosséis
+- `instagram-stories.md` - Stories estratégicos
+- `sales-page.md` - Páginas de vendas
+- `webinar-script.md` - Roteiros de webinar
+- `lead-magnet.md` - Iscas digitais
+- E mais 15 templates especializados
 
-### Phase 2: Research
-Invoke **research-agent** to:
-- Analyze competitor content
-- Identify trending topics
-- Map audience preferences
-- Gather relevant data and statistics
+## Swipe Files
 
-### Phase 3: Strategy
-- Select content pillars aligned with objectives
-- Plan content mix (educational, entertaining, promotional)
-- Define distribution channels and timing
-- Set success metrics
+Consultar pasta `assets/swipe-files/` para:
+- `headlines-virais.md` - Estruturas de títulos testados
+- `hooks-reels.md` - Hooks para vídeos curtos
+- `ctas-conversao.md` - Chamadas para ação
+- `copy-carrossel.md` - Estruturas de carrosséis
+- `bios-instagram.md` - Bios otimizadas por nicho
+- `transicoes-reels.md` - Transições criativas
+- `paletas-cores.md` - Paletas por nicho e emoção
 
-### Phase 4: Creation
-Route to specialized agents based on content type:
+## Frameworks de Copy
 
-| Content Type | Primary Agent | Supporting Agents |
-|--------------|---------------|-------------------|
-| Blog post | seo-agent | copy-agent, research-agent |
-| Instagram post | social-agent | copy-agent, design-agent |
-| YouTube video | video-agent | copy-agent, ai-tools-agent |
-| Email sequence | email-agent | copy-agent |
-| Ad campaign | ads-agent | copy-agent, design-agent |
-| Podcast episode | audio-agent | research-agent |
-
-### Phase 5: Optimization
-Invoke **analytics-agent** to:
-- Define KPIs for each content piece
-- Set up tracking recommendations
-- Plan A/B testing strategy
-
-## Supported Niches
-
-Each niche has specific tone, terminology, and content preferences:
-
-| Niche | Tone | Key Themes | Content Focus |
-|-------|------|------------|---------------|
-| Marketing Digital | Authoritative, data-driven | ROI, growth, tools | Case studies, tutorials |
-| Inteligência Artificial | Educational, accessible | Innovation, practical use | Demos, explainers |
-| Desenvolvimento Pessoal | Inspirational, empathetic | Growth, habits, mindset | Stories, frameworks |
-| Desenvolvimento Profissional | Professional, practical | Career, skills, leadership | Tips, guides |
-| Tecnologia | Technical, didactic | Code, tools, trends | Tutorials, reviews |
-| Empreendedorismo | Motivational, strategic | Business, sales, scale | Lessons, strategies |
-| Finanças Pessoais | Educational, trustworthy | Investment, savings | Guides, calculators |
-| Saúde e Bem-Estar | Warm, supportive | Exercise, nutrition, mental | Tips, routines |
-| Educação | Didactic, encouraging | Learning, study tips | Methods, resources |
-| Produtividade | Practical, direct | Time, focus, tools | Systems, hacks |
-
-## Content Formats Reference
-
-### Short-Form Content
-| Format | Dimensions | Specs |
-|--------|------------|-------|
-| Instagram Feed | 1080x1080 or 1080x1350 | Caption up to 2200 chars |
-| Instagram Stories | 1080x1920 | 15s video or static |
-| Instagram Reels | 1080x1920 | 15-90s |
-| TikTok | 1080x1920 | 15s-10min |
-| Twitter/X | 280 chars | Images 1200x675 |
-| LinkedIn Post | Up to 3000 chars | Images 1200x1200 |
-
-### Long-Form Content
-| Format | Length | Key Elements |
-|--------|--------|--------------|
-| Blog Post | 1500-3000 words | SEO-optimized, structured headings |
-| YouTube Video | 8-20 minutes | Scripted, retention hooks |
-| Podcast Episode | 20-60 minutes | Structured segments |
-| Email Newsletter | 300-500 words | Scannable, single CTA |
-| Landing Page | Varies | Headline, benefits, social proof, CTA |
-
-## Copywriting Frameworks
-
-### AIDA (Awareness → Interest → Desire → Action)
-Best for: Landing pages, sales emails, ads
+### AIDA
 ```
-[ATTENTION] Hook that stops the scroll
-[INTEREST] Present the problem or opportunity
-[DESIRE] Show benefits and transformation
-[ACTION] Clear, urgent CTA
+[ATENÇÃO] Hook impactante
+[INTERESSE] Problema/oportunidade
+[DESEJO] Benefícios e transformação
+[AÇÃO] CTA claro e urgente
 ```
 
-**Example:**
+### PAS
 ```
-[ATTENTION] "You're losing 3 hours every day to tasks AI could do for you."
-[INTEREST] "Most professionals spend 40% of their time on repetitive work."
-[DESIRE] "Imagine finishing your day at 3pm with everything done."
-[ACTION] "Start your free trial — no credit card required."
-```
-
-### PAS (Problem → Agitate → Solution)
-Best for: Email sequences, social posts, VSL
-```
-[PROBLEM] Identify the specific pain
-[AGITATE] Intensify the consequences
-[SOLUTION] Present relief through your offer
+[PROBLEMA] Dor específica
+[AGITAR] Consequências
+[SOLUÇÃO] Alívio
 ```
 
-**Example:**
+### BAB
 ```
-[PROBLEM] "Creating content takes you 10+ hours per week."
-[AGITATE] "That's 500+ hours per year you could spend growing your business."
-[SOLUTION] "Our templates cut content creation time by 80%."
-```
-
-### BAB (Before → After → Bridge)
-Best for: Case studies, testimonials, storytelling
-```
-[BEFORE] Current painful situation
-[AFTER] Desired transformed state
-[BRIDGE] Your product/service as the path
+[ANTES] Situação atual
+[DEPOIS] Transformação
+[PONTE] Seu produto/serviço
 ```
 
-**Example:**
-```
-[BEFORE] "Maria struggled to post consistently — 2-3 times per month at best."
-[AFTER] "Now she posts daily and grew from 1K to 50K followers in 6 months."
-[BRIDGE] "She used our content calendar system."
-```
+## Nichos Suportados
 
-### 4Ps (Promise → Picture → Proof → Push)
-Best for: Sales pages, webinars
-```
-[PROMISE] Main benefit
-[PICTURE] Visualization of the result
-[PROOF] Social proof, data, testimonials
-[PUSH] CTA with urgency
-```
+| Nicho | Tom Sugerido |
+|-------|--------------|
+| Marketing Digital | Autoridade, data-driven |
+| Inteligência Artificial | Educativo, acessível |
+| Desenvolvimento Pessoal | Inspiracional, empático |
+| Desenvolvimento Profissional | Profissional, prático |
+| Tecnologia/Programação | Técnico, didático |
+| Empreendedorismo | Motivador, estratégico |
+| Finanças Pessoais | Educativo, confiável |
+| Saúde e Bem-Estar | Acolhedor, motivador |
+| Educação | Didático, encorajador |
+| Produtividade | Prático, direto |
 
-## Hashtag Strategy
+Detalhes em `references/niches.md`.
 
-### Instagram Hashtag Mix
-Use a balanced mix for optimal reach:
-- **2-3 high volume** (1M+ posts): Broad reach, high competition
-- **3-4 medium volume** (100K-1M posts): Good reach, moderate competition
-- **3-4 low volume** (10K-100K posts): Niche, targeted, higher engagement
-- **1-2 branded**: Your own branded hashtags
+## Scripts Python
 
-### LinkedIn
-- Use 3-5 hashtags maximum
-- Mix industry (#marketing) with topic (#contentcreation)
-- Check hashtag follower counts
+Pasta `scripts/` contém 19 ferramentas:
+- `seo_analyzer.py` - Análise SEO
+- `hashtag_generator.py` - Geração de hashtags
+- `hook_generator.py` - Hooks virais
+- `reels_script_generator.py` - Scripts de Reels
+- `carousel_structure_generator.py` - Estruturas de carrossel
+- `caption_generator.py` - Legendas por objetivo
+- `trend_tracker.py` - Monitoramento de tendências
+- E mais 12 scripts especializados
 
-### TikTok
-- Use trending sounds and hashtags
-- Mix broad (#fyp) with niche (#marketingtips)
-- Include challenge hashtags when relevant
+## Workflows Completos
 
-## 🚫 Palavras, Símbolos e Padrões Proibidos
+Pasta `workflows/`:
+- `lancamento-produto.md` - Campanha de lançamento
+- `calendario-mensal.md` - Planejamento editorial
+- `funil-vendas.md` - TOFU → MOFU → BOFU
+- `batch-production-workflow.md` - Produção em lote
+- `parceria-influencer.md` - Gestão de influencers
 
-**NUNCA usar em nenhum conteúdo gerado:**
+## Checklist de Qualidade
 
-| Proibido | Motivo | Alternativas |
-|----------|--------|--------------|
-| `—` (travessão longo) | Parece artificial | Use `.` `,` `:` ou quebre em frases |
-| `brutal` | Parece artificial | intenso, forte, pesado, impactante, poderoso |
-| PALAVRAS EM MAIÚSCULA | Parece artificial/gritado | Escreva normalmente em minúscula |
-| Aspas para delimitar falas em roteiros | Parece gerado por IA | Escreva o texto direto, sem aspas |
-| Aspas para dar ênfase | Parece gerado por IA | Use a estrutura da frase para enfatizar |
-| Emojis e emoticons em excesso | Parece gerado por IA | Máximo 1-2 por conteúdo, apenas se necessário |
-| Texto sem acentos | Parece descuidado/amador | SEMPRE usar acentuação correta em português |
+Antes de entregar:
+- [ ] Alinhado com objetivo e público-alvo
+- [ ] Tom de voz consistente
+- [ ] CTA claro e acionável
+- [ ] SEO otimizado (quando aplicável)
+- [ ] Sem erros gramaticais
+- [ ] Formatação correta para plataforma
+- [ ] Hook forte nos primeiros segundos/linhas
+- [ ] Hashtags relevantes
 
-### Regras de Formatação Natural
+## Entregáveis Padrão
 
-1. **Evitar CAPS para ênfase**: Em vez de TODO DIA, escreva todo dia ou todos os dias
-2. **Sem aspas em roteiros**: Não use aspas para delimitar o que a pessoa vai falar. Escreva direto.
-3. **Aspas apenas para citações reais**: Use aspas SOMENTE quando estiver citando palavra por palavra o que alguém disse
-4. **Tom conversacional**: Escreva como uma pessoa real falaria
-5. **Ênfase natural**: Se precisar destacar, use a estrutura da frase
-6. **Emojis com moderação**: Máximo 1-2 por conteúdo, apenas quando realmente necessário. Preferir texto puro.
-7. **Acentuação correta**: SEMPRE usar acentos em português (é, á, ã, ç, etc.). Revisar antes de entregar.
+1. **Conteúdo principal** formatado
+2. **2-3 variações** A/B
+3. **Recomendações** de otimização
+4. **Métricas** sugeridas
+5. **Próximos passos** acionáveis
+6. **Hashtags/Keywords** relevantes
+7. **Prompts de IA** (quando aplicável)
 
-### Exemplos
+## Referências
 
-❌ Errado (roteiro com aspas):
-```
-GANCHO (0-3s)
-"Você não faz ideia do que está perdendo."
-```
-
-✅ Correto (texto direto):
-```
-GANCHO (0-3s)
-Você não faz ideia do que está perdendo.
-```
-
-❌ Errado: `Isso é o que chamam de "produtividade real"`
-✅ Correto: `Isso é produtividade real`
-
-❌ Errado (sem acentos): `Voce nao faz ideia do que esta perdendo`
-✅ Correto (com acentos): `Você não faz ideia do que está perdendo`
-
-**Verificar SEMPRE antes de entregar qualquer conteúdo: acentuação, aspas, caps, emojis.**
-
----
-
-## Quality Checklist
-
-Before delivering any content, verify:
-
-- [ ] Aligned with stated objective and target audience
-- [ ] Consistent tone of voice throughout
-- [ ] Clear, actionable CTA
-- [ ] SEO optimized (when applicable)
-- [ ] No grammatical errors
-- [ ] Properly formatted for the platform
-- [ ] A/B variations included (when requested)
-- [ ] Success metrics defined
-- [ ] Relevant hashtags (for social)
-- [ ] Strong hook in first 3 seconds/lines
-- [ ] Retention structure applied (for video)
-- [ ] Visual direction included (when applicable)
-- [ ] **NO BANNED WORDS/SYMBOLS** - Check prohibited list
-- [ ] **ACENTUAÇÃO CORRETA** - Revisar todos os acentos em português
-
-## Standard Deliverables
-
-For every content request, provide:
-
-1. **Primary content** — formatted for the target platform
-2. **2-3 variations** — for A/B testing
-3. **Optimization notes** — platform-specific recommendations
-4. **Suggested metrics** — how to measure success
-5. **Next steps** — actionable follow-up items
-6. **Hashtags/Keywords** — when applicable
-7. **AI prompts** — for image/video generation when needed
-8. **Enquete para engajamento** — para conteúdos de redes sociais (Reels, posts, carrosséis, stories)
-
-## Enquetes para Engajamento
-
-**OBRIGATÓRIO para conteúdos de redes sociais.**
-
-Sempre incluir sugestão de enquete relacionada ao conteúdo para aumentar engajamento.
-
-### Tipos de Enquete
-
-| Tipo | Quando Usar | Exemplo |
-|------|-------------|---------|
-| **Escolha binária** | Opinião simples | Você prefere acordar cedo ou tarde? |
-| **Qual você faz** | Identificação | Qual desses hábitos você já pratica? |
-| **Escala** | Medir nível | De 1 a 10, quão produtivo você se considera? |
-| **Desafio** | Gerar compromisso | Qual hábito você vai começar essa semana? |
-| **Curiosidade** | Gerar dados | Quantas horas você dorme por noite? |
-
-### Estrutura da Enquete
-
-```
-ENQUETE SUGERIDA
-
-Pergunta: [pergunta relacionada ao conteudo]
-
-Opcoes:
-- [opcao 1]
-- [opcao 2]
-- [opcao 3 - opcional]
-- [opcao 4 - opcional]
-
-Objetivo: [engajamento/dados/compromisso]
-Onde usar: [stories/post/reels]
-```
-
-## Resources
-
-### Templates
-- `assets/templates/youtube-script.md` — YouTube long-form scripts
-- `assets/templates/reels-tiktok-script.md` — Short video scripts
-- `assets/templates/instagram-feed-post.md` — Feed post templates
-- `assets/templates/post-instagram-carrossel.md` — Carousel structures
-- `assets/templates/email-newsletter.md` — Email templates
-- `assets/templates/sales-page.md` — Landing page structure
-
-### Swipe Files
-- `assets/swipe-files/headlines-virais.md` — Proven headline formulas
-- `assets/swipe-files/hooks-reels.md` — Video hooks
-- `assets/swipe-files/ctas-conversao.md` — CTA examples
-- `assets/swipe-files/copy-carrossel.md` — Carousel copy
-
-### References
-- `references/niches.md` — Niche-specific guidance
-- `references/social-media.md` — Platform best practices
-- `references/design-specs.md` — Dimensions and specs
-
-### Scripts
-- `scripts/seo_analyzer.py` — SEO analysis
-- `scripts/hashtag_generator.py` — Hashtag generation
-- `scripts/hook_generator.py` — Hook creation
-- `scripts/content_calendar.py` — Calendar generation
+- `references/social-media.md` - Redes sociais
+- `references/blog-seo.md` - Blog e SEO
+- `references/email-marketing.md` - Email
+- `references/landing-pages.md` - Landing pages
+- `references/ads-copy.md` - Anúncios
+- `references/design-specs.md` - Especificações técnicas
