@@ -11,7 +11,7 @@
 | Agente | Linhas | Status |
 |--------|--------|--------|
 | Launch Agent | 4.317 | ✅ v3.0 |
-| Ads Agent | 3.670 | ⚠️ Expandir para 5.500+ |
+| Ads Agent | 5.615 | ✅ v3.1 |
 | Research Agent | 3.530 | ✅ v3.0 |
 | SEO Agent | 3.529 | ✅ v3.0 |
 | Email Agent | 3.437 | ✅ v3.0 |
@@ -23,19 +23,19 @@
 | Funnel Agent | 2.228 | ⚠️ Expandir para 4.000+ |
 | Brand Agent | 3.506 | ✅ v3.1 |
 | Social Agent | 2.108 | ✅ v3.0 |
-| Storytelling Agent | 2.071 | ⚠️ Expandir para 3.000+ |
+| Storytelling Agent | 3.004 | ✅ v3.1 |
 | Growth Agent | 2.036 | ⚠️ Expandir para 3.500+ |
 | Video Agent | 1.951 | ✅ v3.0 |
 
-**Total atual:** 46.170 linhas em 16 agentes
-**Média atual:** 2.886 linhas/agente
+**Total atual:** 49.048 linhas em 16 agentes
+**Média atual:** 3.066 linhas/agente
 
 ### Estado Futuro (32 Subagentes)
 
-**Agentes para expandir:** 4 (Brand Agent já expandido)
+**Agentes para expandir:** 2 (Brand, Ads e Storytelling Agent já expandidos)
 **Agentes para criar (plano original):** 9 (Launch Agent já criado)
 **Agentes NOVOS adicionados:** 7 (3 removidos por redundância)
-**Total de trabalho:** 20 agentes (4 expansões + 16 criações)
+**Total de trabalho:** 18 agentes (2 expansões + 16 criações)
 
 **Meta por agente:** 2.500 - 4.000 linhas
 **Meta total:** ~90.000 linhas em 32 agentes
@@ -111,13 +111,13 @@ Cada subagente seguirá esta estrutura científica:
 
 ## Fases de Implementação
 
-### FASE 1: Fundação Estratégica 🔄 PARCIAL
-**Status:** Brand Agent ✅ completo, Storytelling Agent falta expandir
+### FASE 1: Fundação Estratégica ✅ COMPLETA
+**Status:** Brand Agent ✅ v3.1, Storytelling Agent ✅ v3.1
 
 | # | Agente | Atual | Meta | Status |
 |---|--------|-------|------|--------|
 | 1 | **Brand Agent** | 3.506 | 3.500+ | ✅ v3.1 Completo |
-| 2 | **Storytelling Agent** | 2.071 | 3.000+ | ⚠️ Expandir |
+| 2 | **Storytelling Agent** | 3.004 | 3.000+ | ✅ v3.1 Completo |
 
 ---
 
@@ -172,7 +172,7 @@ Cada subagente seguirá esta estrutura científica:
 |---|--------|----|----|--------|
 | 15 | **Copy Agent** | 1.226 | 3.396 | ✅ Completo |
 | 16 | **Analytics Agent** | 827 | 3.084 | ✅ Completo |
-| 17 | **Ads Agent** | 788 | 3.670 → 5.500+ | ⚠️ Expandir (faltam ~1.830 linhas) |
+| 17 | **Ads Agent** | 788 | 5.615 | ✅ v3.1 Completo |
 | 18 | **Email Agent** | 403 | 3.437 | ✅ Completo |
 
 **Ads Agent - Gaps identificados:**
@@ -264,11 +264,11 @@ Cada subagente seguirá esta estrutura científica:
 
 | Agente | Atual | Meta | Faltam |
 |--------|-------|------|--------|
-| **Ads Agent** | 3.670 | 5.500+ | ~1.830 linhas |
+| ~~Ads Agent~~ | ~~5.615~~ | ~~5.500+~~ | ~~✅ Completo~~ |
 | Funnel Agent | 2.228 | 4.000+ | ~1.800 linhas |
 | ~~Brand Agent~~ | ~~3.506~~ | ~~3.500+~~ | ~~✅ Completo~~ |
 | Growth Agent | 2.036 | 3.500+ | ~1.500 linhas |
-| Storytelling Agent | 2.071 | 3.000+ | ~930 linhas |
+| ~~Storytelling Agent~~ | ~~3.004~~ | ~~3.000+~~ | ~~✅ Completo~~ |
 
 ### Agentes para CRIAR - Plano Original (9)
 
@@ -2353,16 +2353,17 @@ APÊNDICE K: TEMPLATES DE GESTÃO
 | Métrica | Atual | Meta Original | Nova Meta |
 |---------|-------|---------------|-----------|
 | Total de Subagentes | 16 | 25 | **32** |
-| Linhas Totais | 46.170 | 70.000+ | **~94.000** |
-| Média por Agente | 2.886 | 2.800+ | **2.940** |
-| Agentes v3.0+ (3000+ linhas) | 12 | 20+ | **28+** |
+| Linhas Totais | 49.048 | 70.000+ | **~94.000** |
+| Média por Agente | 3.066 | 2.800+ | **2.940** |
+| Agentes v3.0+ (3000+ linhas) | 14 | 20+ | **28+** |
 | Cobertura de Marketing | 75% | 95%+ | **100%** |
 
 **Notas:**
 - Reduzido de 35 para 32 após análise de redundância
 - Launch Agent expandido de 3.000 para 4.000+ linhas (especificação completa adicionada)
-- Ads Agent expandido de 3.670 para 5.500+ linhas (gestão operacional, escala, tracking avançado)
+- Ads Agent expandido de 3.670 para 5.615 linhas (gestão operacional, escala, tracking avançado, relatórios)
 - Brand Agent expandido de 2.114 para 3.506 linhas (personal branding, brand experience, rebranding, crise)
+- Storytelling Agent expandido de 2.071 para 3.004 linhas (vendas, redes sociais, data storytelling, exercícios)
 - Cobertura completa: perpétuo, low/mid/high ticket, lançamento pago, tráfego avançado
 
 ---
@@ -2430,8 +2431,8 @@ O agente será criado seguindo este plano e sincronizado automaticamente.
 
 | Categoria | Quantidade |
 |-----------|------------|
-| Agentes completos (v3.0+) | 12 (inclui Launch Agent e Brand Agent) |
-| Agentes para expandir | 4 |
+| Agentes completos (v3.0+) | 14 (inclui Launch, Brand, Ads e Storytelling) |
+| Agentes para expandir | 2 |
 | Agentes para criar (plano original) | 9 (Launch Agent já criado) |
 | Agentes NOVOS adicionados | 7 |
 | **TOTAL FINAL** | **32 subagentes** |
@@ -2444,7 +2445,7 @@ O agente será criado seguindo este plano e sincronizado automaticamente.
 
 ---
 
-*Plano de Expansão v2.4 (atualizado 2026-02-05)*
+*Plano de Expansão v2.6 (atualizado 2026-02-05)*
 *Meta: O Sistema de Criação de Conteúdo Mais Completo do Planeta*
 *Total Projetado: 32 Subagentes | ~94.000 Linhas de Documentação*
 *Cobertura: 100% das necessidades de marketing digital*
