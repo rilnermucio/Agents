@@ -22,7 +22,7 @@
 
 ### Pre-Roll (15-30 segundos)
 ```
-QUANDO: Antes do conteudo principal (primeiros 30s do episodio)
+QUANDO: Antes do conteúdo principal (primeiros 30s do episodio)
 DURACAO: 15 a 30 segundos
 TOM: Rapido, direto, energetico
 OBJETIVO: Awareness + branding
@@ -32,17 +32,17 @@ PRECO: Geralmente menor CPM
 
 ### Mid-Roll (60-90 segundos)
 ```
-QUANDO: No meio do episodio (entre blocos de conteudo)
+QUANDO: No meio do episodio (entre blocos de conteúdo)
 DURACAO: 60 a 90 segundos
 TOM: Conversacional, narrativo, detalhado
 OBJETIVO: Conversao + engagement
-TAXA DE SKIP: Mais baixa (ouvinte ja esta engajado)
+TAXA DE SKIP: Mais baixa (ouvinte já esta engajado)
 PRECO: Maior CPM (melhor performance)
 ```
 
 ### Post-Roll (15-30 segundos)
 ```
-QUANDO: Apos o conteudo principal (final do episodio)
+QUANDO: Apos o conteúdo principal (final do episodio)
 DURACAO: 15 a 30 segundos
 TOM: Resumido, reforco de CTA
 OBJETIVO: Reforco + lembrete
@@ -81,7 +81,7 @@ produzido entra com os detalhes tecnicos/oferta.
 
 EXEMPLO:
 HOST: "Antes de continuar, quero falar de algo que uso
-todo dia. Voces ja me ouviram falar da [MARCA]..."
+todo dia. Vocês já me ouviram falar da [MARCA]..."
 [TRANSICAO]
 SPOT: "[AUDIO PRODUZIDO com detalhes da oferta]"
 HOST: "Entao acessem [URL] e usem o codigo [CODIGO]"
@@ -116,16 +116,16 @@ DESVANTAGENS:
 O QUE E:
 - Anuncio gravado como parte do episodio
 - Permanece no audio para sempre
-- Faz parte do conteudo original
+- Faz parte do conteúdo original
 
 VANTAGENS:
 - Tom mais natural e integrado
-- Nao depende de tecnologia
+- Não depende de tecnologia
 - Funciona em qualquer plataforma
 - Ouvinte percebe menos como "propaganda"
 
 DESVANTAGENS:
-- Nao pode ser atualizado ou removido
+- Não pode ser atualizado ou removido
 - Oferta pode expirar (codigo, promocao)
 - Sem segmentacao
 - Metricas limitadas
@@ -137,7 +137,7 @@ DESVANTAGENS:
 
 ### Pre-Roll 15 Segundos
 ```
-"Esse episodio e apresentado por [MARCA]. Se voce
+"Esse episodio e apresentado por [MARCA]. Se você
 [DOR/NECESSIDADE], conhece [PRODUTO]. Acessa
 [URL] e usa o codigo [CODIGO] pra [DESCONTO/BENEFICIO].
 Link na descricao."
@@ -155,7 +155,7 @@ Agora sim, vamos ao episodio!"
 
 ### Pre-Roll com Gancho
 ```
-"Voce vai ouvir hoje sobre [TEMA DO EPISODIO] - e antes
+"Você vai ouvir hoje sobre [TEMA DO EPISODIO] - e antes
 disso, uma coisa que tem tudo a ver: [CONEXAO COM O
 PRODUTO]. [MARCA] [BENEFICIO PRINCIPAL].
 Acessa [URL], codigo [CODIGO]. Vamos la!"
@@ -167,9 +167,9 @@ Acessa [URL], codigo [CODIGO]. Vamos la!"
 
 ### Mid-Roll 60 Segundos - Conversacional
 ```
-"[TRANSICAO NATURAL DO CONTEUDO]
+"[TRANSICAO NATURAL DO CONTEÚDO]
 
-Falando nisso, deixa eu contar uma coisa. Voces sabem
+Falando nisso, deixa eu contar uma coisa. Vocês sabem
 que eu [CONTEXTO PESSOAL RELACIONADO]. E por isso que
 eu comecei a usar [PRODUTO/SERVICO] da [MARCA].
 
@@ -177,35 +177,35 @@ O que me ganhou foi [BENEFICIO 1]. Tipo, antes eu
 [SITUACAO ANTES] e agora [SITUACAO DEPOIS].
 
 Alem disso, [BENEFICIO 2] - que faz toda a diferenca
-quando voce [SITUACAO DO OUVINTE].
+quando você [SITUACAO DO OUVINTE].
 
 E tem uma oferta especial pros ouvintes do [PODCAST]:
 [OFERTA DETALHADA]. E so ir em [URL] e usar o codigo
 [CODIGO] no checkout.
 
-Serio, experimenta. Voce nao vai se arrepender.
+Serio, experimenta. Você não vai se arrepender.
 
-[RETOMADA DO CONTEUDO]"
+[RETOMADA DO CONTEÚDO]"
 ```
 
 ### Mid-Roll 60 Segundos - Storytelling
 ```
-"[PAUSA NO CONTEUDO]
+"[PAUSA NO CONTEÚDO]
 
 Deixa eu te contar uma historia rapida. [SITUACAO
 PROBLEMA QUE O OUVINTE SE IDENTIFICA].
 
-Eu tava exatamente nessa situacao ate que um amigo me
+Eu tava exatamente nessa situacao até que um amigo me
 falou da [MARCA]. No comeco eu pensei '[OBJECAO COMUM]',
 mas resolvi testar.
 
 [RESULTADO POSITIVO COM DETALHE ESPECIFICO].
 
 O que diferencia [PRODUTO] e [DIFERENCIAL 1] e
-[DIFERENCIAL 2]. Nao e exagero - eu realmente [PROVA
+[DIFERENCIAL 2]. Não e exagero - eu realmente [PROVA
 SOCIAL / RESULTADO CONCRETO].
 
-Se voce quer experimentar, tem uma oferta exclusiva:
+Se você quer experimentar, tem uma oferta exclusiva:
 [OFERTA]. Acessa [URL], codigo [CODIGO].
 E me conta depois o que achou.
 
@@ -221,7 +221,7 @@ Uma pausa rapida pra falar de [MARCA], que apoia o
 
 [MARCA] e [DESCRICAO EM 1 FRASE DO QUE E].
 
-Pra quem nao conhece, funciona assim: [COMO FUNCIONA
+Pra quem não conhece, funciona assim: [COMO FUNCIONA
 EM 2-3 FRASES SIMPLES].
 
 Eu comecei a usar faz [TEMPO] e o que mais me
@@ -237,10 +237,10 @@ E terceiro - e isso pra mim e o mais importante -
 Comparado com [ALTERNATIVA/CONCORRENTE GENERICO],
 [DIFERENCIAL PRINCIPAL].
 
-Agora, a oferta pra voces: [OFERTA COMPLETA].
+Agora, a oferta pra vocês: [OFERTA COMPLETA].
 Isso da [CALCULO DO BENEFICIO - economia, desconto, etc].
 
-Acessa [URL] - vou deixar na descricao tambem.
+Acessa [URL] - vou deixar na descricao também.
 E usa o codigo [CODIGO], tudo junto, sem espaco.
 
 Confia em mim, vale muito a pena.
@@ -262,13 +262,13 @@ Link na descricao. Valeu!"
 ### Post-Roll 30 Segundos
 ```
 "Antes de encerrar, lembra do nosso parceiro [MARCA]?
-Se voce curtiu o episodio de hoje sobre [TEMA], vai
-curtir [PRODUTO] tambem. [BENEFICIO EM 1 FRASE].
+Se você curtiu o episodio de hoje sobre [TEMA], vai
+curtir [PRODUTO] também. [BENEFICIO EM 1 FRASE].
 
 Oferta exclusiva: [DESCONTO/BENEFICIO].
 [URL], codigo [CODIGO].
 
-Obrigado por ouvir ate o final! Ate o proximo episodio."
+Obrigado por ouvir até o final! Até o proximo episodio."
 ```
 
 ---
@@ -281,7 +281,7 @@ Obrigado por ouvir ate o final! Ate o proximo episodio."
    "Semana passada eu tava [SITUACAO] e..."
 
 2. PROBLEMA IDENTIFICAVEL (10-15s)
-   "Voce sabe aquela sensacao de [DOR]?"
+   "Você sabe aquela sensacao de [DOR]?"
 
 3. DESCOBERTA (10-15s)
    "Foi ai que [COMO DESCOBRIU O PRODUTO]"
@@ -293,7 +293,7 @@ Obrigado por ouvir ate o final! Ate o proximo episodio."
    "[DADO CONCRETO OU RESULTADO ESPECIFICO]"
 
 6. OFERTA + CTA (10-15s)
-   "E pra voces: [OFERTA]. Acessa [URL], codigo [CODIGO]"
+   "E pra vocês: [OFERTA]. Acessa [URL], codigo [CODIGO]"
 ```
 
 ### Tecnicas de Naturalizacao
@@ -302,8 +302,8 @@ Obrigado por ouvir ate o final! Ate o proximo episodio."
 - MENCIONAR DETALHES ESPECIFICOS: "Ontem mesmo eu..."
 - RECONHECER OBJECOES: "Eu sei que parece propaganda, mas..."
 - HUMOR: Piada leve relacionada ao produto
-- CALLBACK: Conectar com algo que ja falou no episodio
-- CONVERSA COM CO-HOST: "Voce ja testou? / Tambem uso!"
+- CALLBACK: Conectar com algo que já falou no episodio
+- CONVERSA COM CO-HOST: "Você já testou? / Também uso!"
 ```
 
 ---
@@ -314,12 +314,12 @@ Obrigado por ouvir ate o final! Ate o proximo episodio."
 ```
 CONAR (Conselho Nacional de Autorregulamentacao Publicitaria):
 - Publicidade deve ser claramente identificavel
-- Nao pode ser confundida com conteudo editorial
+- Não pode ser confundida com conteúdo editorial
 - Deve ter indicacao de patrocinio
 
 CDC (Codigo de Defesa do Consumidor):
 - Informacoes verdadeiras e comprovaneis
-- Nao pode ser enganosa ou abusiva
+- Não pode ser enganosa ou abusiva
 - Precos e condicoes claros
 
 LGPD:
@@ -343,9 +343,9 @@ ONDE INCLUIR:
 
 O QUE EVITAR:
 - Esconder que e publicidade
-- Fazer parecer opiniao pessoal nao-paga
+- Fazer parecer opiniao pessoal não-paga
 - Omitir a relacao comercial
-- Fazer promessas nao autorizadas pela marca
+- Fazer promessas não autorizadas pela marca
 ```
 
 ### Categorias com Restricoes Especiais
@@ -354,7 +354,7 @@ O QUE EVITAR:
 - BEBIDAS ALCOOLICAS: Restricoes de horario e publico
 - ALIMENTOS: Claims de saude precisam de comprovacao
 - FINANCEIROS: CVM e Bacen regulam promessas de retorno
-- SUPLEMENTOS: Nao pode prometer resultados medicos
+- SUPLEMENTOS: Não pode prometer resultados medicos
 ```
 
 ---
@@ -388,14 +388,14 @@ VANTAGENS:
 
 COMO FALAR:
 "Acessa marca.com/nomepodcast - vou deixar o link na
-descricao tambem pra facilitar."
+descricao também pra facilitar."
 ```
 
 ### CTA por Tipo de Ad
 | Tipo | CTA Recomendado | Exemplo |
 |------|----------------|---------|
 | **Pre-roll** | URL simples | "Acessa marca.com/podcast" |
-| **Mid-roll** | Codigo + URL + urgencia | "Codigo PODCAST20 em marca.com ate sexta" |
+| **Mid-roll** | Codigo + URL + urgencia | "Codigo PODCAST20 em marca.com até sexta" |
 | **Post-roll** | Reforco + link na descricao | "Link na descricao, codigo PODCAST20" |
 
 ### Frequencia do CTA
@@ -511,8 +511,8 @@ OBSERVACOES:
 
 ### Nicho: Tecnologia / SaaS
 ```
-"Falando em produtividade - ouvintes do [PODCAST] ja
-conhecem [FERRAMENTA], ne? Pra quem nao conhece:
+"Falando em produtividade - ouvintes do [PODCAST] já
+conhecem [FERRAMENTA], ne? Pra quem não conhece:
 e um [TIPO DE SOFTWARE] que [FUNCAO PRINCIPAL].
 Eu uso pra [USO PESSOAL] e economizo [TEMPO/RECURSO]
 por semana. Testa 14 dias gratis em [URL].
@@ -530,18 +530,18 @@ O diferencial e [PONTO UNICO]. Acessa [URL] e usa
 
 ### Nicho: Financas / Investimentos
 ```
-"Se voce ta ouvindo esse podcast, provavelmente se
+"Se você ta ouvindo esse podcast, provavelmente se
 preocupa com suas financas. [MARCA] e [DESCRICAO].
 O que eu gosto: [BENEFICIO 1] e [BENEFICIO 2].
-E nao tem taxa pra [FUNCAO]. Abre sua conta em
+E não tem taxa pra [FUNCAO]. Abre sua conta em
 [URL], demora [TEMPO] e e tudo digital.
 Usa o codigo [CODIGO] e ganha [BONUS]."
 ```
 
 ### Nicho: Educacao / Cursos
 ```
-"Voce que ta investindo em conhecimento ouvindo esse
-podcast: [MARCA] tem [TIPO DE CONTEUDO] sobre
+"Você que ta investindo em conhecimento ouvindo esse
+podcast: [MARCA] tem [TIPO DE CONTEÚDO] sobre
 [AREAS]. Eu fiz o curso de [TEMA] e [RESULTADO].
 O formato e [DIFERENCIAL]. Ouvintes tem [DESCONTO]
 em qualquer curso. Vai em [URL], codigo [CODIGO]."
@@ -563,7 +563,7 @@ Frete gratis pra [CONDICAO]."
 
 ### Preparacao
 - [ ] Briefing do anunciante lido e entendido
-- [ ] Pontos-chave memorizados (nao ler roboticamente)
+- [ ] Pontos-chave memorizados (não ler roboticamente)
 - [ ] Codigo promocional confirmado e correto
 - [ ] URL verificada e funcionando
 - [ ] Oferta e condicoes claras
@@ -573,12 +573,12 @@ Frete gratis pra [CONDICAO]."
 
 ### Gravacao
 - [ ] Divulgacao de publicidade feita no inicio
-- [ ] Tom natural e conversacional (nao robotico)
+- [ ] Tom natural e conversacional (não robotico)
 - [ ] Experiencia pessoal incluida (se autentica)
 - [ ] Beneficios principais mencionados
 - [ ] CTA claro com codigo e/ou URL
 - [ ] CTA repetido (em ads de 60s+)
-- [ ] Transicao suave para/do conteudo
+- [ ] Transicao suave para/do conteúdo
 - [ ] Duracao dentro do combinado
 
 ### Pos-Gravacao
@@ -601,14 +601,14 @@ Frete gratis pra [CONDICAO]."
 ## ERROS COMUNS A EVITAR
 
 ```
-1. LER ROBOTICAMENTE: Ad read deve soar como conversa, nao leitura
+1. LER ROBOTICAMENTE: Ad read deve soar como conversa, não leitura
 2. SEM EXPERIENCIA PESSOAL: Falar de produto que nunca usou soa falso
 3. CODIGO ERRADO: Sempre confirmar o codigo antes de gravar
 4. URL COMPLICADA: Simplificar ou usar vanity URL
 5. SEM DIVULGACAO: Obrigatorio identificar como publicidade
 6. AD MUITO LONGO: Respeitar o tempo combinado
 7. SEM CTA CLARO: Ouvinte precisa saber o que fazer
-8. PROMESSAS EXAGERADAS: Nao prometer o que o produto nao entrega
-9. SEM TRANSICAO: Corte abrupto entre conteudo e ad
-10. IGNORAR METRICAS: Nao acompanhar performance da campanha
+8. PROMESSAS EXAGERADAS: Não prometer o que o produto não entrega
+9. SEM TRANSICAO: Corte abrupto entre conteúdo e ad
+10. IGNORAR METRICAS: Não acompanhar performance da campanha
 ```

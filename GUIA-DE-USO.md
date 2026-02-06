@@ -1,6 +1,6 @@
 # Guia Completo de Uso - Agente Criador de Conteudo
 
-Este guia apresenta todas as funcionalidades do Agente Criador de Conteudo e como utiliza-las de forma eficiente para criar conteudo estrategico de alta qualidade.
+Este guia apresenta todas as funcionalidades do Agente Criador de Conteudo e como utiliza-las de forma eficiente para criar conteúdo estrategico de alta qualidade.
 
 ---
 
@@ -23,15 +23,15 @@ Este guia apresenta todas as funcionalidades do Agente Criador de Conteudo e com
 
 ## Introducao
 
-O **Agente Criador de Conteudo** e um sistema de IA composto por 11 subagentes especializados que trabalham em conjunto para criar conteudo estrategico. Ele foi projetado para funcionar como uma skill do Claude (Cowork/Claude Code).
+O **Agente Criador de Conteudo** e um sistema de IA composto por 11 subagentes especializados que trabalham em conjunto para criar conteúdo estrategico. Ele foi projetado para funcionar como uma skill do Claude (Cowork/Claude Code).
 
-### O que voce pode fazer com este agente:
+### O que você pode fazer com este agente:
 
 - Criar posts para redes sociais (Instagram, LinkedIn, Twitter/X, TikTok, YouTube, Pinterest, Facebook)
 - Escrever artigos otimizados para SEO
 - Desenvolver campanhas de email marketing
 - Criar roteiros de video (YouTube, Reels, TikTok, VSL)
-- Planejar podcasts e conteudo de audio
+- Planejar podcasts e conteúdo de audio
 - Gerar copy para anuncios (Meta Ads, Google Ads, TikTok Ads)
 - Desenvolver landing pages e paginas de vendas
 - Criar prompts para geracao de imagens e videos com IA
@@ -127,18 +127,18 @@ CONTENT CREATOR (Agente Principal)
 
 1. **Entender o briefing** - Nicho, objetivo, publico-alvo, tom de voz
 2. **Pesquisar** - Research Agent analisa tendencias e concorrencia
-3. **Selecionar subagente** - Baseado no tipo de conteudo
+3. **Selecionar subagente** - Baseado no tipo de conteúdo
 4. **Criar copy** - Copy Agent desenvolve textos persuasivos
 5. **Definir visual** - Design Agent cria direcao criativa
 6. **Otimizar** - SEO, hashtags, formatos
-7. **Entregar** - Conteudo formatado com variacoes A/B
+7. **Entregar** - Conteúdo formatado com variacoes A/B
 
 ### Triggers Automaticos
 
-O agente e acionado quando voce menciona palavras como:
+O agente e acionado quando você menciona palavras como:
 - **Formatos:** post, blog, artigo, video, podcast, newsletter, landing page, carrossel, stories, reels
 - **Plataformas:** Instagram, LinkedIn, Twitter/X, TikTok, YouTube, Pinterest
-- **Acoes:** criar conteudo, campanha, anuncio, copy, SEO, calendario editorial
+- **Acoes:** criar conteúdo, campanha, anuncio, copy, SEO, calendario editorial
 
 ---
 
@@ -155,7 +155,7 @@ O agente e acionado quando voce menciona palavras como:
 - Planejamento estrategico
 
 **Exemplo de solicitacao:**
-> "Pesquise as principais tendencias de conteudo sobre IA em 2025"
+> "Pesquise as principais tendencias de conteúdo sobre IA em 2025"
 
 ---
 
@@ -179,12 +179,12 @@ O agente e acionado quando voce menciona palavras como:
 ### 3. SEO Agent
 **Arquivo:** `subagents/seo-agent.md`
 
-**Funcao:** Otimizacao on-page, estruturacao de conteudo, meta tags, featured snippets, E-E-A-T.
+**Funcao:** Otimizacao on-page, estruturacao de conteúdo, meta tags, featured snippets, E-E-A-T.
 
 **Quando usar:**
 - Artigos de blog
 - Landing pages
-- Conteudo web em geral
+- Conteúdo web em geral
 
 **Exemplo de solicitacao:**
 > "Otimize este artigo para a keyword 'produtividade no trabalho remoto'"
@@ -319,7 +319,7 @@ O agente e acionado quando voce menciona palavras como:
 ### 11. Ads Agent
 **Arquivo:** `subagents/ads-agent.md`
 
-**Funcao:** Copy de anuncios Meta/Google/TikTok/LinkedIn, estrategia de ads.
+**Funcao:** Copy de anuncios Meta/Google/TikTok/LinkedIn, estratégia de ads.
 
 **Plataformas:**
 - Meta Ads (Facebook/Instagram)
@@ -356,7 +356,7 @@ O agente e acionado quando voce menciona palavras como:
 **O que acontece:**
 1. Research Agent pesquisa keywords relacionadas
 2. SEO Agent estrutura o artigo (H1, H2s, H3s)
-3. Copy Agent escreve o conteudo
+3. Copy Agent escreve o conteúdo
 4. Entrega com meta title, meta description, keywords
 
 ---
@@ -413,9 +413,9 @@ Execute os scripts no terminal para automatizar tarefas:
 | `seo_analyzer.py` | `python scripts/seo_analyzer.py arquivo.md "keyword"` | Analisa SEO (score 0-100) |
 | `headline_scorer.py` | `python scripts/headline_scorer.py "Sua headline"` | Pontua headlines |
 | `readability_checker.py` | `python scripts/readability_checker.py --file artigo.txt` | Analisa legibilidade |
-| `content_audit.py` | `python scripts/content_audit.py arquivo.md --tipo blog` | Audita conteudo |
+| `content_audit.py` | `python scripts/content_audit.py arquivo.md --tipo blog` | Audita conteúdo |
 
-### Geracao de Conteudo
+### Geracao de Conteúdo
 
 | Script | Comando | Descricao |
 |--------|---------|-----------|
@@ -448,7 +448,7 @@ Execute os scripts no terminal para automatizar tarefas:
 | Script | Comando | Descricao |
 |--------|---------|-----------|
 | `content_calendar.py` | `python scripts/content_calendar.py 2026-02-01 4 instagram linkedin` | Cria calendario |
-| `content_repurposer.py` | `python scripts/content_repurposer.py --file artigo.txt --output todos` | Adapta conteudo |
+| `content_repurposer.py` | `python scripts/content_repurposer.py --file artigo.txt --output todos` | Adapta conteúdo |
 
 ---
 
@@ -484,7 +484,7 @@ Localizados em `assets/templates/`:
 | Artigo SEO | `artigo-seo.md` | Artigos otimizados |
 | Press Release | `press-release.md` | Comunicados |
 | Case Study | `case-study.md` | Estudos de caso |
-| Whitepaper | `whitepaper.md` | Conteudo B2B |
+| Whitepaper | `whitepaper.md` | Conteúdo B2B |
 
 ### Marketing
 
@@ -521,7 +521,7 @@ Timeline de 30 dias completo com:
 **Arquivo:** `calendario-mensal.md`
 
 Planejamento editorial mensal incluindo:
-- Pilares de conteudo
+- Pilares de conteúdo
 - Frequencia por plataforma
 - Temas semanais
 - Datas comemorativas
@@ -539,7 +539,7 @@ Para promocoes e flash sales:
 **Arquivo:** `funil-vendas.md`
 
 Processo completo TOFU > MOFU > BOFU:
-- Conteudo por etapa
+- Conteúdo por etapa
 - Ofertas escalonadas
 - Automacoes
 
@@ -555,7 +555,7 @@ De ponta a ponta:
 ### Producao em Lote
 **Arquivo:** `batch-production-workflow.md`
 
-Para criar muito conteudo rapidamente:
+Para criar muito conteúdo rapidamente:
 - Cronograma de batching
 - Templates de producao
 - Checklists
@@ -575,7 +575,7 @@ Busca manual de videos virais:
 ### Swipe Files (Banco de Referencias)
 Localizados em `assets/swipe-files/`:
 
-| Arquivo | Conteudo |
+| Arquivo | Conteúdo |
 |---------|----------|
 | `headlines-virais.md` | 100+ estruturas de titulos |
 | `hooks-reels.md` | Hooks para videos curtos |
@@ -590,10 +590,10 @@ Localizados em `assets/swipe-files/`:
 ### Guias de Referencia
 Localizados em `references/`:
 
-| Arquivo | Conteudo |
+| Arquivo | Conteúdo |
 |---------|----------|
 | `niches.md` | Personas, pilares, hashtags por nicho |
-| `strategy.md` | Frameworks de estrategia |
+| `strategy.md` | Frameworks de estratégia |
 | `social-media.md` | Guia por plataforma |
 | `blog-seo.md` | Otimizacao de artigos |
 | `email-marketing.md` | Best practices de email |
@@ -604,7 +604,7 @@ Localizados em `references/`:
 ### Personas
 Localizadas em `assets/personas/`:
 
-| Arquivo | Conteudo |
+| Arquivo | Conteúdo |
 |---------|----------|
 | `persona-template.md` | Template para criar novas |
 | `personas-por-nicho.md` | Personas pre-definidas |
@@ -612,7 +612,7 @@ Localizadas em `assets/personas/`:
 ### Prompts de IA
 Localizados em `assets/prompts/`:
 
-| Arquivo | Conteudo |
+| Arquivo | Conteúdo |
 |---------|----------|
 | `prompt-biblioteca.md` | Biblioteca geral |
 | `prompts-imagem-ia.md` | Prompts para geracao de imagem |
@@ -695,7 +695,7 @@ python scripts/seo_analyzer.py artigo.md "marketing digital"
 
 O agente tem conhecimento especifico de 10 nichos. Mencione o nicho para obter:
 - Personas adequadas
-- Pilares de conteudo
+- Pilares de conteúdo
 - Hashtags relevantes
 - Tom de voz correto
 
@@ -717,7 +717,7 @@ Para projetos complexos, combine especialidades:
 ### 6. Execute os Scripts Regularmente
 
 Use os scripts Python para:
-- Verificar qualidade do conteudo
+- Verificar qualidade do conteúdo
 - Gerar ideias em lote
 - Manter calendario atualizado
 - Pesquisar tendencias
@@ -734,28 +734,28 @@ Para campanhas complexas, siga os workflows em `workflows/` - eles tem checklist
 
 ## Troubleshooting
 
-### O agente nao esta sendo acionado
+### O agente não está sendo acionado
 
 **Solucao:**
 1. Verifique se a pasta selecionada no Cowork e `Agente Criador de Conteudo`
-2. Use palavras-chave trigger: "conteudo", "post", "marketing", "Instagram", etc.
+2. Use palavras-chave trigger: "conteúdo", "post", "marketing", "Instagram", etc.
 3. Reinicie o Claude Desktop
 
-### Scripts Python nao funcionam
+### Scripts Python não funcionam
 
 **Solucao:**
 1. Instale as dependencias: `pip install requests beautifulsoup4 pandas python-dotenv`
 2. Verifique a versao do Python (3.8+)
 3. Execute da pasta correta: `cd Agente\ Criador\ de\ Conteudo`
 
-### Conteudo nao esta no formato correto
+### Conteúdo não está no formato correto
 
 **Solucao:**
 1. Especifique a plataforma claramente
 2. Mencione limites de caracteres se necessario
 3. Peca para formatar especificamente: "Formate para Instagram Stories"
 
-### Quero um nicho que nao esta na lista
+### Quero um nicho que não está na lista
 
 **Solucao:**
 1. Descreva o nicho detalhadamente
@@ -773,14 +773,14 @@ Para campanhas complexas, siga os workflows em `workflows/` - eles tem checklist
 
 ## Conclusao
 
-O Agente Criador de Conteudo e uma ferramenta poderosa para criar conteudo estrategico de forma eficiente. Com 11 subagentes especializados, 19+ scripts Python, 20+ templates e workflows completos, voce tem tudo que precisa para:
+O Agente Criador de Conteudo e uma ferramenta poderosa para criar conteúdo estrategico de forma eficiente. Com 11 subagentes especializados, 19+ scripts Python, 20+ templates e workflows completos, você tem tudo que precisa para:
 
-- Criar conteudo de alta qualidade rapidamente
+- Criar conteúdo de alta qualidade rapidamente
 - Manter consistencia entre plataformas
 - Otimizar para engajamento e conversao
-- Escalar sua producao de conteudo
+- Escalar sua producao de conteúdo
 
-**Dica Final:** Quanto mais contexto voce fornecer (nicho, publico, objetivo, tom), melhor sera o resultado. Use este guia como referencia e explore todos os recursos disponiveis!
+**Dica Final:** Quanto mais contexto você fornecer (nicho, publico, objetivo, tom), melhor será o resultado. Use este guia como referencia e explore todos os recursos disponiveis!
 
 ---
 

@@ -10,8 +10,8 @@ Obrigado por considerar contribuir com o **Agente Criador de Conteudo**! Este do
 
 Se encontrar um bug:
 
-1. Verifique se ja nao foi reportado nas [Issues](https://github.com/rilnermucio/Agents/issues)
-2. Se nao, crie uma nova issue com:
+1. Verifique se já não foi reportado nas [Issues](https://github.com/rilnermucio/Agents/issues)
+2. Se não, crie uma nova issue com:
    - Descricao clara do problema
    - Passos para reproduzir
    - Comportamento esperado vs atual
@@ -25,7 +25,7 @@ Para sugerir novas funcionalidades:
 1. Abra uma issue com a tag `enhancement`
 2. Descreva:
    - O problema que a funcionalidade resolve
-   - Como voce imagina a solucao
+   - Como você imagina a solucao
    - Exemplos de uso
 
 ### 3. Contribuir com Codigo
@@ -81,7 +81,7 @@ venv\Scripts\activate     # Windows
 ```python
 def analyze_content(content: str, keyword: str = None) -> dict:
     """
-    Analisa conteudo para SEO.
+    Analisa conteúdo para SEO.
 
     Args:
         content: Texto a ser analisado
@@ -133,7 +133,7 @@ docs: atualiza README com novos scripts
 
 ### Media Prioridade
 
-- [ ] Novos templates de conteudo
+- [ ] Novos templates de conteúdo
 - [ ] Novos nichos e personas
 - [ ] Melhorias nos scripts existentes
 - [ ] Traducoes
@@ -159,7 +159,7 @@ Agente Criador de Conteudo/
 +-- subagents/                  # 11 subagentes especializados
 +-- scripts/                    # 19 scripts Python
 +-- assets/
-|   +-- templates/              # 26 templates de conteudo
+|   +-- templates/              # 26 templates de conteúdo
 |   +-- swipe-files/            # Exemplos e referencias
 |   +-- personas/               # Personas por nicho
 |   +-- prompts/                # Prompts para IA

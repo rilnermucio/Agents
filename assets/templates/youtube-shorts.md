@@ -25,7 +25,7 @@
 | **Resolucao** | 1080x1920 px |
 | **Duracao Maxima** | 60 segundos |
 | **Formato de Arquivo** | MP4, MOV, WebM |
-| **Tamanho Maximo** | Nao especificado (recomendado <256MB) |
+| **Tamanho Maximo** | Nãoespecificado (recomendado <256MB) |
 | **Titulo** | Ate 100 caracteres |
 | **Descricao** | Ate 5.000 caracteres |
 | **Legenda Automatica** | Disponivel (revisar antes) |
@@ -49,7 +49,7 @@ Texto: "[RESULTADO] EM [X] PASSOS" (fonte grande, centralizado)
 
 [2-5s] CONTEXTO
 Visual: Mostrar o problema ou situacao inicial
-Audio: "Se voce [SITUACAO], presta atencao"
+Audio: "Se você [SITUACAO], presta atencao"
 Texto: Seta apontando para o problema
 
 [5-15s] PASSO 1
@@ -74,7 +74,7 @@ Texto: "RESULTADO FINAL" + emoji
 
 [52-60s] CTA + LOOP
 Visual: Voltar para talking head ou tela de resultado
-Audio: "Se curtiu, se inscreve e assiste de novo pra nao esquecer"
+Audio: "Se curtiu, se inscreve e assiste de novo pra não esquecer"
 Texto: "SE INSCREVA" + icone do sino
 ```
 
@@ -90,8 +90,8 @@ Compartilhar um fato surpreendente que prende a atencao e gera compartilhamentos
 ```
 [0-2s] HOOK CHOCANTE
 Visual: Expressao de surpresa / imagem impactante
-Audio: "Voce sabia que [FATO IMPRESSIONANTE]?"
-Texto: "VOCE NAO VAI ACREDITAR" (vermelho, grande)
+Audio: "Você sabia que [FATO IMPRESSIONANTE]?"
+Texto: "VOCÊ NÃO VAI ACREDITAR" (vermelho, grande)
 
 [2-8s] CONTEXTO DO FATO
 Visual: Imagens de apoio / B-roll
@@ -105,7 +105,7 @@ Texto: Numero ou dado em destaque (fonte gigante)
 
 [22-38s] APROFUNDAMENTO
 Visual: Exemplos visuais / comparacoes
-Audio: "Pra voce ter uma ideia, isso significa que [COMPARACAO TANGIVEL]"
+Audio: "Pra você ter uma ideia, isso significa que [COMPARACAO TANGIVEL]"
 Texto: Comparacao visual (infografico simples)
 
 [38-48s] PLOT TWIST (opcional)
@@ -120,8 +120,8 @@ Texto: Resumo em 1 frase
 
 [55-60s] CTA + LOOP
 Visual: Apontar para o botao de like
-Audio: "Comenta ai se voce ja sabia! E assiste o proximo"
-Texto: "COMENTA: SIM ou NAO"
+Audio: "Comenta ai se você já sabia! E assiste o proximo"
+Texto: "COMENTA: SIM ou NÃO"
 ```
 
 ---
@@ -187,8 +187,8 @@ Texto: "HACK SECRETO" (fundo contrastante)
 
 [2-7s] DOR / PROBLEMA
 Visual: Encenar o problema / mostrar frustracao
-Audio: "Voce perde [TEMPO/DINHEIRO] fazendo [ACAO COMUM]?"
-Texto: "VOCE FAZ ISSO?" + icone de alerta
+Audio: "Você perde [TEMPO/DINHEIRO] fazendo [ACAO COMUM]?"
+Texto: "VOCÊ FAZ ISSO?" + icone de alerta
 
 [7-15s] A SOLUCAO (O HACK)
 Visual: Mostrar o hack sendo executado
@@ -258,7 +258,7 @@ Texto: Frase da licao em destaque
 
 [55-60s] LOOP + CTA
 Visual: Mesma expressao do inicio (cria loop)
-Audio: "Ja aconteceu algo parecido com voce? Comenta ai"
+Audio: "Ja aconteceu algo parecido com você? Comenta ai"
 Texto: "COMENTA SUA HISTORIA"
 ```
 
@@ -279,9 +279,9 @@ Texto: "COMENTA SUA HISTORIA"
 ### Hooks de Audio (primeiros 2s)
 | Tipo | Exemplo |
 |------|---------|
-| **Pergunta direta** | "Voce sabia que...?" |
-| **Afirmacao chocante** | "Isso vai mudar tudo pra voce" |
-| **Desafio** | "Aposto que voce nao consegue..." |
+| **Pergunta direta** | "Você sabia que...?" |
+| **Afirmacao chocante** | "Isso vai mudar tudo pra você" |
+| **Desafio** | "Aposto que você não consegue..." |
 | **Segredo** | "Ninguem fala sobre isso, mas..." |
 | **Urgencia** | "Para tudo e assiste isso" |
 | **Numero** | "3 coisas que [beneficio]" |
@@ -312,8 +312,8 @@ TECNICA 1: LOOP VISUAL
 
 TECNICA 2: LOOP DE AUDIO
 - Ultima frase leva de volta a primeira
-- Exemplo: "...e foi assim que eu descobri" > "Eu quase nao acreditei quando..."
-- O espectador nao percebe a transicao
+- Exemplo: "...e foi assim que eu descobri" > "Eu quase não acreditei quando..."
+- O espectador não percebe a transicao
 
 TECNICA 3: LOOP DE CONTEUDO
 - Terminar com uma pergunta que o video responde
@@ -374,14 +374,14 @@ TECNICA 5: LOOP DE CORTE
 | Objetivo | CTA Sugerido | Quando Usar |
 |----------|-------------|-------------|
 | **Inscritos** | "Se inscreve e ativa o sino" | Sempre, especialmente se <1k inscritos |
-| **Likes** | "Deixa o like se curtiu" | Conteudo de valor / entretenimento |
+| **Likes** | "Deixa o like se curtiu" | Conteúdo de valor / entretenimento |
 | **Comentarios** | "Comenta [X] aqui embaixo" | Perguntas / opiniao / debate |
 | **Compartilhar** | "Manda pra alguem que precisa" | Dicas praticas / hacks |
 | **Salvar** | "Salva pra ver depois" | Tutoriais / listas |
-| **Proximo video** | "Assiste o proximo" | Series / conteudo sequencial |
+| **Proximo video** | "Assiste o proximo" | Series / conteúdo sequencial |
 | **Canal** | "Tem mais no canal" | Direcionar para videos longos |
 
-### CTA Nao-Verbais
+### CTA Não-Verbais
 ```
 - Apontar para o botao de inscrever
 - Gesto de "like" com a mao
@@ -402,7 +402,7 @@ TECNICA 5: LOOP DE CORTE
 | **SEO** | Titulo + descricao pesam muito | Hashtags + legenda | Sons + hashtags |
 | **Monetizacao** | Fundo Shorts / Ads | Bonuses (limitado) | Fundo de Criadores |
 | **Musica** | Biblioteca limitada | Ampla biblioteca | Maior biblioteca |
-| **Links** | Nao clicavel | Link na bio + sticker | Bio + TikTok Shop |
+| **Links** | Nãoclicavel | Link na bio + sticker | Bio + TikTok Shop |
 | **Algoritmo** | Watch time + CTR | Engajamento rapido | Conclusao + replay |
 | **Evergreen** | SIM (aparece em busca) | Moderado | Menos |
 
@@ -410,7 +410,7 @@ TECNICA 5: LOOP DE CORTE
 ```
 1. OTIMIZE O TITULO: YouTube e um mecanismo de busca
 2. USE DESCRICAO COMPLETA: Palavras-chave importam
-3. THUMBNAIL NAO IMPORTA TANTO: Shorts aparecem no feed vertical
+3. THUMBNAIL NÃO IMPORTA TANTO: Shorts aparecem no feed vertical
 4. WATCH TIME E REI: O algoritmo prioriza retencao
 5. CONSISTENCIA: Postar 3-5 Shorts por semana
 6. CROSS-PROMOTE: Mencione seus videos longos
@@ -449,8 +449,8 @@ Se inscreva para mais dicas de produtividade toda semana!
 | Regra | Detalhe |
 |-------|---------|
 | **#Shorts** | Sempre incluir (ajuda na indexacao) |
-| **Quantidade** | 3 a 5 hashtags (nao exagerar) |
-| **Relevancia** | Apenas hashtags relacionadas ao conteudo |
+| **Quantidade** | 3 a 5 hashtags (não exagerar) |
+| **Relevancia** | Apenas hashtags relacionadas ao conteúdo |
 | **Mix** | 1 ampla + 2-3 nicho + #Shorts |
 | **Pesquisa** | Verificar volume de busca no YouTube |
 | **Evitar** | Hashtags genericas demais (#viral, #fyp) |
@@ -475,7 +475,7 @@ Se inscreva para mais dicas de produtividade toda semana!
 ```
 - Total de views nos Shorts da semana
 - Melhor Short (por views e retencao)
-- Pior Short (identificar o que nao funcionou)
+- Pior Short (identificar o que não funcionou)
 - Taxa media de retencao
 - Novos inscritos vindos de Shorts
 - Comparar com semana anterior
@@ -485,12 +485,12 @@ Se inscreva para mais dicas de produtividade toda semana!
 
 ## CHECKLIST PRE-PUBLICACAO
 
-### Conteudo
+### Conteúdo
 - [ ] Hook nos primeiros 1-2 segundos (visual + audio + texto)
-- [ ] Uma unica ideia principal (nao tentar cobrir demais)
+- [ ] Uma unica ideia principal (não tentar cobrir demais)
 - [ ] Ritmo dinamico com cortes a cada 2-4 segundos
 - [ ] CTA claro e especifico
-- [ ] Duracao adequada (nao esticar desnecessariamente)
+- [ ] Duracao adequada (não esticar desnecessariamente)
 - [ ] Tecnica de loop implementada
 - [ ] Valor claro para o espectador
 
@@ -530,7 +530,7 @@ Se inscreva para mais dicas de produtividade toda semana!
 | **Quinta** | Storytelling | 12h ou 20h |
 | **Sexta** | Antes/Depois | 12h ou 18h |
 | **Sabado** | Melhor formato da semana (repetir) | 10h ou 15h |
-| **Domingo** | Conteudo leve / bastidores | 10h ou 15h |
+| **Domingo** | Conteúdo leve / bastidores | 10h ou 15h |
 
 > **Nota:** Ajustar horarios com base nos dados do YouTube Analytics do seu canal.
 
@@ -541,12 +541,12 @@ Se inscreva para mais dicas de produtividade toda semana!
 ```
 1. HOOK FRACO: Perder o espectador nos primeiros 2 segundos
 2. MUITO CONTEUDO: Tentar cobrir demais em 60 segundos
-3. SEM CTA: Nao pedir nenhuma acao ao espectador
+3. SEM CTA: Nãopedir nenhuma acao ao espectador
 4. TEXTO ILEGIVEL: Fonte pequena ou sem contraste
 5. AUDIO RUIM: Ruido de fundo, volume baixo
 6. SEM LOOP: Final abrupto sem conexao com o inicio
 7. INCONSISTENCIA: Postar 1 vez por semana e sumir
 8. COPIAR SEM ADAPTAR: Pegar trends do TikTok sem ajustar para YouTube
-9. IGNORAR ANALYTICS: Nao analisar o que funciona
+9. IGNORAR ANALYTICS: Nãoanalisar o que funciona
 10. DESCRICAO VAZIA: Perder oportunidade de SEO
 ```

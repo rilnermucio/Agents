@@ -30,7 +30,7 @@ Para ter a skill disponivel em **qualquer** pasta do Cowork:
 ```bash
 # 1. Abra o Terminal
 
-# 2. Navegue ate a pasta do agente
+# 2. Navegue até a pasta do agente
 cd ~/caminho/para/Agente\ Criador\ de\ Conteudo
 
 # 3. Descompacte o .skill (que e um ZIP)
@@ -46,7 +46,7 @@ mv ~/Library/Application\ Support/Claude/skills/sessions*/content-creator \
 ```powershell
 # 1. Abra o PowerShell
 
-# 2. Navegue ate a pasta do agente
+# 2. Navegue até a pasta do agente
 cd C:\caminho\para\Agente Criador de Conteudo
 
 # 3. Descompacte o .skill
@@ -97,7 +97,7 @@ content-creator/
 │   ├── tiktok_trends_scraper.py
 │   └── ... (14 mais)
 ├── assets/
-│   ├── templates/        # 26 templates de conteudo
+│   ├── templates/        # 26 templates de conteúdo
 │   ├── swipe-files/      # 8 swipe files com exemplos
 │   ├── personas/         # Templates de persona
 │   ├── frameworks/       # Frameworks de crescimento
@@ -123,9 +123,9 @@ content-creator/
 
 ## Triggers da Skill
 
-A skill sera acionada automaticamente quando voce mencionar:
+A skill será acionada automaticamente quando você mencionar:
 
-**Palavras-chave:** conteudo, marketing, post, blog, SEO, newsletter, copy, landing page, campanha, anuncio, Instagram, LinkedIn, TikTok, YouTube, Reels, podcast, VSL, carrossel, stories, email marketing, calendario editorial
+**Palavras-chave:** conteúdo, marketing, post, blog, SEO, newsletter, copy, landing page, campanha, anuncio, Instagram, LinkedIn, TikTok, YouTube, Reels, podcast, VSL, carrossel, stories, email marketing, calendario editorial
 
 **Nichos:** Marketing Digital, IA, Desenvolvimento Pessoal, Empreendedorismo, Financas, Saude, Tecnologia, Produtividade
 

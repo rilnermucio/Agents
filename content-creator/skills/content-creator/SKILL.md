@@ -264,23 +264,23 @@ For every content request, provide:
 5. **Next steps** — actionable follow-up items
 6. **Hashtags/Keywords** — when applicable
 7. **AI prompts** — for image/video generation when needed
-8. **Enquete para engajamento** — para conteudos de redes sociais (Reels, posts, carrosseis, stories)
+8. **Enquete para engajamento** — para conteúdos de redes sociais (Reels, posts, carrosséis, stories)
 
 ## Enquetes para Engajamento
 
-**OBRIGATORIO para conteudos de redes sociais.**
+**OBRIGATÓRIO para conteúdos de redes sociais.**
 
-Sempre incluir sugestao de enquete relacionada ao conteudo para aumentar engajamento.
+Sempre incluir sugestão de enquete relacionada ao conteúdo para aumentar engajamento.
 
 ### Tipos de Enquete
 
 | Tipo | Quando Usar | Exemplo |
 |------|-------------|---------|
-| **Escolha binaria** | Opiniao simples | Voce prefere acordar cedo ou tarde? |
-| **Qual voce faz** | Identificacao | Qual desses habitos voce ja pratica? |
-| **Escala** | Medir nivel | De 1 a 10, quao produtivo voce se considera? |
-| **Desafio** | Gerar compromisso | Qual habito voce vai comecar essa semana? |
-| **Curiosidade** | Gerar dados | Quantas horas voce dorme por noite? |
+| **Escolha binária** | Opinião simples | Você prefere acordar cedo ou tarde? |
+| **Qual você faz** | Identificação | Qual desses hábitos você já pratica? |
+| **Escala** | Medir nível | De 1 a 10, quão produtivo você se considera? |
+| **Desafio** | Gerar compromisso | Qual hábito você vai começar essa semana? |
+| **Curiosidade** | Gerar dados | Quantas horas você dorme por noite? |
 
 ### Estrutura da Enquete
 

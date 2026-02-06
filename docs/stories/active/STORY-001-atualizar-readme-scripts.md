@@ -46,20 +46,20 @@ Scripts NAO documentados:
 
 ## Acceptance Criteria
 
-- [ ] Todos os 19 scripts listados na secao "Scripts de Automacao" do README
-- [ ] Cada script com descricao e comando de uso
+- [ ] Todos os 19 scripts listados na seção "Scripts de Automação" do README
+- [ ] Cada script com descrição e comando de uso
 - [ ] Tabela formatada consistentemente
-- [ ] Skill.md tambem atualizado com a mesma informacao
+- [ ] Skill.md também atualizado com a mesma informação
 
 ---
 
 ## Tasks
 
-- [ ] Analisar cada script nao documentado para entender funcionalidade
-- [ ] Escrever descricao para cada script
+- [ ] Analisar cada script não documentado para entender funcionalidade
+- [ ] Escrever descrição para cada script
 - [ ] Documentar comando de uso para cada script
 - [ ] Atualizar tabela no README.md
-- [ ] Atualizar Skill.md com as mesmas informacoes
+- [ ] Atualizar Skill.md com as mesmas informações
 - [ ] Verificar links e formatacao
 
 ---

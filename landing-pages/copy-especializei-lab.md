@@ -30,9 +30,7 @@ Você construiu algo real. Mas percebeu que o modelo atual tem um teto: *sua age
 
 ### Bloco 2
 
-Você sabe que seu conhecimento poderia ajudar centenas, talvez milhares de pessoas. Mas hoje ele está preso em consultas de 50 minutos, projetos individuais ou reuniões de escritório.
-
-Existe um caminho para *transformar essa autoridade em um negócio digital* que funciona em paralelo ao que você já faz, sem abandonar nada.
+É aí que entra o braço digital: a possibilidade real de *transformar seu conhecimento em um ativo* que gera receita, alcance e liberdade, sem depender da sua presença em tempo integral.
 
 ### Dores
 
@@ -49,6 +47,38 @@ Existe um caminho para *transformar essa autoridade em um negócio digital* que 
 ### Citação
 
 A verdade é que você não precisa de mais um curso. Não precisa de teoria. Precisa de alguém que já fez isso, que entende a sua realidade, e que vai *construir junto com você, na prática.*
+
+---
+
+## OPORTUNIDADE
+
+**Eyebrow:** O que mudou
+
+**Título:** O digital não é mais território *de quem começou primeiro.* É de quem tem o que ensinar de verdade.
+
+**Subtítulo:** Nos últimos anos, o mercado digital mudou. E mudou a seu favor. O público está cansado de gurus sem profundidade. Está procurando especialistas reais, com experiência comprovada e conhecimento que funciona na prática.
+
+### Bloco 1 - A virada do mercado
+
+O mercado de educação e mentoria digital no Brasil cresce todos os anos. Mas a grande mudança não é o tamanho. É a maturidade. As pessoas estão dispostas a **pagar mais por quem sabe mais.** Ofertas genéricas perdem espaço. Ofertas de quem viveu, aplicou e tem resultado ganham.
+
+Isso significa uma coisa: *o profissional com experiência real nunca teve tanta vantagem competitiva no digital.*
+
+### Bloco 2 - O que antes era barreira, hoje é diferencial
+
+Você não precisa de milhões de seguidores. Não precisa de uma equipe de 15 pessoas. Não precisa gravar vídeos todos os dias. O que você precisa é de **uma oferta clara, um sistema de vendas e um posicionamento que reflita sua autoridade.**
+
+Com as ferramentas certas e a estratégia certa, um especialista consolidado consegue construir um negócio digital premium em semanas, não em anos.
+
+### Bloco 3 - O segundo pilar é real
+
+Imagine ter uma operação digital que funciona em paralelo à sua atividade principal. Que gera receita enquanto você atende, opera ou consulta. Que alcança pessoas que nunca chegariam ao seu consultório, escritório ou empresa. **Sem abandonar nada do que você construiu.** Apenas adicionando uma nova camada.
+
+Isso não é teoria. É o que dezenas de especialistas já fizeram, com o mesmo ponto de partida que você tem agora.
+
+### Citação
+
+A janela está aberta. O mercado está pronto. A única peça que falta é *a estrutura para transformar o que você já sabe em um negócio que funciona.*
 
 ---
 

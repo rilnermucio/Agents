@@ -1,12 +1,12 @@
 # ============================================================
-# Agente Criador de Conteudo - Dependencias Python
+# Agente Criador de Conteúdo - Dependências Python
 # ============================================================
 #
-# Todos os scripts utilizam apenas modulos da biblioteca padrao
-# do Python 3.8+. Nenhuma dependencia externa e necessaria
-# para o funcionamento atual.
+# A maioria dos scripts utiliza apenas módulos da biblioteca padrão
+# do Python 3.8+. Algumas funcionalidades específicas requerem
+# dependências opcionais listadas abaixo.
 #
-# Modulos padrao utilizados pelos scripts:
+# Módulos padrão utilizados pelos scripts:
 #   - json          (seo_analyzer, hashtag_generator, ab_generator,
 #                    content_calendar, hook_generator, content_idea_generator)
 #   - sys           (todos os scripts)
@@ -25,17 +25,24 @@
 #                    content_calendar, content_idea_generator)
 #
 # ============================================================
-# Dependencias opcionais para funcionalidades futuras
+# Dependências requeridas por scripts específicos
 # ============================================================
-# Descomente as linhas abaixo conforme necessario:
+# tiktok_trends_scraper.py:
+# TikTok-Api>=7.0.0           # Scraping de tendências do TikTok
+# playwright>=1.40.0           # Automação de navegador para TikTok-Api
 #
-# requests>=2.28.0          # Para integracao com APIs externas
-# beautifulsoup4>=4.12.0    # Para web scraping de conteudo
-# pandas>=2.0.0             # Para analise de dados e metricas
-# matplotlib>=3.7.0         # Para geracao de graficos e relatorios
-# openai>=1.0.0             # Para integracao com API da OpenAI
-# anthropic>=0.18.0         # Para integracao com API da Anthropic
-# tweepy>=4.14.0            # Para integracao com Twitter/X API
-# python-dotenv>=1.0.0      # Para gerenciamento de variaveis de ambiente
-# schedule>=1.2.0           # Para agendamento de publicacoes
-# Pillow>=10.0.0            # Para manipulacao de imagens
+# ============================================================
+# Dependências opcionais para funcionalidades futuras
+# ============================================================
+# Descomente as linhas abaixo conforme necessário:
+#
+# requests>=2.28.0          # Para integração com APIs externas
+# beautifulsoup4>=4.12.0    # Para web scraping de conteúdo
+# pandas>=2.0.0             # Para análise de dados e métricas
+# matplotlib>=3.7.0         # Para geração de gráficos e relatórios
+# openai>=1.0.0             # Para integração com API da OpenAI
+# anthropic>=0.18.0         # Para integração com API da Anthropic
+# tweepy>=4.14.0            # Para integração com Twitter/X API
+# python-dotenv>=1.0.0      # Para gerenciamento de variáveis de ambiente
+# schedule>=1.2.0           # Para agendamento de publicações
+# Pillow>=10.0.0            # Para manipulação de imagens

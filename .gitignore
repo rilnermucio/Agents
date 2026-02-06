@@ -1,17 +1,20 @@
 # macOS
-.DS_Store
+**/.DS_Store
 
 # Claude Code
 .claude/
 
 # Outputs gerados
-output/
 outputs/
 
 # Python
 __pycache__/
 *.pyc
 .env
+
+# Arquivos temporários
+*.tmp
+*.log
 
 # AIOS-FullStack Framework Files (auto-managed - do not edit)
 .aios-core/

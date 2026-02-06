@@ -1,63 +1,68 @@
-# :dart: Agente Criador de Conteudo
+# :dart: Agente Criador de Conteúdo
 
-Agente de IA especializado em criacao de conteudo estrategico para multiplos nichos e plataformas. Projetado para funcionar como skill do Claude Code.
+Agente de IA especializado em criação de conteúdo estratégico para múltiplos nichos e plataformas. Projetado para funcionar como skill do Claude Code.
 
 [![GitHub](https://img.shields.io/badge/GitHub-rilnermucio%2FAgents-blue?logo=github)](https://github.com/rilnermucio/Agents.git)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## :clipboard: Visao Geral
+## :clipboard: Visão Geral
 
-O **Agente Criador de Conteudo** e um sistema de IA composto por 11 subagentes especializados que trabalham em conjunto para criar conteudo estrategico de alta qualidade. Ele cobre:
+O **Agente Criador de Conteúdo** é um sistema de IA composto por 16 subagentes especializados que trabalham em conjunto para criar conteúdo estratégico de alta qualidade. Ele cobre:
 
 - **Redes sociais**: Instagram (feed, carrossel, reels, stories), LinkedIn, Twitter/X, TikTok, YouTube, Pinterest, Facebook
-- **Marketing**: Email marketing, newsletters, sequencias de automacao
+- **Marketing**: Email marketing, newsletters, sequências de automação
 - **SEO**: Artigos otimizados, blog posts, meta tags, featured snippets
 - **Video**: Scripts YouTube, Reels/TikTok/Shorts, VSL (Video Sales Letter)
-- **Audio**: Roteiros de podcast, spots publicitarios
-- **Anuncios**: Copy para Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads
-- **Landing pages**: Paginas de vendas, captura de leads
-- **IA generativa**: Prompts para geracao de imagens e videos com IA
+- **Audio**: Roteiros de podcast, spots publicitários
+- **Anúncios**: Copy para Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads
+- **Landing pages**: Páginas de vendas, captura de leads
+- **IA generativa**: Prompts para geração de imagens e vídeos com IA
 
-Suporta **10+ nichos** com personas, pilares de conteudo, hooks e hashtags especificos para cada um.
+Suporta **10+ nichos** com personas, pilares de conteúdo, hooks e hashtags específicos para cada um.
 
 ## :building_construction: Arquitetura
 
 ```
 CONTENT CREATOR (Agente Principal)
 |
-+-- :mag: RESEARCH AGENT        - Pesquisa de tendencias, concorrencia, keywords
-+-- :pencil2: COPY AGENT            - Headlines, CTAs, copy persuasivo, variacoes A/B
-+-- :mag_right: SEO AGENT             - Otimizacao on-page, estruturacao, E-E-A-T
++-- :mag: RESEARCH AGENT        - Pesquisa de tendências, concorrência, keywords
++-- :pencil2: COPY AGENT            - Headlines, CTAs, copy persuasivo, variações A/B
++-- :mag_right: SEO AGENT             - Otimização on-page, estruturação, E-E-A-T
 +-- :iphone: SOCIAL AGENT          - Posts por plataforma, hashtags, timing
 +-- :clapper: VIDEO AGENT           - Scripts YouTube, Reels, TikTok, VSL
-+-- :robot: AI TOOLS AGENT        - Prompts para imagem e video com IA
-+-- :bar_chart: ANALYTICS AGENT      - Metricas, relatorios, testes A/B
-+-- :studio_microphone: AUDIO AGENT          - Podcasts, roteiros de audio, spots
-+-- :envelope: EMAIL AGENT           - Sequencias de email, newsletters
-+-- :loudspeaker: ADS AGENT            - Copy de anuncios Meta/Google/TikTok/LinkedIn
++-- :robot: AI TOOLS AGENT        - Prompts para imagem e vídeo com IA
++-- :bar_chart: ANALYTICS AGENT      - Métricas, relatórios, testes A/B
++-- :studio_microphone: AUDIO AGENT          - Podcasts, roteiros de áudio, spots
++-- :envelope: EMAIL AGENT           - Sequências de email, newsletters
++-- :loudspeaker: ADS AGENT            - Copy de anúncios Meta/Google/TikTok/LinkedIn
 +-- :art: DESIGN AGENT          - Design visual, paletas de cores, identidade
++-- :crown: BRAND AGENT           - Identidade de marca, posicionamento, tom de voz
++-- :book: STORYTELLING AGENT    - Narrativas, storytelling, arcos de história
++-- :funnel_web: FUNNEL AGENT          - Funis de vendas, jornada do cliente
++-- :chart_with_upwards_trend: GROWTH AGENT          - Crescimento, growth hacking, aquisição
++-- :rocket: LAUNCH AGENT          - Lançamentos de produtos e campanhas
 ```
 
 ## :open_file_folder: Estrutura do Projeto
 
 ```
-Agente Criador de Conteudo/
+Agente Criador de Conteúdo/
 |
 +-- Skill.md                          # Arquivo principal da skill (Claude Code)
 +-- plugin.json                       # Metadados do plugin para marketplace
 +-- README.md                         # Este arquivo
 +-- GUIA-DE-USO.md                    # Guia completo de uso do agente
-+-- INSTALACAO-SKILL.md               # Instrucoes de instalacao da skill
-+-- requirements.txt                  # Dependencias Python
++-- INSTALACAO-SKILL.md               # Instruções de instalação da skill
++-- requirements.txt                  # Dependências Python
 +-- .gitignore
 |
 +-- skills/                           # Skills para Claude Cowork marketplace
 |   +-- content-creator/              # Skill principal
-|       +-- SKILL.md                  # Definicao da skill
+|       +-- SKILL.md                  # Definição da skill
 |       +-- (symlinks para pastas)
 |
-+-- subagents/                        # 11 subagentes especializados
++-- subagents/                        # 16 subagentes especializados
 |   +-- research-agent.md
 |   +-- copy-agent.md
 |   +-- seo-agent.md
@@ -68,9 +73,14 @@ Agente Criador de Conteudo/
 |   +-- audio-agent.md
 |   +-- email-agent.md
 |   +-- ads-agent.md
-|   +-- design-agent.md               # NOVO: Design visual e identidade
+|   +-- design-agent.md
+|   +-- brand-agent.md
+|   +-- storytelling-agent.md
+|   +-- funnel-agent.md
+|   +-- growth-agent.md
+|   +-- launch-agent.md
 |
-+-- scripts/                          # 19 scripts Python de automacao
++-- scripts/                          # 19 scripts Python de automação
 |   +-- seo_analyzer.py
 |   +-- hashtag_generator.py
 |   +-- content_calendar.py
@@ -92,7 +102,7 @@ Agente Criador de Conteudo/
 |   +-- tiktok_trends_scraper.py
 |
 +-- assets/
-|   +-- templates/                    # 26 templates de conteudo
+|   +-- templates/                    # 26 templates de conteúdo
 |   |   +-- artigo-seo.md
 |   |   +-- email-newsletter.md
 |   |   +-- post-linkedin.md
@@ -120,15 +130,15 @@ Agente Criador de Conteudo/
 |   |   +-- pesquisa-tiktok-trends.md       # NOVO
 |   |   +-- meus-templates.md               # NOVO: Templates personalizados
 |   |
-|   +-- swipe-files/                  # Banco de referencias e exemplos
+|   +-- swipe-files/                  # Banco de referências e exemplos
 |   |   +-- headlines-virais.md
 |   |   +-- hooks-reels.md
-|   |   +-- ctas-conversao.md
-|   |   +-- emails-conversao.md
+|   |   +-- ctas-conversão.md
+|   |   +-- emails-conversão.md
 |   |   +-- copy-carrossel.md
 |   |   +-- bios-instagram.md
 |   |   +-- transicoes-reels.md       # NOVO
-|   |   +-- trends-adaptaveis.md      # NOVO
+|   |   +-- trends-adaptáveis.md      # NOVO
 |   |   +-- paletas-cores.md          # NOVO
 |   |
 |   +-- personas/                     # Templates e personas por nicho
@@ -140,10 +150,10 @@ Agente Criador de Conteudo/
 |   |
 |   +-- prompts/
 |       +-- prompt-biblioteca.md
-|       +-- prompts-imagem-ia.md      # NOVO: Prompts para geracao de imagens
+|       +-- prompts-imagem-ia.md      # NOVO: Prompts para geração de imagens
 |       +-- prompts-post-pronto.md    # NOVO: Prompts para posts prontos
 |
-+-- references/                       # Guias de referencia por tipo
++-- references/                       # Guias de referência por tipo
 |   +-- niches.md
 |   +-- strategy.md
 |   +-- social-media.md
@@ -151,141 +161,145 @@ Agente Criador de Conteudo/
 |   +-- email-marketing.md
 |   +-- landing-pages.md
 |   +-- ads-copy.md
-|   +-- design-specs.md               # NOVO: Especificacoes de design
+|   +-- design-specs.md               # NOVO: Especificações de design
 |
 +-- workflows/                        # 7 workflows de campanha
-|   +-- lancamento-produto.md
-|   +-- calendario-mensal.md
-|   +-- campanha-conversao.md
+|   +-- lançamento-produto.md
+|   +-- calendário-mensal.md
+|   +-- campanha-conversão.md
 |   +-- funil-vendas.md
 |   +-- parceria-influencer.md
-|   +-- batch-production-workflow.md  # NOVO: Producao em lote
+|   +-- batch-production-workflow.md  # NOVO: Produção em lote
 |   +-- tiktok-trends-chrome.md       # NOVO: Monitoramento TikTok
 |
-+-- output/                           # Pasta para conteudo gerado
-+-- outputs/                          # Exemplos de conteudo gerado
++-- outputs/                          # Conteúdo gerado
 |
-+-- skill-package/                    # Skill empacotada para distribuicao
++-- skill-package/                    # Skill empacotada para distribuição
     +-- content-creator/
 ```
 
 ## :robot: Subagentes
 
-| Subagente | Arquivo | Descricao |
+| Subagente | Arquivo | Descrição |
 |-----------|---------|-----------|
-| Research Agent | `subagents/research-agent.md` | Pesquisa de tendencias, analise de concorrencia, keyword research, mapeamento de audiencia |
-| Copy Agent | `subagents/copy-agent.md` | Headlines, hooks, CTAs otimizados, copy de vendas, variacoes A/B, neuromarketing |
-| SEO Agent | `subagents/seo-agent.md` | Otimizacao on-page, estruturacao de conteudo, meta tags, E-E-A-T |
-| Social Agent | `subagents/social-agent.md` | Posts por plataforma, adaptacao cross-platform, hashtags, timing, algoritmos |
-| Video Agent | `subagents/video-agent.md` | Scripts YouTube (long-form), Reels/TikTok/Shorts, VSL, hooks de retencao |
-| AI Tools Agent | `subagents/ai-tools-agent.md` | Prompts para imagem (Midjourney, DALL-E, Flux) e video (Veo 3.1, Sora 2, Kling) |
-| Analytics Agent | `subagents/analytics-agent.md` | Metricas por plataforma, relatorios, analise de performance, testes A/B |
+| Research Agent | `subagents/research-agent.md` | Pesquisa de tendências, análise de concorrência, keyword research, mapeamento de audiência |
+| Copy Agent | `subagents/copy-agent.md` | Headlines, hooks, CTAs otimizados, copy de vendas, variações A/B, neuromarketing |
+| SEO Agent | `subagents/seo-agent.md` | Otimização on-page, estruturação de conteúdo, meta tags, E-E-A-T |
+| Social Agent | `subagents/social-agent.md` | Posts por plataforma, adaptação cross-platform, hashtags, timing, algoritmos |
+| Video Agent | `subagents/video-agent.md` | Scripts YouTube (long-form), Reels/TikTok/Shorts, VSL, hooks de retenção |
+| AI Tools Agent | `subagents/ai-tools-agent.md` | Prompts para imagem (Midjourney, DALL-E, Flux) e vídeo (Veo 3.1, Sora 2, Kling) |
+| Analytics Agent | `subagents/analytics-agent.md` | Métricas por plataforma, relatórios, análise de performance, testes A/B |
 | Audio Agent | `subagents/audio-agent.md` | Roteiros de podcast (solo, entrevista, co-host), spots, audiobooks |
-| Email Agent | `subagents/email-agent.md` | Sequencias de email, newsletters, automacoes de marketing |
-| Ads Agent | `subagents/ads-agent.md` | Copy de anuncios Meta/Google/TikTok/LinkedIn, estrategia de ads |
+| Email Agent | `subagents/email-agent.md` | Sequências de email, newsletters, automações de marketing |
+| Ads Agent | `subagents/ads-agent.md` | Copy de anúncios Meta/Google/TikTok/LinkedIn, estratégia de ads |
 | Design Agent | `subagents/design-agent.md` | Design visual, paletas de cores, identidade de marca, layouts |
+| Brand Agent | `subagents/brand-agent.md` | Identidade de marca, posicionamento, tom de voz |
+| Storytelling Agent | `subagents/storytelling-agent.md` | Narrativas, storytelling, arcos de história |
+| Funnel Agent | `subagents/funnel-agent.md` | Funis de vendas, jornada do cliente |
+| Growth Agent | `subagents/growth-agent.md` | Crescimento, growth hacking, aquisição |
+| Launch Agent | `subagents/launch-agent.md` | Lançamentos de produtos e campanhas |
 
-## :page_facing_up: Templates Disponiveis (26 templates)
+## :page_facing_up: Templates Disponíveis (26 templates)
 
 ### Redes Sociais
 
-| Template | Arquivo | Descricao |
+| Template | Arquivo | Descrição |
 |----------|---------|-----------|
 | Post Instagram Carrossel | `assets/templates/post-instagram-carrossel.md` | Template de carrossel Instagram |
 | Instagram Feed Post | `assets/templates/instagram-feed-post.md` | Posts para feed do Instagram |
 | Instagram Stories | `assets/templates/instagram-stories.md` | Templates de stories interativos |
 | Carrossel Thumbnail Mastery | `assets/templates/carrossel-thumbnail-mastery.md` | Capas de carrossel de alto impacto |
-| Card Unico por Nicho | `assets/templates/card-unico-niche-templates.md` | Templates de card unico por nicho |
+| Card Único por Nicho | `assets/templates/card-unico-niche-templates.md` | Templates de card único por nicho |
 | Post LinkedIn | `assets/templates/post-linkedin.md` | Estrutura de post para LinkedIn |
 | Twitter Thread | `assets/templates/twitter-thread.md` | Threads virais para Twitter/X |
 | Pinterest Pins | `assets/templates/pinterest-pins.md` | Pins e Idea Pins otimizados |
 
-### Video
+### Vídeo
 
-| Template | Arquivo | Descricao |
+| Template | Arquivo | Descrição |
 |----------|---------|-----------|
-| YouTube Script | `assets/templates/youtube-script.md` | Roteiros completos para videos longos |
+| YouTube Script | `assets/templates/youtube-script.md` | Roteiros completos para vídeos longos |
 | YouTube Shorts | `assets/templates/youtube-shorts.md` | Scripts para Shorts otimizados |
-| Reels/TikTok Script | `assets/templates/reels-tiktok-script.md` | Scripts para videos curtos (15s, 30s, 60s) |
-| Reels Audio Strategy | `assets/templates/reels-audio-strategy.md` | Estrategia de audio para Reels virais |
-| VSL Script | `assets/templates/vsl-script.md` | Video Sales Letter completo |
+| Reels/TikTok Script | `assets/templates/reels-tiktok-script.md` | Scripts para vídeos curtos (15s, 30s, 60s) |
+| Reels Audio Strategy | `assets/templates/reels-audio-strategy.md` | Estratégia de áudio para Reels virais |
+| VSL Script | `assets/templates/vsl-script.md` | Vídeo Sales Letter completo |
 | Pesquisa TikTok Trends | `assets/templates/pesquisa-tiktok-trends.md` | Metodologia de pesquisa de trends |
 
-### Audio e Podcast
+### Áudio e Podcast
 
-| Template | Arquivo | Descricao |
+| Template | Arquivo | Descrição |
 |----------|---------|-----------|
-| Podcast Episode | `assets/templates/podcast-episode.md` | Estrutura de episodio de podcast |
-| Podcast Ad Reads | `assets/templates/podcast-ad-reads.md` | Scripts de anuncios para podcasts |
+| Podcast Episode | `assets/templates/podcast-episode.md` | Estrutura de episódio de podcast |
+| Podcast Ad Reads | `assets/templates/podcast-ad-reads.md` | Scripts de anúncios para podcasts |
 
-### Conteudo Escrito
+### Conteúdo Escrito
 
-| Template | Arquivo | Descricao |
+| Template | Arquivo | Descrição |
 |----------|---------|-----------|
 | Artigo SEO | `assets/templates/artigo-seo.md` | Estrutura completa para artigos otimizados |
 | Email Newsletter | `assets/templates/email-newsletter.md` | Template de newsletter por email |
 | Press Release | `assets/templates/press-release.md` | Comunicados de imprensa |
 | Case Study | `assets/templates/case-study.md` | Estudos de caso |
-| Whitepaper | `assets/templates/whitepaper.md` | Conteudo B2B aprofundado |
+| Whitepaper | `assets/templates/whitepaper.md` | Conteúdo B2B aprofundado |
 
-### Vendas e Conversao
+### Vendas e Conversão
 
-| Template | Arquivo | Descricao |
+| Template | Arquivo | Descrição |
 |----------|---------|-----------|
 | Webinar Script | `assets/templates/webinar-script.md` | Roteiro completo de webinar/live de vendas |
-| Sales Page | `assets/templates/sales-page.md` | Estrutura de pagina de vendas |
+| Sales Page | `assets/templates/sales-page.md` | Estrutura de página de vendas |
 | Lead Magnet | `assets/templates/lead-magnet.md` | Templates de iscas digitais |
 | UGC Brief | `assets/templates/ugc-brief.md` | Briefing para criadores UGC |
 
 ### Personalizados
 
-| Template | Arquivo | Descricao |
+| Template | Arquivo | Descrição |
 |----------|---------|-----------|
-| Meus Templates | `assets/templates/meus-templates.md` | Templates personalizados do usuario |
+| Meus Templates | `assets/templates/meus-templates.md` | Templates personalizados do usuário |
 
-## :wrench: Scripts de Automacao (19 scripts)
+## :wrench: Scripts de Automação (19 scripts)
 
-### Analise e Otimizacao
+### Análise e Otimização
 
-| Script | Descricao | Comando |
+| Script | Descrição | Comando |
 |--------|-----------|---------|
-| `seo_analyzer.py` | Analisa e otimiza conteudo para SEO com score 0-100 | `python scripts/seo_analyzer.py arquivo.md "keyword"` |
-| `readability_checker.py` | Analisa legibilidade com Flesch adaptado para portugues | `python scripts/readability_checker.py --file artigo.txt` |
+| `seo_analyzer.py` | Analisa e otimiza conteúdo para SEO com score 0-100 | `python scripts/seo_analyzer.py arquivo.md "keyword"` |
+| `readability_checker.py` | Analisa legibilidade com Flesch adaptado para português | `python scripts/readability_checker.py --file artigo.txt` |
 | `headline_scorer.py` | Pontua headlines por poder emocional e clareza (0-100) | `python scripts/headline_scorer.py "Sua headline aqui"` |
-| `content_audit.py` | Audita conteudo existente e sugere melhorias | `python scripts/content_audit.py arquivo.md --tipo blog` |
+| `content_audit.py` | Audita conteúdo existente e sugere melhorias | `python scripts/content_audit.py arquivo.md --tipo blog` |
 | `competitor_analyzer.py` | Analisa perfis de concorrentes e extrai insights | `python scripts/competitor_analyzer.py "@perfil1" "@perfil2"` |
 
-### Geracao de Conteudo
+### Geração de Conteúdo
 
-| Script | Descricao | Comando |
+| Script | Descrição | Comando |
 |--------|-----------|---------|
-| `hook_generator.py` | Gera hooks virais para videos e posts | `python scripts/hook_generator.py "tema" reels 10` |
-| `hook_variant_generator.py` | Gera multiplas variacoes de hooks por formato | `python scripts/hook_variant_generator.py "tema" --formato reels` |
-| `content_idea_generator.py` | Gera ideias de conteudo por nicho e pilares | `python scripts/content_idea_generator.py tecnologia 20` |
-| `ab_generator.py` | Gera variacoes de copy para testes A/B | `python scripts/ab_generator.py headline "texto original"` |
+| `hook_generator.py` | Gera hooks virais para vídeos e posts | `python scripts/hook_generator.py "tema" reels 10` |
+| `hook_variant_generator.py` | Gera múltiplas variações de hooks por formato | `python scripts/hook_variant_generator.py "tema" --formato reels` |
+| `content_idea_generator.py` | Gera ideias de conteúdo por nicho e pilares | `python scripts/content_idea_generator.py tecnologia 20` |
+| `ab_generator.py` | Gera variações de copy para testes A/B | `python scripts/ab_generator.py headline "texto original"` |
 | `caption_generator.py` | Gera legendas otimizadas para Instagram por objetivo | `python scripts/caption_generator.py "tema" engajamento` |
 
 ### Instagram e Redes Sociais
 
-| Script | Descricao | Comando |
+| Script | Descrição | Comando |
 |--------|-----------|---------|
 | `hashtag_generator.py` | Gera hashtags relevantes por nicho e plataforma | `python scripts/hashtag_generator.py nicho plataforma` |
-| `instagram_hashtag_research.py` | Pesquisa avancada de hashtags com estrategias | `python scripts/instagram_hashtag_research.py "nicho" --gerar-set` |
+| `instagram_hashtag_research.py` | Pesquisa avançada de hashtags com estratégias | `python scripts/instagram_hashtag_research.py "nicho" --gerar-set` |
 | `carousel_structure_generator.py` | Gera estruturas completas de carrossel | `python scripts/carousel_structure_generator.py "tema" educativo 10` |
 | `reels_script_generator.py` | Gera roteiros para Reels com timestamps | `python scripts/reels_script_generator.py "tema" 30 tutorial` |
 
-### Planejamento e Calendario
+### Planejamento e Calendário
 
-| Script | Descricao | Comando |
+| Script | Descrição | Comando |
 |--------|-----------|---------|
-| `content_calendar.py` | Cria calendario editorial para multiplas plataformas | `python scripts/content_calendar.py 2026-02-01 4 instagram linkedin` |
-| `content_repurposer.py` | Adapta conteudo entre plataformas automaticamente | `python scripts/content_repurposer.py --file artigo.txt --output todos` |
+| `content_calendar.py` | Cria calendário editorial para múltiplas plataformas | `python scripts/content_calendar.py 2026-02-01 4 instagram linkedin` |
+| `content_repurposer.py` | Adapta conteúdo entre plataformas automaticamente | `python scripts/content_repurposer.py --file artigo.txt --output todos` |
 
-### Tendencias e Trends
+### Tendências e Trends
 
-| Script | Descricao | Comando |
+| Script | Descrição | Comando |
 |--------|-----------|---------|
-| `trend_tracker.py` | Monitora tendencias via Google Trends, Reddit, YouTube | `python scripts/trend_tracker.py "termo" google,reddit --periodo 7` |
+| `trend_tracker.py` | Monitora tendências via Google Trends, Reddit, YouTube | `python scripts/trend_tracker.py "termo" google,reddit --periodo 7` |
 | `trend_adapter.py` | Adapta trends virais para diferentes nichos | `python scripts/trend_adapter.py "get ready with me" marketing` |
 | `tiktok_trends_scraper.py` | Busca videos virais do TikTok por hashtag | `python scripts/tiktok_trends_scraper.py --hashtag "marketing" --min-views 1000000` |
 
@@ -294,40 +308,40 @@ Agente Criador de Conteudo/
 - **Instagram** - Feed, Carrossel, Reels, Stories
 - **LinkedIn** - Posts, Artigos, Newsletter
 - **Twitter/X** - Tweets, Threads
-- **TikTok** - Videos curtos, Lives
-- **YouTube** - Videos long-form, Shorts
+- **TikTok** - Vídeos curtos, Lives
+- **YouTube** - Vídeos long-form, Shorts
 - **Pinterest** - Pins, Idea Pins
 - **Facebook** - Posts, Stories, Grupos
-- **Email** - Newsletters, Sequencias, Automacoes
+- **Email** - Newsletters, Sequências, Automações
 - **Blog/SEO** - Artigos otimizados, Landing pages
-- **Podcast** - Episodios, Show notes
-- **Anuncios** - Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads
+- **Podcast** - Episódios, Show notes
+- **Anúncios** - Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads
 
 ## :dart: Nichos Suportados
 
 | Nicho | Foco Principal | Tom Sugerido |
 |-------|----------------|--------------|
-| Inteligencia Artificial | Ferramentas, tutoriais, tendencias | Educativo, acessivel |
-| Desenvolvimento Pessoal | Mindset, habitos, proposito | Inspiracional, empatico |
-| Desenvolvimento Profissional | Carreira, skills, lideranca | Profissional, pratico |
-| Tecnologia/Programacao | Codigo, tutoriais, carreira tech | Tecnico, didatico |
-| Empreendedorismo | Negocios, vendas, escala | Motivador, estrategico |
-| Financas Pessoais | Investimentos, renda, organizacao | Educativo, confiavel |
-| Saude e Bem-Estar | Exercicio, nutricao, saude mental | Acolhedor, motivador |
-| Educacao | Estudos, aprendizado, concursos | Didatico, encorajador |
-| Produtividade | Tempo, foco, ferramentas | Pratico, direto |
-| Marketing Digital | Estrategias, ferramentas, metricas | Autoridade, data-driven |
+| Inteligência Artificial | Ferramentas, tutoriais, tendências | Educativo, acessível |
+| Desenvolvimento Pessoal | Mindset, hábitos, propósito | Inspiracional, empático |
+| Desenvolvimento Profissional | Carreira, skills, liderança | Profissional, prático |
+| Tecnologia/Programação | Código, tutoriais, carreira tech | Técnico, didático |
+| Empreendedorismo | Negócios, vendas, escala | Motivador, estratégico |
+| Finanças Pessoais | Investimentos, renda, organização | Educativo, confiável |
+| Saúde e Bem-Estar | Exercício, nutrição, saúde mental | Acolhedor, motivador |
+| Educação | Estudos, aprendizado, concursos | Didático, encorajador |
+| Produtividade | Tempo, foco, ferramentas | Prático, direto |
+| Marketing Digital | Estratégias, ferramentas, métricas | Autoridade, data-driven |
 
 ## :rocket: Como Usar
 
 ### Como Skill do Claude Code
 
 1. **Configure como skill** no Claude Code apontando para o arquivo `Skill.md`
-2. **O agente sera acionado automaticamente** quando detectar triggers como: conteudo, marketing, post, blog, SEO, newsletter, copy, landing page, campanha, anuncio, Instagram, LinkedIn, TikTok, video, YouTube, Reels, podcast, VSL
+2. **O agente será acionado automaticamente** quando detectar triggers como: conteúdo, marketing, post, blog, SEO, newsletter, copy, landing page, campanha, anúncio, Instagram, LinkedIn, TikTok, vídeo, YouTube, Reels, podcast, VSL
 3. **Exemplo de uso**:
 
 ```
-Voce: "Crie um carrossel para Instagram sobre produtividade com IA"
+Você: "Crie um carrossel para Instagram sobre produtividade com IA"
 
 O agente automaticamente:
 1. Consulta o nicho (IA + Produtividade)
@@ -335,7 +349,7 @@ O agente automaticamente:
 3. Aciona o Copy Agent para headlines e CTAs
 4. Usa templates de carrossel
 5. Gera hashtags relevantes
-6. Entrega conteudo pronto com variacoes A/B
+6. Entrega conteúdo pronto com variações A/B
 ```
 
 ### Scripts Python
@@ -349,14 +363,14 @@ python scripts/seo_analyzer.py artigo.md "marketing digital"
 # Gerar hashtags para um nicho
 python scripts/hashtag_generator.py marketing_digital instagram
 
-# Criar calendario editorial de 4 semanas
+# Criar calendário editorial de 4 semanas
 python scripts/content_calendar.py 2026-02-01 4 instagram linkedin tiktok
 
-# Gerar variacoes A/B de uma headline
+# Gerar variações A/B de uma headline
 python scripts/ab_generator.py headline "Aprenda marketing digital"
 
 # Pontuar uma headline
-python scripts/headline_scorer.py "7 segredos de marketing digital que ninguem conta"
+python scripts/headline_scorer.py "7 segredos de marketing digital que ninguém conta"
 
 # Comparar headlines
 python scripts/headline_scorer.py --compare "Headline A" "Headline B"
@@ -364,132 +378,132 @@ python scripts/headline_scorer.py --compare "Headline A" "Headline B"
 # Analisar legibilidade de um texto
 python scripts/readability_checker.py --file artigo.txt
 
-# Adaptar conteudo para todas as plataformas
+# Adaptar conteúdo para todas as plataformas
 python scripts/content_repurposer.py --file artigo.txt --output todos
 
 # Gerar hooks virais
 python scripts/hook_generator.py "produtividade com IA" reels 10
 
-# Gerar ideias de conteudo
+# Gerar ideias de conteúdo
 python scripts/content_idea_generator.py tecnologia 20
 ```
 
 ## :bar_chart: Workflows (7 workflows)
 
-| Workflow | Arquivo | Descricao |
+| Workflow | Arquivo | Descrição |
 |----------|---------|-----------|
-| Lancamento de Produto | `workflows/lancamento-produto.md` | Campanha completa de lancamento com timeline de 30 dias |
-| Calendario Mensal | `workflows/calendario-mensal.md` | Planejamento editorial mensal completo |
-| Campanha de Conversao | `workflows/campanha-conversao.md` | Flash sale, promocoes, geracao de leads |
+| Lançamento de Produto | `workflows/lançamento-produto.md` | Campanha completa de lançamento com timeline de 30 dias |
+| Calendário Mensal | `workflows/calendário-mensal.md` | Planejamento editorial mensal completo |
+| Campanha de Conversão | `workflows/campanha-conversão.md` | Flash sale, promoções, geração de leads |
 | Funil de Vendas | `workflows/funil-vendas.md` | Processo completo TOFU -> MOFU -> BOFU |
-| Parceria com Influencer | `workflows/parceria-influencer.md` | Prospeccao, briefing e gestao de influenciadores |
-| Batch Production | `workflows/batch-production-workflow.md` | Producao em lote para escalar conteudo |
+| Parceria com Influencer | `workflows/parceria-influencer.md` | Prospecção, briefing e gestão de influenciadores |
+| Batch Production | `workflows/batch-production-workflow.md` | Produção em lote para escalar conteúdo |
 | TikTok Trends Chrome | `workflows/tiktok-trends-chrome.md` | Monitoramento de trends do TikTok via Chrome |
 
 ## :card_file_box: Swipe Files (9 arquivos)
 
-Banco de referencias e exemplos prontos para uso:
+Banco de referências e exemplos prontos para uso:
 
-| Arquivo | Descricao |
+| Arquivo | Descrição |
 |---------|-----------|
-| `assets/swipe-files/headlines-virais.md` | Colecao de headlines de alto impacto |
+| `assets/swipe-files/headlines-virais.md` | Coleção de headlines de alto impacto |
 | `assets/swipe-files/hooks-reels.md` | Hooks testados para Reels e TikTok |
-| `assets/swipe-files/ctas-conversao.md` | CTAs otimizados para conversao |
-| `assets/swipe-files/emails-conversao.md` | Modelos de emails que convertem |
-| `assets/swipe-files/copy-carrossel.md` | Copys para carrosseis de Instagram |
+| `assets/swipe-files/ctas-conversão.md` | CTAs otimizados para conversão |
+| `assets/swipe-files/emails-conversão.md` | Modelos de emails que convertem |
+| `assets/swipe-files/copy-carrossel.md` | Copys para carrosséis de Instagram |
 | `assets/swipe-files/bios-instagram.md` | Modelos de bio para Instagram |
-| `assets/swipe-files/transicoes-reels.md` | Transicoes criativas para Reels |
-| `assets/swipe-files/trends-adaptaveis.md` | Trends adaptaveis para diferentes nichos |
-| `assets/swipe-files/paletas-cores.md` | Paletas de cores por nicho e emocao |
+| `assets/swipe-files/transicoes-reels.md` | Transições criativas para Reels |
+| `assets/swipe-files/trends-adaptáveis.md` | Trends adaptáveis para diferentes nichos |
+| `assets/swipe-files/paletas-cores.md` | Paletas de cores por nicho e emoção |
 
 ## :sparkles: Prompts para IA (3 arquivos)
 
-| Arquivo | Descricao |
+| Arquivo | Descrição |
 |---------|-----------|
 | `assets/prompts/prompt-biblioteca.md` | Biblioteca completa de prompts |
-| `assets/prompts/prompts-imagem-ia.md` | Prompts para geracao de imagens com IA |
+| `assets/prompts/prompts-imagem-ia.md` | Prompts para geração de imagens com IA |
 | `assets/prompts/prompts-post-pronto.md` | Prompts para criar posts completos |
 
 ## :clipboard: Frameworks de Copywriting
 
 O agente utiliza os seguintes frameworks conforme o contexto:
 
-- **AIDA** - Atencao -> Interesse -> Desejo -> Acao
-- **PAS** - Problema -> Agitar -> Solucao
+- **AIDA** - Atenção -> Interesse -> Desejo -> Ação
+- **PAS** - Problema -> Agitar -> Solução
 - **BAB** - Antes -> Depois -> Ponte
-- **4Ps** - Promessa -> Imagem -> Prova -> Empurrao
+- **4Ps** - Promessa -> Imagem -> Prova -> Empurrão
 - **QUEST** - Qualificar -> Entender -> Educar -> Estimular -> Transicionar
 
-## :books: Documentacao
+## :books: Documentação
 
-| Arquivo | Descricao |
+| Arquivo | Descrição |
 |---------|-----------|
-| `GUIA-DE-USO.md` | Guia completo de uso do agente com exemplos praticos |
-| `INSTALACAO-SKILL.md` | Instrucoes detalhadas para instalar a skill no Claude Code |
-| `CONTRIBUTING.md` | Guia para contribuicao no projeto |
-| `CHANGELOG.md` | Historico de alteracoes e versoes |
-| `references/design-specs.md` | Especificacoes de design e dimensoes por plataforma |
+| `GUIA-DE-USO.md` | Guia completo de uso do agente com exemplos práticos |
+| `INSTALACAO-SKILL.md` | Instruções detalhadas para instalar a skill no Claude Code |
+| `CONTRIBUTING.md` | Guia para contribuição no projeto |
+| `CHANGELOG.md` | Histórico de alterações e versões |
+| `references/design-specs.md` | Especificações de design e dimensões por plataforma |
 
-## :package: Instalacao Rapida
+## :package: Instalação Rápida
 
-### Opcao 1: Via Claude Cowork (Recomendado)
+### Opção 1: Via Claude Cowork (Recomendado)
 
 Instale diretamente do GitHub como marketplace de plugins:
 
 1. Abra o **Claude Cowork**
-2. Va em **Plugins** > **Adicionar marketplace do GitHub**
-3. Cole a URL do repositorio:
+2. Vá em **Plugins** > **Adicionar marketplace do GitHub**
+3. Cole a URL do repositório:
    ```
    https://github.com/rilnermucio/Agents
    ```
 4. Clique em **Adicionar**
-5. A skill `content-creator` estara disponivel automaticamente!
+5. A skill `content-creator` estará disponível automaticamente!
 
-**Vantagem:** Sempre atualizado! Quando o repositorio for atualizado, sua skill tambem sera.
+**Vantagem:** Sempre atualizado! Quando o repositório for atualizado, sua skill também será.
 
-### Opcao 2: Instalacao Local
+### Opção 2: Instalação Local
 
 ```bash
-# Clone o repositorio
+# Clone o repositório
 git clone https://github.com/rilnermucio/Agents.git
-cd "Agente Criador de Conteudo"
+cd "Agente Criador de Conteúdo"
 
-# Instale dependencias Python (opcional, para scripts)
+# Instale dependências Python (opcional, para scripts)
 pip install -r requirements.txt
 ```
 
-### Opcao 3: Copiar Skill Manualmente
+### Opção 3: Copiar Skill Manualmente
 
 1. Copie a pasta `skills/content-creator/` para:
    - **macOS:** `~/.claude/skills/`
    - **Windows:** `%APPDATA%\Claude\skills\`
    - **Linux:** `~/.config/claude/skills/`
 
-Para instrucoes detalhadas, consulte `INSTALACAO-SKILL.md`.
+Para instruções detalhadas, consulte `INSTALACAO-SKILL.md`.
 
-## :handshake: Contribuicao
+## :handshake: Contribuição
 
-Contribuicoes sao bem-vindas! Para contribuir:
+Contribuições são bem-vindas! Para contribuir:
 
-1. Faca um fork do repositorio
+1. Faça um fork do repositório
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas alteracoes (`git commit -m 'Adiciona nova feature'`)
+3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`)
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
 Para mais detalhes, consulte `CONTRIBUTING.md`.
 
-### Areas para contribuicao
+### Áreas para contribuição
 
-- Novos templates de conteudo
+- Novos templates de conteúdo
 - Novos nichos e personas
 - Melhorias nos scripts Python
 - Novos workflows de campanha
-- Traducoes e localizacoes
+- Traduções e localizações
 
-## :memo: Licenca
+## :memo: Licença
 
-Este projeto esta licenciado sob a licenca MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 

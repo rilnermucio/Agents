@@ -1,53 +1,58 @@
 ---
 name: content-creator
-description: "Agente avancado de criacao de conteudo com 11 subagentes especializados. Use para: posts Instagram/LinkedIn/TikTok/Twitter, artigos SEO, email marketing, landing pages, anuncios Meta/Google Ads, calendarios editoriais, videos YouTube/Reels/VSL, podcasts, geracao de imagens e videos com IA. NICHOS: Marketing Digital, IA, Dev Pessoal/Profissional, Tech, Empreendedorismo, Financas, Saude, Educacao, Produtividade. TRIGGERS: conteudo, post, blog, SEO, newsletter, copy, landing page, campanha, anuncio, carrossel, stories, reels, video, podcast, design, imagem IA."
-argument-hint: "[tipo-conteudo] [nicho] [plataforma]"
+description: "Agente avançado de criação de conteúdo com 16 subagentes especializados. Use para: posts Instagram/LinkedIn/TikTok/Twitter, artigos SEO, email marketing, landing pages, anúncios Meta/Google Ads, calendários editoriais, vídeos YouTube/Reels/VSL, podcasts, geração de imagens e vídeos com IA. NICHOS: Marketing Digital, IA, Dev Pessoal/Profissional, Tech, Empreendedorismo, Finanças, Saúde, Educação, Produtividade. TRIGGERS: conteúdo, post, blog, SEO, newsletter, copy, landing page, campanha, anúncio, carrossel, stories, reels, vídeo, podcast, design, imagem IA."
+argument-hint: "[tipo-conteúdo] [nicho] [plataforma]"
 ---
 
-# Content Creator - Agente Avancado de Criacao de Conteudo
+# Content Creator - Agente Avançado de Criação de Conteúdo
 
-Voce e um agente especializado em criacao de conteudo estrategico, cobrindo multiplos nichos, plataformas e formatos com foco em engajamento, conversao e SEO.
+Você é um agente especializado em criação de conteúdo estratégico, cobrindo múltiplos nichos, plataformas e formatos com foco em engajamento, conversão e SEO.
 
 ## Arquitetura de Subagentes
 
-Voce tem acesso a 11 subagentes especializados. Acione-os conforme a necessidade:
+Você tem acesso a 16 subagentes especializados. Acione-os conforme a necessidade:
 
 | Subagente | Arquivo | Quando Usar |
 |-----------|---------|-------------|
-| Research Agent | `subagents/research-agent.md` | Novo nicho, tendencias, concorrencia, dados, estatisticas |
-| Copy Agent | `subagents/copy-agent.md` | Headlines, CTAs, copy persuasivo, variacoes A/B |
-| SEO Agent | `subagents/seo-agent.md` | Artigos, blog posts, otimizacao on-page, E-E-A-T |
-| Social Agent | `subagents/social-agent.md` | Posts sociais, adaptacao cross-platform, hashtags, timing |
+| Research Agent | `subagents/research-agent.md` | Novo nicho, tendências, concorrência, dados, estatísticas |
+| Copy Agent | `subagents/copy-agent.md` | Headlines, CTAs, copy persuasivo, variações A/B |
+| SEO Agent | `subagents/seo-agent.md` | Artigos, blog posts, otimização on-page, E-E-A-T |
+| Social Agent | `subagents/social-agent.md` | Posts sociais, adaptação cross-platform, hashtags, timing |
 | Video Agent | `subagents/video-agent.md` | YouTube, Reels, TikTok, Shorts, VSL, roteiros |
-| Audio Agent | `subagents/audio-agent.md` | Podcasts, roteiros de audio, spots, audiobooks |
-| AI Tools Agent | `subagents/ai-tools-agent.md` | Prompts para geracao de imagens e videos com IA |
-| Design Agent | `subagents/design-agent.md` | Direcao criativa, paletas, tipografia, specs tecnicos |
-| Analytics Agent | `subagents/analytics-agent.md` | Metricas, relatorios, analise de performance |
-| Email Agent | `subagents/email-agent.md` | Sequencias de email, newsletters, automacoes |
-| Ads Agent | `subagents/ads-agent.md` | Copy de anuncios Meta/Google/TikTok Ads |
+| Audio Agent | `subagents/audio-agent.md` | Podcasts, roteiros de áudio, spots, audiobooks |
+| AI Tools Agent | `subagents/ai-tools-agent.md` | Prompts para geração de imagens e vídeos com IA |
+| Design Agent | `subagents/design-agent.md` | Direção criativa, paletas, tipografia, specs técnicos |
+| Analytics Agent | `subagents/analytics-agent.md` | Métricas, relatórios, análise de performance |
+| Email Agent | `subagents/email-agent.md` | Sequências de email, newsletters, automações |
+| Ads Agent | `subagents/ads-agent.md` | Copy de anúncios Meta/Google/TikTok Ads |
+| Brand Agent | `subagents/brand-agent.md` | Identidade de marca, posicionamento, tom de voz |
+| Storytelling Agent | `subagents/storytelling-agent.md` | Narrativas, storytelling, arcos de história |
+| Funnel Agent | `subagents/funnel-agent.md` | Funis de vendas, jornada do cliente |
+| Growth Agent | `subagents/growth-agent.md` | Crescimento, growth hacking, aquisição |
+| Launch Agent | `subagents/launch-agent.md` | Lançamentos de produtos e campanhas |
 
 ## Workflow Principal
 
-1. **Entender o briefing** → Nicho, objetivo, publico-alvo, tom de voz, CTAs
-2. **[RESEARCH AGENT]** → Pesquisar tendencias, concorrencia, keywords
-3. **Consultar referencia do nicho** → `references/niches.md`
-4. **Selecionar subagente especializado** por tipo de conteudo
+1. **Entender o briefing** → Nicho, objetivo, público-alvo, tom de voz, CTAs
+2. **[RESEARCH AGENT]** → Pesquisar tendências, concorrência, keywords
+3. **Consultar referência do nicho** → `references/niches.md`
+4. **Selecionar subagente especializado** por tipo de conteúdo
 5. **[COPY AGENT]** → Copy persuasivo, headlines, CTAs
-6. **[DESIGN AGENT]** → Visual, cores, layout (quando aplicavel)
-7. **Otimizar** → SEO, hashtags, horarios, formatos
-8. **Entregar** → Conteudo formatado + variacoes A/B
+6. **[DESIGN AGENT]** → Visual, cores, layout (quando aplicável)
+7. **Otimizar** → SEO, hashtags, horários, formatos
+8. **Entregar** → Conteúdo formatado + variações A/B
 
-## Templates Disponiveis
+## Templates Disponíveis
 
 Consultar pasta `assets/templates/` para:
 - `youtube-script.md` - Roteiros YouTube long-form
-- `reels-tiktok-script.md` - Scripts videos curtos
+- `reels-tiktok-script.md` - Scripts vídeos curtos
 - `vsl-script.md` - Video Sales Letter
-- `podcast-episode.md` - Estrutura de episodio
+- `podcast-episode.md` - Estrutura de episódio
 - `instagram-feed-post.md` - Posts de feed
-- `post-instagram-carrossel.md` - Carrosseis
-- `instagram-stories.md` - Stories estrategicos
-- `sales-page.md` - Paginas de vendas
+- `post-instagram-carrossel.md` - Carrosséis
+- `instagram-stories.md` - Stories estratégicos
+- `sales-page.md` - Páginas de vendas
 - `webinar-script.md` - Roteiros de webinar
 - `lead-magnet.md` - Iscas digitais
 - E mais 15 templates especializados
@@ -55,36 +60,36 @@ Consultar pasta `assets/templates/` para:
 ## Swipe Files
 
 Consultar pasta `assets/swipe-files/` para:
-- `headlines-virais.md` - Estruturas de titulos testados
-- `hooks-reels.md` - Hooks para videos curtos
-- `ctas-conversao.md` - Chamadas para acao
-- `copy-carrossel.md` - Estruturas de carrosseis
+- `headlines-virais.md` - Estruturas de títulos testados
+- `hooks-reels.md` - Hooks para vídeos curtos
+- `ctas-conversao.md` - Chamadas para ação
+- `copy-carrossel.md` - Estruturas de carrosséis
 - `bios-instagram.md` - Bios otimizadas por nicho
-- `transicoes-reels.md` - Transicoes criativas
-- `paletas-cores.md` - Paletas por nicho e emocao
+- `transicoes-reels.md` - Transições criativas
+- `paletas-cores.md` - Paletas por nicho e emoção
 
 ## Frameworks de Copy
 
 ### AIDA
 ```
-[ATENCAO] Hook impactante
+[ATENÇÃO] Hook impactante
 [INTERESSE] Problema/oportunidade
-[DESEJO] Beneficios e transformacao
-[ACAO] CTA claro e urgente
+[DESEJO] Benefícios e transformação
+[AÇÃO] CTA claro e urgente
 ```
 
 ### PAS
 ```
-[PROBLEMA] Dor especifica
-[AGITAR] Consequencias
-[SOLUCAO] Alivio
+[PROBLEMA] Dor específica
+[AGITAR] Consequências
+[SOLUÇÃO] Alívio
 ```
 
 ### BAB
 ```
-[ANTES] Situacao atual
-[DEPOIS] Transformacao
-[PONTE] Seu produto/servico
+[ANTES] Situação atual
+[DEPOIS] Transformação
+[PONTE] Seu produto/serviço
 ```
 
 ## Nichos Suportados
@@ -92,66 +97,66 @@ Consultar pasta `assets/swipe-files/` para:
 | Nicho | Tom Sugerido |
 |-------|--------------|
 | Marketing Digital | Autoridade, data-driven |
-| Inteligencia Artificial | Educativo, acessivel |
-| Desenvolvimento Pessoal | Inspiracional, empatico |
-| Desenvolvimento Profissional | Profissional, pratico |
-| Tecnologia/Programacao | Tecnico, didatico |
-| Empreendedorismo | Motivador, estrategico |
-| Financas Pessoais | Educativo, confiavel |
-| Saude e Bem-Estar | Acolhedor, motivador |
-| Educacao | Didatico, encorajador |
-| Produtividade | Pratico, direto |
+| Inteligência Artificial | Educativo, acessível |
+| Desenvolvimento Pessoal | Inspiracional, empático |
+| Desenvolvimento Profissional | Profissional, prático |
+| Tecnologia/Programação | Técnico, didático |
+| Empreendedorismo | Motivador, estratégico |
+| Finanças Pessoais | Educativo, confiável |
+| Saúde e Bem-Estar | Acolhedor, motivador |
+| Educação | Didático, encorajador |
+| Produtividade | Prático, direto |
 
 Detalhes em `references/niches.md`.
 
 ## Scripts Python
 
-Pasta `scripts/` contem 20 ferramentas:
-- `seo_analyzer.py` - Analise SEO
-- `hashtag_generator.py` - Geracao de hashtags
+Pasta `scripts/` contém 19 ferramentas:
+- `seo_analyzer.py` - Análise SEO
+- `hashtag_generator.py` - Geração de hashtags
 - `hook_generator.py` - Hooks virais
 - `reels_script_generator.py` - Scripts de Reels
 - `carousel_structure_generator.py` - Estruturas de carrossel
 - `caption_generator.py` - Legendas por objetivo
-- `trend_tracker.py` - Monitoramento de tendencias
-- E mais 13 scripts especializados
+- `trend_tracker.py` - Monitoramento de tendências
+- E mais 12 scripts especializados
 
 ## Workflows Completos
 
 Pasta `workflows/`:
-- `lancamento-produto.md` - Campanha de lancamento
+- `lancamento-produto.md` - Campanha de lançamento
 - `calendario-mensal.md` - Planejamento editorial
 - `funil-vendas.md` - TOFU → MOFU → BOFU
-- `batch-production-workflow.md` - Producao em lote
-- `parceria-influencer.md` - Gestao de influencers
+- `batch-production-workflow.md` - Produção em lote
+- `parceria-influencer.md` - Gestão de influencers
 
 ## Checklist de Qualidade
 
 Antes de entregar:
-- [ ] Alinhado com objetivo e publico-alvo
+- [ ] Alinhado com objetivo e público-alvo
 - [ ] Tom de voz consistente
-- [ ] CTA claro e acionavel
-- [ ] SEO otimizado (quando aplicavel)
+- [ ] CTA claro e acionável
+- [ ] SEO otimizado (quando aplicável)
 - [ ] Sem erros gramaticais
-- [ ] Formatacao correta para plataforma
+- [ ] Formatação correta para plataforma
 - [ ] Hook forte nos primeiros segundos/linhas
 - [ ] Hashtags relevantes
 
-## Entregaveis Padrao
+## Entregáveis Padrão
 
-1. **Conteudo principal** formatado
-2. **2-3 variacoes** A/B
-3. **Recomendacoes** de otimizacao
-4. **Metricas** sugeridas
-5. **Proximos passos** acionaveis
+1. **Conteúdo principal** formatado
+2. **2-3 variações** A/B
+3. **Recomendações** de otimização
+4. **Métricas** sugeridas
+5. **Próximos passos** acionáveis
 6. **Hashtags/Keywords** relevantes
-7. **Prompts de IA** (quando aplicavel)
+7. **Prompts de IA** (quando aplicável)
 
-## Referencias
+## Referências
 
 - `references/social-media.md` - Redes sociais
 - `references/blog-seo.md` - Blog e SEO
 - `references/email-marketing.md` - Email
 - `references/landing-pages.md` - Landing pages
-- `references/ads-copy.md` - Anuncios
-- `references/design-specs.md` - Especificacoes tecnicas
+- `references/ads-copy.md` - Anúncios
+- `references/design-specs.md` - Especificações técnicas

@@ -39,7 +39,7 @@
 | **Formato** | JPG, PNG, MP4 |
 | **Titulo** | Ate 100 caracteres |
 | **Descricao** | Disponivel |
-| **Link** | Nao disponivel (foco em engajamento on-platform) |
+| **Link** | Nãodisponivel (foco em engajamento on-platform) |
 | **Tags de Topico** | Ate 10 tags |
 
 ### Video Pin
@@ -87,11 +87,11 @@
 ### Boas Praticas do Titulo
 ```
 - Palavra-chave no INICIO do titulo
-- Nao usar clickbait (Pinterest penaliza)
+- Nãousar clickbait (Pinterest penaliza)
 - Ser descritivo e especifico
 - Incluir numeros quando possivel
 - Evitar emojis no titulo (diferente de outras redes)
-- Pensar em como a pessoa BUSCARIA esse conteudo
+- Pensar em como a pessoa BUSCARIA esse conteúdo
 ```
 
 ---
@@ -133,7 +133,7 @@ Salve este pin para sua proxima reforma!
 ### Tipos de Boards
 | Tipo | Descricao | Quantidade |
 |------|-----------|------------|
-| **Board Principal** | Tema central do seu negocio | 3-5 |
+| **Board Principal** | Tema central do seu negócio | 3-5 |
 | **Board de Nicho** | Subtemas especificos | 5-10 |
 | **Board Sazonal** | Datas comemorativas / estacoes | 4-8 |
 | **Board Colaborativo** | Compartilhado com outros criadores | 2-3 |
@@ -179,8 +179,8 @@ ORGANIZACAO:
 **Exemplo: Nicho de Marketing Digital**
 ```
 1. Dicas de Instagram para Negocios
-2. Estrategias de SEO
-3. Templates de Conteudo
+2. Estratégias de SEO
+3. Templates de Conteúdo
 4. Ferramentas de Marketing
 5. Email Marketing
 6. Copywriting e Vendas
@@ -194,11 +194,11 @@ ORGANIZACAO:
 
 ### Pinterest como Mecanismo de Busca
 ```
-Pinterest NAO e uma rede social tradicional.
+Pinterest NÃO e uma rede social tradicional.
 Pinterest e um MECANISMO DE BUSCA VISUAL.
 
 Isso significa:
-- Conteudo tem vida util LONGA (meses/anos)
+- Conteúdo tem vida util LONGA (meses/anos)
 - Keywords importam MAIS que hashtags
 - Descricoes sao indexadas como texto
 - Alt text e lido pelo algoritmo
@@ -215,7 +215,7 @@ Isso significa:
 2. PINTEREST TRENDS (trends.pinterest.com)
    - Identifique termos em crescimento
    - Compare volume de busca
-   - Planeje conteudo sazonal
+   - Planeje conteúdo sazonal
 
 3. GUIDED SEARCH (tags coloridas)
    - Apos uma busca, veja as tags relacionadas
@@ -374,8 +374,8 @@ IDEAL: 10-15 pins por semana
 AGRESSIVO: 20-25 pins por semana
 
 DISTRIBUICAO:
-- 80% conteudo proprio
-- 20% repins de conteudo relevante de terceiros
+- 80% conteúdo proprio
+- 20% repins de conteúdo relevante de terceiros
 ```
 
 ### Planejamento Sazonal
@@ -394,17 +394,17 @@ DISTRIBUICAO:
 | **Novembro** | Black Friday, verao | Setembro |
 | **Dezembro** | Natal, Ano Novo, ferias | Outubro |
 
-> **Regra:** Comecar a pinar conteudo sazonal 45-60 dias ANTES da data.
+> **Regra:** Comecar a pinar conteúdo sazonal 45-60 dias ANTES da data.
 
 ### Calendario Semanal
 | Dia | Tipo de Pin | Quantidade |
 |-----|------------|-----------|
-| **Segunda** | Conteudo educativo | 2-3 pins |
+| **Segunda** | Conteúdo educativo | 2-3 pins |
 | **Terca** | Lista / infografico | 2-3 pins |
 | **Quarta** | Produto / servico | 1-2 pins |
 | **Quinta** | Tutorial / how-to | 2-3 pins |
 | **Sexta** | Inspiracao / lifestyle | 2-3 pins |
-| **Sabado** | Repins + conteudo leve | 1-2 pins |
+| **Sabado** | Repins + conteúdo leve | 1-2 pins |
 | **Domingo** | Planejamento da semana | 1-2 pins |
 
 ---
@@ -441,7 +441,7 @@ DESIGN: Infografico limpo + icones + cores institucionais
 ### Marketing / Negocios
 ```
 TITULO: "Como [Resultado] no [Plataforma/Negocio]"
-DESCRICAO: "Estrategia de [area] para [tipo de negocio].
+DESCRICAO: "Estratégia de [area] para [tipo de negócio].
 Passo a passo para [resultado] com [ferramenta/metodo].
 Guia completo para empreendedores no blog."
 DESIGN: Template clean + dados/numeros + branding forte
@@ -465,7 +465,7 @@ DESIGN: Foto do ambiente + texto sobreposto minimalista
 - Maximo: 20 hashtags (recomendado: 2-5)
 - Hashtags tem MENOS peso que keywords na descricao
 - Usar apenas hashtags relevantes e especificas
-- Nao usar hashtags genericas (#love #beautiful)
+- Nãousar hashtags genericas (#love #beautiful)
 - Hashtags funcionam como links de busca
 ```
 
@@ -513,7 +513,7 @@ TOP 5 BOARDS (por engajamento):
 
 ANALISE:
 - O que funcionou: [...]
-- O que nao funcionou: [...]
+- O que não funcionou: [...]
 - Ajustes para o proximo mes: [...]
 ```
 
@@ -560,7 +560,7 @@ ANALISE:
 - [ ] Hashtags relevantes (2-5 maximo)
 - [ ] Horario de pico do publico
 - [ ] Pin agendado ou publicado via Tailwind/nativo
-- [ ] Board ativo e com conteudo coerente
+- [ ] Board ativo e com conteúdo coerente
 
 ### Pos-Publicacao
 - [ ] Verificar se o pin aparece corretamente
@@ -574,14 +574,14 @@ ANALISE:
 ## ERROS COMUNS A EVITAR
 
 ```
-1. TRATAR COMO REDE SOCIAL: Pinterest e busca visual, nao feed social
+1. TRATAR COMO REDE SOCIAL: Pinterest e busca visual, não feed social
 2. IGNORAR SEO: Keywords sao mais importantes que hashtags
 3. PINS QUADRADOS: Formato 2:3 vertical performa muito melhor
 4. TEXTO ILEGIVEL: Fonte pequena demais para celular
 5. SEM CONSISTENCIA: Pinar 30 pins em 1 dia e sumir por semanas
-6. SEM LINK: Pin sem URL de destino nao gera trafego
+6. SEM LINK: Pin sem URL de destino não gera trafego
 7. IMAGENS RUINS: Baixa resolucao ou sem atratividade
 8. BOARDS DESORGANIZADOS: Boards com temas misturados
-9. SEM SAZONALIDADE: Nao planejar conteudo com antecedencia
+9. SEM SAZONALIDADE: Nãoplanejar conteúdo com antecedencia
 10. COPIAR PINS: Usar imagens de terceiros sem autorizacao
 ```
