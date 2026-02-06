@@ -23,6 +23,20 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [4.0.0] - 2026-02-05
+
+### Changed
+- **BREAKING:** Rebrand completo: "Agente Criador de Conteúdo" / "Content Creator" → "Marketing OS"
+- Skill name: `content-creator` → `marketing-os`
+- Todos os diretórios renomeados: `content-creator/` → `marketing-os/`
+- 16 subagentes atualizados com nova identidade
+- Documentação completamente reescrita
+
+### Added
+- 5 novos subagentes: Brand Agent, Storytelling Agent, Funnel Agent, Growth Agent, Launch Agent
+
+---
+
 ## [1.0.0] - 2026-01-28
 
 ### Added

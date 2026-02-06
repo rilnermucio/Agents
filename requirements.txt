@@ -1,5 +1,5 @@
 # ============================================================
-# Agente Criador de Conteúdo - Dependências Python
+# Marketing OS - Dependências Python
 # ============================================================
 #
 # A maioria dos scripts utiliza apenas módulos da biblioteca padrão

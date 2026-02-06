@@ -1,6 +1,6 @@
-# Guia Completo de Uso - Agente Criador de Conteudo
+# Guia Completo de Uso - Marketing OS
 
-Este guia apresenta todas as funcionalidades do Agente Criador de Conteudo e como utiliza-las de forma eficiente para criar conteúdo estrategico de alta qualidade.
+Este guia apresenta todas as funcionalidades do Marketing OS e como utiliza-las de forma eficiente para criar conteúdo estrategico de alta qualidade.
 
 ---
 
@@ -23,7 +23,7 @@ Este guia apresenta todas as funcionalidades do Agente Criador de Conteudo e com
 
 ## Introducao
 
-O **Agente Criador de Conteudo** e um sistema de IA composto por 11 subagentes especializados que trabalham em conjunto para criar conteúdo estrategico. Ele foi projetado para funcionar como uma skill do Claude (Cowork/Claude Code).
+O **Marketing OS** é um sistema operacional de marketing digital composto por 16 subagentes especializados que trabalham em conjunto para criar conteúdo estrategico. Ele foi projetado para funcionar como uma skill do Claude (Cowork/Claude Code).
 
 ### O que você pode fazer com este agente:
 
@@ -62,7 +62,7 @@ O **Agente Criador de Conteudo** e um sistema de IA composto por 11 subagentes e
 A forma mais simples - funciona imediatamente:
 
 1. Abra o **Cowork** no Claude Desktop
-2. Selecione a pasta `Agente Criador de Conteudo` como sua pasta de trabalho
+2. Selecione a pasta `Marketing OS` como sua pasta de trabalho
 3. Pronto! O Claude reconhecera automaticamente o `Skill.md`
 
 ### Metodo 2: Instalacao como Skill Global
@@ -72,19 +72,19 @@ Para ter o agente disponivel em qualquer pasta:
 **macOS:**
 ```bash
 cd ~/caminho/para/Agente\ Criador\ de\ Conteudo
-unzip content-creator.skill -d ~/Library/Application\ Support/Claude/skills/
+unzip marketing-os.skill -d ~/Library/Application\ Support/Claude/skills/
 ```
 
 **Windows:**
 ```powershell
-cd C:\caminho\para\Agente Criador de Conteudo
-Expand-Archive -Path content-creator.skill -DestinationPath "$env:APPDATA\Claude\skills\"
+cd C:\caminho\para\Marketing OS
+Expand-Archive -Path marketing-os.skill -DestinationPath "$env:APPDATA\Claude\skills\"
 ```
 
 **Linux:**
 ```bash
 cd ~/caminho/para/Agente\ Criador\ de\ Conteudo
-unzip content-creator.skill -d ~/.config/claude/skills/
+unzip marketing-os.skill -d ~/.config/claude/skills/
 ```
 
 ### Dependencias Python (Opcional)
@@ -108,7 +108,7 @@ playwright install
 ### Arquitetura do Sistema
 
 ```
-CONTENT CREATOR (Agente Principal)
+MARKETING OS (Agente Principal)
 |
 +-- RESEARCH AGENT      - Pesquisa de tendencias, concorrencia, keywords
 +-- COPY AGENT          - Headlines, CTAs, copy persuasivo, variacoes A/B
@@ -737,7 +737,7 @@ Para campanhas complexas, siga os workflows em `workflows/` - eles tem checklist
 ### O agente não está sendo acionado
 
 **Solucao:**
-1. Verifique se a pasta selecionada no Cowork e `Agente Criador de Conteudo`
+1. Verifique se a pasta selecionada no Cowork e `Marketing OS`
 2. Use palavras-chave trigger: "conteúdo", "post", "marketing", "Instagram", etc.
 3. Reinicie o Claude Desktop
 
@@ -773,7 +773,7 @@ Para campanhas complexas, siga os workflows em `workflows/` - eles tem checklist
 
 ## Conclusao
 
-O Agente Criador de Conteudo e uma ferramenta poderosa para criar conteúdo estrategico de forma eficiente. Com 11 subagentes especializados, 19+ scripts Python, 20+ templates e workflows completos, você tem tudo que precisa para:
+O Marketing OS é uma ferramenta poderosa para criar conteúdo estrategico de forma eficiente. Com 16 subagentes especializados, 19+ scripts Python, 20+ templates e workflows completos, você tem tudo que precisa para:
 
 - Criar conteúdo de alta qualidade rapidamente
 - Manter consistencia entre plataformas
@@ -784,4 +784,4 @@ O Agente Criador de Conteudo e uma ferramenta poderosa para criar conteúdo estr
 
 ---
 
-*Desenvolvido por rilnermucio | Versao 2.0*
+*Desenvolvido por rilnermucio | Versao 4.0*

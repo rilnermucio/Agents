@@ -1,6 +1,6 @@
 # Guia de Contribuicao
 
-Obrigado por considerar contribuir com o **Agente Criador de Conteudo**! Este documento fornece diretrizes para contribuicoes.
+Obrigado por considerar contribuir com o **Marketing OS**! Este documento fornece diretrizes para contribuicoes.
 
 ---
 
@@ -35,7 +35,7 @@ Para sugerir novas funcionalidades:
 ```bash
 # Clone o repositorio
 git clone https://github.com/rilnermucio/Agents.git
-cd "Agente Criador de Conteudo"
+cd "Marketing OS"
 
 # (Opcional) Crie um ambiente virtual
 python -m venv venv
@@ -149,7 +149,7 @@ docs: atualiza README com novos scripts
 ## Estrutura do Projeto
 
 ```
-Agente Criador de Conteudo/
+Marketing OS/
 |
 +-- Skill.md                    # Arquivo principal da skill
 +-- README.md                   # Documentacao

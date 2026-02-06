@@ -1,4 +1,4 @@
-# Backlog - Agente Criador de Conteudo
+# Backlog - Marketing OS
 
 Backlog priorizado de melhorias e novas funcionalidades.
 

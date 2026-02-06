@@ -1,11 +1,11 @@
-# Instalacao da Skill "Content Creator" no Cowork
+# Instalação da Skill "Marketing OS" no Cowork
 
 ## Arquivos Criados
 
 | Arquivo | Descricao |
 |---------|-----------|
-| `content-creator.skill` | Pacote da skill (arquivo ZIP) |
-| `skill-package/content-creator/` | Pasta descompactada da skill |
+| `marketing-os.skill` | Pacote da skill (arquivo ZIP) |
+| `skill-package/marketing-os/` | Pasta descompactada da skill |
 
 ---
 
@@ -14,7 +14,7 @@
 A forma mais simples e funciona **imediatamente**:
 
 1. Abra o **Cowork** no Claude Desktop
-2. Selecione a pasta `Agente Criador de Conteudo` como sua pasta de trabalho
+2. Selecione a pasta `Marketing OS` como sua pasta de trabalho
 3. O Claude automaticamente reconhecera o `Skill.md` e tera acesso a todas as funcionalidades
 
 **Por que funciona:** O Cowork le o arquivo `Skill.md` da pasta selecionada e carrega as instrucoes do agente.
@@ -31,14 +31,14 @@ Para ter a skill disponivel em **qualquer** pasta do Cowork:
 # 1. Abra o Terminal
 
 # 2. Navegue até a pasta do agente
-cd ~/caminho/para/Agente\ Criador\ de\ Conteudo
+cd ~/caminho/para/Marketing\ OS
 
 # 3. Descompacte o .skill (que e um ZIP)
-unzip content-creator.skill -d ~/Library/Application\ Support/Claude/skills/
+unzip marketing-os.skill -d ~/Library/Application\ Support/Claude/skills/
 
 # 4. Renomeie a pasta extraida (se necessario)
-mv ~/Library/Application\ Support/Claude/skills/sessions*/content-creator \
-   ~/Library/Application\ Support/Claude/skills/content-creator
+mv ~/Library/Application\ Support/Claude/skills/sessions*/marketing-os \
+   ~/Library/Application\ Support/Claude/skills/marketing-os
 ```
 
 ### Windows
@@ -47,10 +47,10 @@ mv ~/Library/Application\ Support/Claude/skills/sessions*/content-creator \
 # 1. Abra o PowerShell
 
 # 2. Navegue até a pasta do agente
-cd C:\caminho\para\Agente Criador de Conteudo
+cd C:\caminho\para\Marketing OS
 
 # 3. Descompacte o .skill
-Expand-Archive -Path content-creator.skill -DestinationPath "$env:APPDATA\Claude\skills\"
+Expand-Archive -Path marketing-os.skill -DestinationPath "$env:APPDATA\Claude\skills\"
 
 # 4. Renomeie a pasta extraida (se necessario)
 ```
@@ -63,7 +63,7 @@ Apos instalar, reinicie o Claude Desktop. A skill deve aparecer na lista de skil
 
 ## Metodo 3: Instalacao Manual
 
-1. Copie a pasta `skill-package/content-creator/` para o diretorio de skills:
+1. Copie a pasta `skill-package/marketing-os/` para o diretorio de skills:
    - **macOS:** `~/Library/Application Support/Claude/skills/`
    - **Windows:** `%APPDATA%\Claude\skills\`
    - **Linux:** `~/.config/claude/skills/`
@@ -71,7 +71,7 @@ Apos instalar, reinicie o Claude Desktop. A skill deve aparecer na lista de skil
 2. Certifique-se de que a estrutura fique assim:
    ```
    skills/
-   └── content-creator/
+   └── marketing-os/
        ├── SKILL.md
        ├── scripts/
        ├── assets/
@@ -87,7 +87,7 @@ Apos instalar, reinicie o Claude Desktop. A skill deve aparecer na lista de skil
 ## Estrutura da Skill
 
 ```
-content-creator/
+marketing-os/
 ├── SKILL.md              # Arquivo principal da skill
 ├── scripts/              # 19 scripts Python
 │   ├── seo_analyzer.py

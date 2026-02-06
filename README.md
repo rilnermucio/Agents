@@ -1,6 +1,6 @@
-# :dart: Agente Criador de Conteúdo
+# :dart: Marketing OS
 
-Agente de IA especializado em criação de conteúdo estratégico para múltiplos nichos e plataformas. Projetado para funcionar como skill do Claude Code.
+Marketing OS — sistema operacional completo de marketing digital. Projetado para funcionar como skill do Claude Code.
 
 [![GitHub](https://img.shields.io/badge/GitHub-rilnermucio%2FAgents-blue?logo=github)](https://github.com/rilnermucio/Agents.git)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?logo=python)](https://www.python.org/)
@@ -8,7 +8,7 @@ Agente de IA especializado em criação de conteúdo estratégico para múltiplo
 
 ## :clipboard: Visão Geral
 
-O **Agente Criador de Conteúdo** é um sistema de IA composto por 16 subagentes especializados que trabalham em conjunto para criar conteúdo estratégico de alta qualidade. Ele cobre:
+O **Marketing OS** é um sistema operacional de marketing digital composto por 16 subagentes especializados que trabalham em conjunto para criar conteúdo estratégico de alta qualidade. Ele cobre:
 
 - **Redes sociais**: Instagram (feed, carrossel, reels, stories), LinkedIn, Twitter/X, TikTok, YouTube, Pinterest, Facebook
 - **Marketing**: Email marketing, newsletters, sequências de automação
@@ -24,7 +24,7 @@ Suporta **10+ nichos** com personas, pilares de conteúdo, hooks e hashtags espe
 ## :building_construction: Arquitetura
 
 ```
-CONTENT CREATOR (Agente Principal)
+MARKETING OS (Agente Principal)
 |
 +-- :mag: RESEARCH AGENT        - Pesquisa de tendências, concorrência, keywords
 +-- :pencil2: COPY AGENT            - Headlines, CTAs, copy persuasivo, variações A/B
@@ -47,7 +47,7 @@ CONTENT CREATOR (Agente Principal)
 ## :open_file_folder: Estrutura do Projeto
 
 ```
-Agente Criador de Conteúdo/
+Marketing OS/
 |
 +-- Skill.md                          # Arquivo principal da skill (Claude Code)
 +-- plugin.json                       # Metadados do plugin para marketplace
@@ -58,7 +58,7 @@ Agente Criador de Conteúdo/
 +-- .gitignore
 |
 +-- skills/                           # Skills para Claude Cowork marketplace
-|   +-- content-creator/              # Skill principal
+|   +-- marketing-os/              # Skill principal
 |       +-- SKILL.md                  # Definição da skill
 |       +-- (symlinks para pastas)
 |
@@ -175,7 +175,7 @@ Agente Criador de Conteúdo/
 +-- outputs/                          # Conteúdo gerado
 |
 +-- skill-package/                    # Skill empacotada para distribuição
-    +-- content-creator/
+    +-- marketing-os/
 ```
 
 ## :robot: Subagentes
@@ -457,7 +457,7 @@ Instale diretamente do GitHub como marketplace de plugins:
    https://github.com/rilnermucio/Agents
    ```
 4. Clique em **Adicionar**
-5. A skill `content-creator` estará disponível automaticamente!
+5. A skill `marketing-os` estará disponível automaticamente!
 
 **Vantagem:** Sempre atualizado! Quando o repositório for atualizado, sua skill também será.
 
@@ -466,7 +466,7 @@ Instale diretamente do GitHub como marketplace de plugins:
 ```bash
 # Clone o repositório
 git clone https://github.com/rilnermucio/Agents.git
-cd "Agente Criador de Conteúdo"
+cd "Marketing OS"
 
 # Instale dependências Python (opcional, para scripts)
 pip install -r requirements.txt
@@ -474,7 +474,7 @@ pip install -r requirements.txt
 
 ### Opção 3: Copiar Skill Manualmente
 
-1. Copie a pasta `skills/content-creator/` para:
+1. Copie a pasta `skills/marketing-os/` para:
    - **macOS:** `~/.claude/skills/`
    - **Windows:** `%APPDATA%\Claude\skills\`
    - **Linux:** `~/.config/claude/skills/`

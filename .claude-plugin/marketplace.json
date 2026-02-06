@@ -1,18 +1,18 @@
 {
-  "name": "content-creator-marketplace",
+  "name": "marketing-os-marketplace",
   "owner": {
     "name": "rilnermucio"
   },
   "metadata": {
-    "description": "Agentes avancados de criacao de conteudo para multiplas plataformas",
-    "version": "3.0.0"
+    "description": "Marketing OS — sistema operacional completo de marketing digital",
+    "version": "4.0.0"
   },
   "plugins": [
     {
-      "name": "content-creator",
-      "source": "./content-creator",
-      "description": "Agente de criacao de conteudo com 11 subagentes especializados: Copy, SEO, Social, Video, Audio, Design, AI Tools, Analytics, Email, Ads e Research. Para posts Instagram/LinkedIn/TikTok, artigos SEO, email marketing, videos YouTube/Reels, podcasts e geracao de imagens com IA.",
-      "version": "3.0.0",
+      "name": "marketing-os",
+      "source": "./marketing-os",
+      "description": "Marketing OS — sistema operacional de marketing digital com 16 subagentes especializados: Copy, SEO, Social, Video, Audio, Design, AI Tools, Analytics, Email, Ads, Research, Brand, Storytelling, Funnel, Growth e Launch.",
+      "version": "4.0.0",
       "author": {
         "name": "rilnermucio"
       },

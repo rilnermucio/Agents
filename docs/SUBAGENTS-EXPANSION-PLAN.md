@@ -1,6 +1,6 @@
-# Plano de Expansão: Subagentes Avançados do Content Creator
+# Plano de Expansão: Subagentes Avançados do Marketing OS
 
-> **Objetivo:** Criar o sistema de criação de conteúdo mais completo do planeta com 32 subagentes especializados cobrindo 100% das necessidades de marketing digital.
+> **Objetivo:** Criar o sistema operacional de marketing digital mais completo do planeta com 32 subagentes especializados cobrindo 100% das necessidades de marketing digital.
 
 ---
 
@@ -2340,8 +2340,8 @@ APÊNDICE K: TEMPLATES DE GESTÃO
 
 ### Sincronização (Pós-Escrita)
 - [ ] Salvo em subagents/{nome}.md
-- [ ] Copiado para skill-package/content-creator/subagents/
-- [ ] Copiado para content-creator/skills/{nome}/SKILL.md
+- [ ] Copiado para skill-package/marketing-os/subagents/
+- [ ] Copiado para marketing-os/skills/{nome}/SKILL.md
 - [ ] Verificado contagem de linhas igual nas 3 localizações
 - [ ] Commit e push realizados
 ```
