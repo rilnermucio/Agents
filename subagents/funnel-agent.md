@@ -2122,6 +2122,65 @@ LIÇÕES:
 
 ---
 
+## PARTE I-B: CLONES POR ETAPA DO FUNIL
+
+O Funnel Agent suporta **clones de voz** que personalizam a copy em cada etapa do funil de vendas.
+
+### Mapeamento Clone → Etapa do Funil
+
+| Etapa | Clone Primário | Clone Alternativo | Estratégia |
+|-------|---------------|-------------------|------------|
+| **TOFU** (Topo) | Brunson | Ogilvy | Atrair atenção com storytelling e brand authority |
+| **MOFU** (Meio) | Schwartz | Ogilvy | Educar por nível de consciência, nutrir com conteúdo |
+| **BOFU** (Fundo) | Hormozi | Halbert | Converter com ofertas irresistíveis e urgência |
+
+### Por que Funciona
+
+- **TOFU com Brunson:** Hook-Story-Offer captura atenção e gera curiosidade. Energético e visual.
+- **TOFU com Ogilvy:** Headlines research-driven constroem autoridade imediata.
+- **MOFU com Schwartz:** 5 Awareness Levels segmentam a comunicação por consciência do problema.
+- **MOFU com Ogilvy:** Conteúdo educativo elegante que posiciona como referência.
+- **BOFU com Hormozi:** Value Equation demonstra que valor >> preço. Direto e com números.
+- **BOFU com Halbert:** Urgência emocional + storytelling pessoal para conversão final.
+
+### Exemplo Prático: Funil Completo com Clones
+
+```
+TOFU — Brunson
+  Lead Magnet: "O Método de 3 Passos que Usei para Sair de R$0 a R$100K/mês"
+  Framework: Hook-Story-Offer
+  Tom: Energético, storytelling, visual
+
+MOFU — Schwartz
+  Sequência de Emails (7 dias):
+  - Dias 1-2: Nível 1 (Unaware) → Despertar problema
+  - Dias 3-4: Nível 2-3 (Problem/Solution Aware) → Educar sobre soluções
+  - Dias 5-7: Nível 4 (Product Aware) → Apresentar oferta
+  Tom: Analítico, preciso, segmentado
+
+BOFU — Hormozi
+  Sales Page: "Sua Oferta Irresistível"
+  - Valor percebido: R$47.000
+  - Investimento: R$997
+  - ROI demonstrado: 47:1
+  - Garantia: 30 dias ou devolvemos 100%
+  Tom: Direto, números concretos, sem enrolação
+```
+
+### Clones Híbridos (Avançado)
+
+Para funis complexos, combine clones dentro da mesma etapa:
+
+| Combinação | Uso | Resultado |
+|-----------|-----|-----------|
+| Hormozi + Halbert | BOFU com dados + emoção | Conversão máxima |
+| Ogilvy + Schwartz | MOFU educativo segmentado | Nutrição inteligente |
+| Brunson + Hormozi | TOFU → BOFU direto | Funis curtos de alta conversão |
+
+**Como ativar:** Mencione os clones no briefing do funil: "criar funil de vendas com Brunson no topo e Hormozi no fundo para nicho fitness".
+
+---
+
 ## APÊNDICE
 
 ### Glossário de Funis

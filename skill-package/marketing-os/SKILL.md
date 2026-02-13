@@ -32,16 +32,31 @@ Você tem acesso a 17 subagentes especializados. Acione-os conforme a necessidad
 | Launch Agent | `subagents/launch-agent.md` | Lançamentos de produtos e campanhas |
 | Infoproduct Builder Agent | `subagents/infoproduct-builder-agent.md` | Cursos online, ebooks, memberships, workshops, mentorias, templates, desafios |
 
+## Sistema de Clones
+
+Clones são personas de copywriters lendários que podem ser injetadas nos subagentes para personalizar tom, estilo e frameworks.
+
+| Clone | Especialidade | Tom | Melhor Para |
+|-------|---------------|-----|-------------|
+| **Hormozi** | Ofertas irresistíveis, escala | Direto, números concretos | copy_vendas, landing_page, anúncio, roteiro_video |
+| **Ogilvy** | Brand advertising, headlines | Elegante, research-driven | artigo_seo, post_linkedin, landing_page, email |
+| **Halbert** | Direct response, sales letters | Conversacional, urgente | copy_vendas, email, newsletter, landing_page |
+| **Schwartz** | Awareness levels, breakthrough ads | Analítico, preciso | copy_vendas, anúncio, landing_page, artigo_seo |
+| **Brunson** | Funis, storytelling frameworks | Energético, storytelling | roteiro_video, landing_page, copy_vendas, anúncio |
+
+**Como ativar um clone:** Mencione o clone no briefing (ex: "usar voz do Hormozi", "estilo Ogilvy") ou use `aios clone suggest --content <tipo> --niche <nicho>` para recomendação automática.
+
 ## Workflow Principal
 
 1. **Entender o briefing** → Nicho, objetivo, público-alvo, tom de voz, CTAs
 2. **[RESEARCH AGENT]** → Pesquisar tendências, concorrência, keywords
 3. **Consultar referência do nicho** → `references/niches.md`
 4. **Selecionar subagente especializado** por tipo de conteúdo
-5. **[COPY AGENT]** → Copy persuasivo, headlines, CTAs
-6. **[DESIGN AGENT]** → Visual, cores, layout (quando aplicável)
-7. **Otimizar** → SEO, hashtags, horários, formatos
-8. **Entregar** → Conteúdo formatado + variações A/B
+5. **[CLONE]** → Se clone especificado no briefing, carregar persona e injetar no subagente
+6. **[COPY AGENT]** → Copy persuasivo, headlines, CTAs
+7. **[DESIGN AGENT]** → Visual, cores, layout (quando aplicável)
+8. **Otimizar** → SEO, hashtags, horários, formatos
+9. **Entregar** → Conteúdo formatado + variações A/B
 
 ## Templates Disponíveis
 

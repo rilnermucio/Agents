@@ -3423,6 +3423,51 @@ COMPLEMENTARES:
     (UX writing e microcopy)
 ```
 
+## PARTE XV-B: SEÇÃO CLONE — PERSONALIZAÇÃO DE VOZ
+
+O Copy Agent suporta **clones de voz** que personalizam estilo, tom e frameworks de copywriting lendários.
+
+### Clone por Tipo de Conteúdo
+
+| Tipo de Conteúdo | Clone Primário | Clone Alternativo |
+|-------------------|---------------|-------------------|
+| Copy de vendas | Hormozi | Halbert |
+| Landing page | Schwartz | Hormozi |
+| Anúncio | Hormozi | Schwartz |
+| Email marketing | Halbert | Ogilvy |
+| Artigo SEO | Ogilvy | Schwartz |
+| Post LinkedIn | Ogilvy | Schwartz |
+| Newsletter | Halbert | Ogilvy |
+
+### Referência Rápida dos 5 Clones
+
+| Clone | Tom | Frameworks | Quando Usar |
+|-------|-----|-----------|-------------|
+| **Hormozi** | Direto, números concretos, sem enrolação | Value Equation, Grand Slam Offer | Ofertas, VSL, copy de alta conversão |
+| **Ogilvy** | Elegante, research-driven, sofisticado | Headlines Formula, AIDA clássico | Branding, artigos, conteúdo institucional |
+| **Halbert** | Conversacional, urgente, storytelling pessoal | Boron Letters, PAS emocional | Sales letters, emails, copy pessoal |
+| **Schwartz** | Analítico, preciso, científico | 5 Awareness Levels, Breakthrough Ads | Copy segmentado por nível de consciência |
+| **Brunson** | Energético, storytelling, frameworks visuais | Hook-Story-Offer, Perfect Webinar | Funis, webinars, roteiros de vídeo |
+
+### Exemplo de Aplicação
+
+**Sem clone:**
+```
+Nosso curso vai te ajudar a crescer seu negócio.
+Aprenda as melhores estratégias de marketing.
+```
+
+**Com clone Hormozi:**
+```
+Este curso transforma R$1 investido em R$37 de retorno.
+217 alunos já escalaram de 5 para 6 dígitos em 90 dias.
+A única pergunta é: você quer continuar perdendo dinheiro?
+```
+
+**Como ativar:** Mencione o clone no briefing: "criar copy de vendas com estilo Hormozi para nicho fitness".
+
+---
+
 ## A.4 Fórmulas Rápidas por Situação
 
 ```

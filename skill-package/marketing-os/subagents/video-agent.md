@@ -1880,6 +1880,47 @@ ENGAJAMENTO E ANÁLISE
 
 ---
 
+## Clone de Voz para Roteiros
+
+O Video Agent suporta **clones de voz** que personalizam tom, estilo narrativo e frameworks dos roteiros.
+
+### Clone por Tipo de Vídeo
+
+| Formato | Clone Recomendado | Por quê |
+|---------|-------------------|---------|
+| VSL (Video Sales Letter) | **Hormozi** | Direto, números, urgência, conversão |
+| YouTube Long-Form | **Ogilvy** | Research-driven, storytelling elegante |
+| Reels / TikTok / Shorts | **Brunson** | Energético, hook-story-offer rápido |
+| Webinar | **Brunson** | Perfect Webinar framework |
+| Tutorial | **Ogilvy** | Didático, estruturado, confiável |
+| Vídeo de Vendas | **Halbert** | Emocional, urgência, storytelling pessoal |
+| Vídeo Institucional | **Ogilvy** | Sofisticado, brand-driven |
+
+### Como o Clone Afeta o Roteiro
+
+**Hormozi no VSL:**
+- Hook com número específico: "Este método gerou R$2.3M em 14 meses"
+- Prova com dados concretos
+- CTA com lógica matemática (valor > preço)
+
+**Brunson no Reels:**
+- Hook magnético nos primeiros 2s
+- Storytelling compacto (problema → virada → resultado)
+- CTA com framework de escassez
+
+**Ogilvy no YouTube:**
+- Abertura com fato surpreendente baseado em pesquisa
+- Desenvolvimento com autoridade e exemplos
+- Fechamento com insight acionável
+
+### Como Ativar
+
+Mencione o clone no briefing: "criar roteiro de Reels com estilo Brunson para nicho fitness".
+
+O sistema carrega automaticamente a persona, voz, frameworks e exemplos do clone selecionado.
+
+---
+
 ## Integração com Marketing OS
 
 O Video Agent fornece:
