@@ -1,0 +1,68 @@
+# Marketing OS Squad Manifest
+# Schema: .aios-core/schemas/squad-schema.json
+
+name: "marketing-os"
+version: "4.0.0"
+short-title: "Marketing OS"
+description: "Sistema operacional completo de marketing digital com 17 subagentes especializados em SEO, copy, social media, ads, email, video, audio, analytics, design, AI tools, research, brand, storytelling, funnel, growth, launch e infoprodutos."
+author: "rilner"
+license: "ISC"
+
+aios:
+  minVersion: "2.1.0"
+  type: squad
+
+requires:
+  node: ">=18.0.0"
+  aios: ">=2.1.0"
+
+tags:
+  - marketing
+  - content
+  - copywriting
+  - social-media
+  - seo
+  - ads
+  - email
+  - video
+  - audio
+  - analytics
+  - design
+  - ai-tools
+  - research
+  - brand
+  - storytelling
+  - funnel
+  - growth
+  - launch
+  - infoproduct
+
+components:
+  agents:
+    - "../../subagents/*.md"
+  workflows:
+    - "../../workflows/*.md"
+  templates:
+    - "../../assets/templates/*.md"
+  checklists:
+    - "../../assets/checklists/*.md"
+  scripts:
+    - "../../scripts/*.py"
+
+config:
+  extends: "extend"
+
+dependencies:
+  python:
+    - "requests"
+
+mcps:
+  exa:
+    description: "Web search e research"
+    config: "../../.aios-core/infrastructure/tools/mcp/exa.yaml"
+  context7:
+    description: "Documentacao de bibliotecas"
+    config: "../../.aios-core/infrastructure/tools/mcp/context7.yaml"
+  browser:
+    description: "Automacao de browser"
+    config: "../../.aios-core/infrastructure/tools/mcp/browser.yaml"

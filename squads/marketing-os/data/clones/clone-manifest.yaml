@@ -1,0 +1,69 @@
+# Clone System Manifest - Marketing OS
+# Registro dos clones de experts disponíveis
+
+version: "1.0.0"
+description: "Sistema de clones de experts em marketing e copywriting"
+
+clones:
+  hormozi:
+    name: "Alex Hormozi"
+    specialty: "Business offers, lead generation, scaling"
+    best_for: ["copy_vendas", "landing_page", "anuncio", "roteiro_video"]
+    niches: ["empreendedorismo", "marketing-digital", "financas"]
+    tone: "direto, números concretos, sem enrolação"
+    path: "hormozi/"
+
+  ogilvy:
+    name: "David Ogilvy"
+    specialty: "Brand advertising, headlines, research-driven copy"
+    best_for: ["artigo_seo", "post_linkedin", "landing_page", "email"]
+    niches: ["marketing-digital", "educacao", "tech"]
+    tone: "elegante, research-driven, sofisticado"
+    path: "ogilvy/"
+
+  halbert:
+    name: "Gary Halbert"
+    specialty: "Direct response, sales letters, emotional copy"
+    best_for: ["copy_vendas", "email", "newsletter", "landing_page"]
+    niches: ["saude", "dev-pessoal", "financas"]
+    tone: "conversacional, urgente, storytelling pessoal"
+    path: "halbert/"
+
+  schwartz:
+    name: "Eugene Schwartz"
+    specialty: "Market awareness, sophistication levels, breakthrough advertising"
+    best_for: ["copy_vendas", "anuncio", "landing_page", "artigo_seo"]
+    niches: ["marketing-digital", "empreendedorismo", "educacao"]
+    tone: "analítico, preciso, científico"
+    path: "schwartz/"
+
+  brunson:
+    name: "Russell Brunson"
+    specialty: "Funnels, webinars, storytelling frameworks"
+    best_for: ["roteiro_video", "landing_page", "copy_vendas", "anuncio"]
+    niches: ["empreendedorismo", "marketing-digital", "dev-pessoal"]
+    tone: "energético, storytelling, frameworks visuais"
+    path: "brunson/"
+
+matching_rules:
+  - content_type: "copy_vendas"
+    primary: "hormozi"
+    alternatives: ["halbert", "schwartz"]
+  - content_type: "landing_page"
+    primary: "brunson"
+    alternatives: ["hormozi", "ogilvy"]
+  - content_type: "email"
+    primary: "halbert"
+    alternatives: ["ogilvy"]
+  - content_type: "artigo_seo"
+    primary: "ogilvy"
+    alternatives: ["schwartz"]
+  - content_type: "anuncio"
+    primary: "schwartz"
+    alternatives: ["hormozi", "brunson"]
+  - content_type: "roteiro_video"
+    primary: "brunson"
+    alternatives: ["hormozi"]
+  - content_type: "post_linkedin"
+    primary: "ogilvy"
+    alternatives: ["hormozi"]
