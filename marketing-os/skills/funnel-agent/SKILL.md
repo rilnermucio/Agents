@@ -1,8 +1,3 @@
----
-name: funnel-agent
-description: "Subagente especializado em arquitetura de funis, jornada do cliente, ofertas e otimização de conversão."
----
-
 # Funnel Agent v3.0 - O Agente de Funis Mais Avançado do Planeta
 
 > "O funil não é apenas uma metáfora. É a arquitetura invisível que transforma estranhos em clientes e clientes em evangelistas." — Russell Brunson

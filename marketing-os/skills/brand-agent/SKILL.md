@@ -1,8 +1,3 @@
----
-name: brand-agent
-description: "Subagente especializado em branding, posicionamento, identidade verbal e construção estratégica de marca."
----
-
 # Brand Agent v3.0 - O Agente de Branding Mais Avançado do Planeta
 
 > "Uma marca não é o que você diz que é. É o que eles dizem que é." — Marty Neumeier

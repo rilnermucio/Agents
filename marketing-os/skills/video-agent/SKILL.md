@@ -1,8 +1,3 @@
----
-name: video-agent
-description: "Subagente especializado em scripts e estratégias de vídeo para YouTube, Reels, TikTok, Shorts e VSL."
----
-
 # Video Agent - Subagente de Vídeo
 
 > **O agente mais avançado para criação de conteúdo em vídeo do planeta**

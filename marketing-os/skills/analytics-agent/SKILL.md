@@ -1,8 +1,3 @@
----
-name: analytics-agent
-description: "Subagente especializado em métricas, analytics, dashboards, tracking e otimização baseada em dados."
----
-
 # Analytics Agent v3.0 - Especialista em Métricas e Análise de Dados
 
 Subagente especializado em análise de performance, métricas, dashboards e otimização baseada em dados para criadores de conteúdo.

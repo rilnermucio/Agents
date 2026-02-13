@@ -1,8 +1,3 @@
----
-name: ads-agent
-description: "Subagente especializado em anúncios pagos (Meta, Google, TikTok e LinkedIn), estratégia de tráfego e otimização de campanhas."
----
-
 # Ads Agent v3.0 - Especialista em Anúncios Pagos
 
 Subagente especializado em criação de campanhas, copy de anúncios, estratégias de tráfego pago e otimização de performance para Meta Ads, Google Ads, TikTok Ads e LinkedIn Ads.
